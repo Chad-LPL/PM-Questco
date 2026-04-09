@@ -1,0 +1,1406 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.909
+Scott Brittain: I'll accept it.
+
+2
+00:00:01.990 --> 00:00:02.580
+Brett Hileman: There you go.
+
+3
+00:00:03.010 --> 00:00:06.229
+Brett Hileman: Nice. Let me ping EFI real quick.
+
+4
+00:00:07.730 --> 00:00:08.400
+Chris Whitney: Perfect.
+
+5
+00:00:15.290 --> 00:00:20.060
+Brett Hileman: Chris, I'm surprised to see a basalt aspen hat.
+
+6
+00:00:20.960 --> 00:00:21.510
+Chris Whitney: Yeah.
+
+7
+00:00:21.670 --> 00:00:25.469
+Brett Hileman: Nice. Is that, where, where do you live?
+
+8
+00:00:25.600 --> 00:00:27.140
+Chris Whitney: I live in Fort Collins.
+
+9
+00:00:27.140 --> 00:00:29.960
+Brett Hileman: Oh! I fish… I go to.
+
+10
+00:00:30.080 --> 00:00:37.309
+Chris Whitney: every year I camp, right outside of Basalt, or up, up, up, up in the,
+
+11
+00:00:37.980 --> 00:00:43.199
+Chris Whitney: range right outside of Basalt. So, yeah, there's a fly shop there that I like, Taylor Creek.
+
+12
+00:00:43.650 --> 00:00:49.580
+Brett Hileman: Maybe I knew that you were in Fort Collins? I don't know, I'm in Denver. We should have just got together and done this in person.
+
+13
+00:00:49.580 --> 00:00:55.530
+Chris Whitney: Absolutely correct. Or we should do some networking or something like that. Let me know if you guys have a networking event.
+
+14
+00:00:55.530 --> 00:00:57.289
+Karen Sturdivant: So we actually, like, perfect.
+
+15
+00:00:57.850 --> 00:00:58.920
+Brett Hileman: Yeah.
+
+16
+00:00:59.250 --> 00:01:00.870
+Brett Hileman: Let's go fly fishing.
+
+17
+00:01:00.870 --> 00:01:04.850
+Chris Whitney: There you go, we'll go to Taylor, we'll go to Taylor Creek Fly Shop, too, and buy some flies.
+
+18
+00:01:05.120 --> 00:01:08.240
+Brett Hileman: I love it. Screw a coffee shop. We're going to the river.
+
+19
+00:01:09.990 --> 00:01:12.310
+Brett Hileman: Love it. What's up, B5?
+
+20
+00:01:14.780 --> 00:01:17.239
+Ifat Ribon: Alright, sorry about that, just wrapping up another meeting.
+
+21
+00:01:17.740 --> 00:01:18.480
+Brett Hileman: always end.
+
+22
+00:01:18.720 --> 00:01:21.670
+Brett Hileman: Scott, do you want me to get us going here, or do you want to kick us off?
+
+23
+00:01:22.190 --> 00:01:26.960
+Scott Brittain: Yeah, go ahead, Brad. Take it away, and so, let's get into it.
+
+24
+00:01:27.170 --> 00:01:42.430
+Brett Hileman: Yeah, so really the intention of this call is to kind of culminate everything we've talked about into kind of how we're interpreting the project, get you guys a proposal in hand. I'll say it's very, like, still conversation, right? Like, if you guys see something in here that doesn't seem quite right.
+
+25
+00:01:42.430 --> 00:01:47.790
+Brett Hileman: like, we could change it. This isn't a take-it-or-leave-it, but really what my goal is today is to just feel like
+
+26
+00:01:47.790 --> 00:01:58.139
+Brett Hileman: okay, they've taken everything we've told them over the past, you know, 2 or 3 meetings, and it's all here, and this feels comprehensive, and something you guys can make a decision on, so…
+
+27
+00:01:58.150 --> 00:02:00.419
+Brett Hileman: Great. That's my goal. Does that sound good?
+
+28
+00:02:00.730 --> 00:02:01.450
+Karen Sturdivant: Perfect.
+
+29
+00:02:02.360 --> 00:02:03.100
+Brett Hileman: Nice.
+
+30
+00:02:03.300 --> 00:02:16.140
+Brett Hileman: Alright, let me, I got a deck I'll go through, I got some other stuff I'll tab over to as well. Alright, yeah, so let's talk about Taylor. So, yeah, really what we've heard is,
+
+31
+00:02:16.370 --> 00:02:32.720
+Brett Hileman: you know, obviously we want to create tailored here, orchestration system to let you guys get through renewals and enrollment processes without disruption, and just kind of make this vision come to life. You know, I'd say a key tenet and something I'll kind of emphasize is, you know, I think we're…
+
+32
+00:02:32.790 --> 00:02:47.719
+Brett Hileman: we're taking your guys' vision and running with it. You know, I think the vision you guys came with is a really sound one. I think that we have put our own little spin on a couple areas, but I still think that this is very much, like, Taylor V1, workbook-centric, really we're investing our time in orchestration.
+
+33
+00:02:47.720 --> 00:02:55.669
+Brett Hileman: and getting to reliability, and just making sure that we have things like audits in place, right? But I think, you know, this is really an articulation of.
+
+34
+00:02:55.770 --> 00:03:03.320
+Brett Hileman: you know, it'll kind of feel like I'm repeating back the things you've told us in some way, but, you know, filling in the gaps in between, so…
+
+35
+00:03:05.080 --> 00:03:17.890
+Brett Hileman: I will say that, you know, we'll get to the slide. I've kind of laid out where I think this could go, right? I think this is V1, and we definitely have some ideas of what beyond V1 looks like, but really the focus of this is, like.
+
+36
+00:03:17.970 --> 00:03:29.310
+Brett Hileman: how do we get you to tailor-launched for enrollment for 2026, right? I think there's, like, some key tenets and objectives we want to achieve for you guys. You know, I think we want to achieve repeatability by design.
+
+37
+00:03:29.310 --> 00:03:51.059
+Brett Hileman: Right? You know, I think you guys have already started to put some in processes that start to make it more people. I think we just take the ball and run with it from where you've got it. You know, Jaeger, in our demo, I think there were still some points where you're like, well, I still have to go check this thing, right? I still have to do this thing. You know, we want to put the systems and orchestration in place to…
+
+38
+00:03:51.060 --> 00:04:08.969
+Brett Hileman: take those out of the equation, right? We want to move from less tribal knowledge into a repeatable process. You guys can repeat over and over and have the same outcomes come from it, right? Like, that's our goal for you guys. Let's try to remove as little manual intervention as possible, but have balance there, right? Like.
+
+39
+00:04:08.970 --> 00:04:14.210
+Brett Hileman: We don't want to over-engineer, but we don't, you know, but we obviously aren't gonna under-engineer, so…
+
+40
+00:04:14.280 --> 00:04:24.310
+Brett Hileman: Does that… does that resonate? I… I think I'm probably preaching to the choir here a bit, but do these… these kind of key objectives feel in line with where you guys are at?
+
+41
+00:04:24.660 --> 00:04:25.290
+Karen Sturdivant: Yes.
+
+42
+00:04:28.470 --> 00:04:30.100
+Brett Hileman: Perfect.
+
+43
+00:04:30.650 --> 00:04:55.050
+Brett Hileman: So, how we're thinking about it is, and I think this is probably how you're thinking about it as well. You know, V1, like, we want to get you there fast, we want to get you a system in place that you guys feel like you can pressure test and really put through the paces before open enrollment comes in 2026. I think we get there by keeping a near-term, like, workbook-centric is kind of what we're calling it, orchestration.
+
+44
+00:04:55.140 --> 00:04:58.720
+Brett Hileman: Right? We… and I keep… so the idea being, like, let's keep…
+
+45
+00:04:58.720 --> 00:05:20.810
+Brett Hileman: what you guys have built in the workbook, let's keep that in place, let's keep it to where your customers, your reps, are working out of workbook, right? And what we're building is orchestration around that, and automation into your systems, right? I think that, in my mind, that's probably our cleanest V1, that gets you there quicker, but I think it still achieves a lot of the goals we're setting out to achieve.
+
+46
+00:05:20.810 --> 00:05:23.079
+Brett Hileman: But what I want to do is, like.
+
+47
+00:05:23.080 --> 00:05:35.329
+Brett Hileman: I think there's a place where you could take this that's gonna feel like more full platform. And I think there's things that we could do in V1 to make sure we're working towards that. You know, I picture a world where you get something
+
+48
+00:05:35.380 --> 00:05:37.420
+Brett Hileman: Like this,
+
+49
+00:05:37.420 --> 00:06:02.320
+Brett Hileman: where your reps, or you're maybe making this self-service, where employers can just come in and have, like, a really streamlined experience. Like, going through this, I think you could still keep rep top of mind, I think you could still keep it human touch, but I think what you work towards is you start to build a data model that eventually supports you moving out of workbook into something that's just gonna feel a lot more modern, and just give you full control
+
+50
+00:06:02.320 --> 00:06:04.330
+Brett Hileman: over the experience.
+
+51
+00:06:04.330 --> 00:06:15.639
+Brett Hileman: The advantage of also moving to that is I think we just gain more control over data, right? Workbook, you could definitely lock things down, but it does leave some things open to interpretation, and…
+
+52
+00:06:15.640 --> 00:06:38.020
+Brett Hileman: potentially some fragility in Excel that we can eventually move out of and get to, like, really controlled database structure, and what would come from that is a completely custom UI we could build on top of that, right? So I see a world where you could build things like this to just make it super simple to go through, but, you know, building advanced things where they can do cost modeling and then
+
+53
+00:06:38.020 --> 00:06:39.420
+Brett Hileman: You know, signing…
+
+54
+00:06:39.420 --> 00:06:47.350
+Brett Hileman: elections, you know, signing things directly in app, right? So I think this is where it can go. I don't think we take it there for V1.
+
+55
+00:06:47.350 --> 00:06:59.610
+Brett Hileman: Because we want to just get you guys ready for this year. But that's kind of where I could see this going. Does that resonate? And where you could maybe… how you guys have thought about the evolution of Taylor?
+
+56
+00:07:02.440 --> 00:07:08.460
+Karen Sturdivant: I can… I can take it. It does, but you're showing us this to let us know this is not what we will get.
+
+57
+00:07:08.900 --> 00:07:25.319
+Brett Hileman: Correct. Yeah, I just wanted to try to paint the picture of where I could see it going. I think that's long-term. Near term, your UI is still your workbook, right? Your reps, your employers are still working out of the workbook that you guys have created to, like, review
+
+58
+00:07:25.320 --> 00:07:33.800
+Brett Hileman: review benefits, make selections, right? But I think as we build this out, what's gonna start happening as we build this out is we're gonna start to
+
+59
+00:07:33.800 --> 00:07:47.809
+Brett Hileman: be building a database, right? And that database is going to be helping with orchestration. Once we start to get that database in line, and you start to build out that middleware in this orchestration, there might be just a real obvious natural evolution to say, like, hey.
+
+60
+00:07:47.880 --> 00:07:55.540
+Brett Hileman: Like, we could… we've got everything in place to where we can now create a full UI and UX that isn't in Excel.
+
+61
+00:07:55.850 --> 00:07:56.660
+Brett Hileman: Right.
+
+62
+00:07:57.210 --> 00:08:11.529
+Karen Sturdivant: What you showed me is exactly what I'm envisioning, that this will evolve into this. So, obviously, we didn't want to make a lot of changes to the outputs on this one.
+
+63
+00:08:11.690 --> 00:08:17.740
+Karen Sturdivant: to keep it to where, if we're gonna change it, we're gonna change it once, right? We're not gonna change it every single year.
+
+64
+00:08:19.230 --> 00:08:21.180
+Chris Whitney: I think…
+
+65
+00:08:22.450 --> 00:08:38.430
+Chris Whitney: I love the thinking. I think what you're also saying here, if I can say this right, is that there's some upfront investment in the platform now to make sure we're building it for scale so that we can drive to this vision in the future.
+
+66
+00:08:38.640 --> 00:08:52.609
+Chris Whitney: And we're not just orchestrating around the workbooks. We're building a foundational database that's there, and we're maybe starting to build a platform that we can truly expand on as a true product, is kind of what you're saying too, Brett, if I understand.
+
+67
+00:08:52.680 --> 00:08:53.620
+Brett Hileman: Yeah. Right.
+
+68
+00:08:53.750 --> 00:09:05.349
+Brett Hileman: Yeah, I mean, I think what's… what we're doing here is we're building out a backend, right? And we're still gonna have reliance on a workbook, like, the workbook will still kind of be source of truth, and Prism is obviously source of truth.
+
+69
+00:09:05.350 --> 00:09:16.199
+Brett Hileman: But that foundation, that data foundation, and that middleware foundation is gonna start coming into place, where this platform story is just gonna look a lot more obvious once that's in place.
+
+70
+00:09:16.580 --> 00:09:18.620
+Brett Hileman: Is… is where my head's at.
+
+71
+00:09:19.560 --> 00:09:20.370
+Chris Whitney: Yep.
+
+72
+00:09:20.370 --> 00:09:36.410
+Brett Hileman: And I don't think it's… I don't think it means that you guys are paying for a lot of stuff that isn't gonna be relevant for V1, because we're trying to enable this future. I think there's nothing in V1 that we're talking about building that isn't relevant for V1, if that makes sense.
+
+73
+00:09:36.410 --> 00:09:48.620
+Chris Whitney: Yeah, from a technical aspect, I don't have any problem with paying for scale and paying for a future either, by the way. I'm not adverse to that. If the cost structure doesn't work, we could talk about tweaking it.
+
+74
+00:09:48.640 --> 00:10:06.990
+Chris Whitney: But I think… I like to think, from a pure technical lens, I do love the thinking here that we're… that the product is essentially evolving, and we're talking about a long-term future goal with what we want to turn into, but staying focused on the workbook-centric. I like how you call it that.
+
+75
+00:10:06.990 --> 00:10:10.029
+Brett Hileman: Yeah. I mean, there's… there's, like, the pattern of, like.
+
+76
+00:10:10.710 --> 00:10:26.559
+Brett Hileman: you know, I probably wouldn't build out your workbook, continue to, like, build that out, build more and more macros, right? Like, what we're trying to do is, like, you have it built, let's start building functionality outside of the workbook, because that's gonna later translate to if you want to go, like, full platform, right?
+
+77
+00:10:26.560 --> 00:10:43.049
+Brett Hileman: Does that make sense? Where if we were to lean in heavy and be like, we're gonna go build, like, these 10 macros, those macros become pretty irrelevant if at one point you say, like, let's get rid of this workbook. So, yeah, I think as we start to build outside of it, that foundation is gonna start to be set.
+
+78
+00:10:44.350 --> 00:10:45.060
+Brett Hileman: Yeah.
+
+79
+00:10:45.060 --> 00:10:47.519
+Chris Whitney: Did you even see a world?
+
+80
+00:10:48.130 --> 00:10:50.840
+Chris Whitney: Where the full platform
+
+81
+00:10:50.950 --> 00:11:09.810
+Chris Whitney: not use Excel was even achievable in the next several months, or do you really see, based upon what you've known to date, that we really would be investing in the V1? In other words, I don't think that there is. I just, from all your perspective, did you have
+
+82
+00:11:09.810 --> 00:11:13.990
+Chris Whitney: A cost and a path to that full platform in the short term?
+
+83
+00:11:14.460 --> 00:11:20.090
+Brett Hileman: Yeah, we didn't take out the full cost. Me and Ifat, we talked about it at length.
+
+84
+00:11:20.140 --> 00:11:33.599
+Brett Hileman: And we did start to evaluate, like, what does it look like? Because we did. Like, honestly, when I first heard your guys' vision, I'm like, we gotta get rid of this workbook immediately, right? And we went down the path of, like, okay, how do we get rid of the workbook?
+
+85
+00:11:33.600 --> 00:11:44.990
+Brett Hileman: And we started to play that out. I think just the level of effort there probably would worry me a little bit for V1, and that it would feel like it's maybe a bit too big of a V1.
+
+86
+00:11:45.160 --> 00:11:47.779
+Brett Hileman: Was my thought. I'm happy to, like.
+
+87
+00:11:48.070 --> 00:11:57.639
+Chris Whitney: No, no, not at all. That was my thought as well, not trying to steer us, just didn't know if you even had that perspective. We could… let's completely stay on this path.
+
+88
+00:11:57.640 --> 00:12:12.920
+Brett Hileman: Yeah, we definitely did, and we're, like, pretty honest partners. Like, if we truly thought, like, don't go down this V1 vision you guys originally had, we would have told you that. I think your guys' initial vision for V1 is pretty sound, and, like, a smart move.
+
+89
+00:12:13.010 --> 00:12:20.149
+Brett Hileman: Okay. But let's make sure that we're not doing anything that would jeopardize the future. And I think the things that would jeopardize it is, like.
+
+90
+00:12:20.380 --> 00:12:34.029
+Brett Hileman: lean harder into macros, like, I think that would jeopardize it. Like, we need to be building the functionality in our application layer, and not putting ourselves in a box within Excel, would be my thought.
+
+91
+00:12:34.030 --> 00:12:56.950
+Karen Sturdivant: So, I like the way you're thinking, Brett, because, yes, I mean, we don't have a lot of time to be able to be ready for what we know and what they, you know, know how to deliver that open enrollment with the tools that they know and they will understand, and I love that you're already thinking of the future, because that future is exactly what we're thinking of. I know that it is too soon for us to deliver now, but it's exactly where our mind is going.
+
+92
+00:12:57.410 --> 00:13:01.989
+Brett Hileman: Yeah, I think it's the right mindset to be in, for sure. And Karen, to your point, like.
+
+93
+00:13:02.530 --> 00:13:10.389
+Brett Hileman: you know, there's the… there's the task of building the technology, there's the task of getting people to use the technology. I think, like…
+
+94
+00:13:10.680 --> 00:13:17.200
+Brett Hileman: Taking on a big, like, change management effort for this year might be a little, like.
+
+95
+00:13:17.430 --> 00:13:21.659
+Brett Hileman: That probably worried me a little bit. So I think it's the right…
+
+96
+00:13:21.660 --> 00:13:33.820
+Karen Sturdivant: So you just said it, and it is the main reason why I wanted it to do the minimum changes to what they know on the output, right? I wanted it to do the changes internal to us.
+
+97
+00:13:33.820 --> 00:13:43.589
+Karen Sturdivant: And for us to be able to work on something to scale, but if we're going to introduce changes like this, it was a lot on the first year that we introduced the
+
+98
+00:13:43.590 --> 00:13:54.949
+Karen Sturdivant: the Excel spreadsheet, right? It was… like, not everybody loved it. Last year, we got more people using it and, you know, getting used to, this is what you're going to get for your renewals.
+
+99
+00:13:54.970 --> 00:14:05.310
+Karen Sturdivant: Love to show your V1 here, but I don't think, like you said, I don't think we will be ready right now. So, I love the approach, though. Absolutely love where you're going with it.
+
+100
+00:14:05.310 --> 00:14:09.560
+Brett Hileman: Yeah, yeah, for sure. Yeah, I appreciate that. And, you know, I don't want to, like…
+
+101
+00:14:09.940 --> 00:14:18.039
+Brett Hileman: you know, I'd say V1, it's very… it's not just, like, a foundation. There's a lot of work there in orchestration, right? So, yeah.
+
+102
+00:14:18.230 --> 00:14:28.030
+Brett Hileman: I think I want to be careful of that, is like, this isn't just foundation, like, this is very much like a whole orchestration that's going to be really effective for you guys in 2026, right?
+
+103
+00:14:28.030 --> 00:14:28.849
+Karen Sturdivant: I love that.
+
+104
+00:14:29.580 --> 00:14:45.870
+Scott Brittain: I think the only other thing I have to add here that we can move on is, like, I think there's tons of benefit, too, of talking to your customers, too, of, like, what they would want in a platform, right? And doing some of the research ahead of time to not just say, like, hey, we're gonna go build this thing, and here, go have at it. It's like, let's actually listen to the customers and, like, use the time
+
+105
+00:14:45.880 --> 00:14:52.369
+Scott Brittain: after this, you know, initial version to actually really, truly understand what they want, right? And I think that's a key piece of that feedback.
+
+106
+00:14:52.370 --> 00:14:59.430
+Karen Sturdivant: I thought I'd try that. I tried to collect information from the clients, and all I got was, like, cheaper benefits, we want the
+
+107
+00:14:59.840 --> 00:15:04.740
+Karen Sturdivant: and affordable. It is, like, nothing to do with the platform and what we wanted it to do.
+
+108
+00:15:05.140 --> 00:15:06.509
+Scott Brittain: That's fair, that's fair.
+
+109
+00:15:06.760 --> 00:15:07.390
+Chris Whitney: From my perspective.
+
+110
+00:15:08.030 --> 00:15:22.370
+Chris Whitney: the market's driving products like you showed about in the full platform, like, that's what client space is supposed to do, although they're terrible at it. There's other products out there on the market that offer the same thing, so I think the market…
+
+111
+00:15:22.460 --> 00:15:36.650
+Chris Whitney: is showing that there's opportunity for that, but I was getting super excited seeing where the art of the possible could be on the potential, but let's keep going, because I'd love to see the sex tax and some of that information.
+
+112
+00:15:37.000 --> 00:15:52.680
+Brett Hileman: Cool. Yeah, sounds good. Yeah, so really our V1 Foundation, you know, I think a lot of this will feel obvious and familiar, but, you know, really leaning into system of record being Prism, right? We're directly integrating it with Prism via API,
+
+113
+00:15:52.680 --> 00:16:02.789
+Brett Hileman: And, you know, we're kind of creating a clear, like, boundary rule that, you know, PRISM is, like, data source of truth, right? And we're designing around that.
+
+114
+00:16:02.910 --> 00:16:08.600
+Brett Hileman: You know, really, a lot of the core capabilities we're building is in orchestration, right?
+
+115
+00:16:08.600 --> 00:16:23.109
+Brett Hileman: It's, the renewal state machine between, you know, what's happening in the workbook and what's getting reported in client space. You know, it's audit log of key actions and workflow, you know, tasks.
+
+116
+00:16:23.200 --> 00:16:30.980
+Brett Hileman: designing around any, like, brittle integrations, you know, designing around, like, where the workbook might fall down, so just…
+
+117
+00:16:30.980 --> 00:16:55.809
+Brett Hileman: really a lot of our work is in connecting dots, right? And then, you know, leading into, like, SharePoint, client space, you know, client space really being, you know, remaining as, like, kind of that workflow hub, and make sure we're just tightly integrating into it. And I think there's opportunities to integrate in with SharePoint, just to make file share obvious and easy, and there's probably some opportunities for, like, triggering mechanisms
+
+118
+00:16:55.810 --> 00:16:59.690
+Brett Hileman: mechanisms within SharePoint that would be advantageous to lean into.
+
+119
+00:17:03.340 --> 00:17:06.300
+Brett Hileman: I…
+
+120
+00:17:06.359 --> 00:17:19.110
+Brett Hileman: I'll probably… I think this would probably be most valuable to share with you guys after, but I just wanted to make sure we were all, like, clearly aligned with, like, what's… because this is… it's a pretty linear process, right? So what I wanted to do is just, like.
+
+121
+00:17:19.109 --> 00:17:28.919
+Brett Hileman: I kind of mapped out, like, what is the process we're gonna build, right? I don't… like, Chris, do you think there's value in me going through this? It is, 16 steps.
+
+122
+00:17:29.170 --> 00:17:29.810
+Chris Whitney: I f…
+
+123
+00:17:30.230 --> 00:17:47.829
+Chris Whitney: Yes, with the team. I think Anna should probably be here for that, too. I think, probably, as a takeaway, it's probably better. This… this is good, but I'd love to keep going and take a look at the timeline, and the thinking, and the costs, and the tech stack, and some of those things.
+
+124
+00:17:47.830 --> 00:17:48.850
+Brett Hileman: Cool, but…
+
+125
+00:17:48.850 --> 00:17:53.930
+Chris Whitney: But, Karen, did you… are you okay with that, or did you want to see, like, a high level on this detail?
+
+126
+00:17:54.660 --> 00:17:58.820
+Karen Sturdivant: So, I want to see it, but I wouldn't mind waiting for Anna so we can see it together.
+
+127
+00:17:58.820 --> 00:18:00.010
+Chris Whitney: Okay, right on.
+
+128
+00:18:00.010 --> 00:18:02.880
+Brett Hileman: I like that. That'll be a good, like, checkpoint, just to, like…
+
+129
+00:18:03.350 --> 00:18:11.689
+Brett Hileman: before we sign up for W, let me sit down with you, Karen, and Anna, and just walk through, like, here's what the workflow will be once we build this out.
+
+130
+00:18:12.590 --> 00:18:13.520
+Chris Whitney: Good call.
+
+131
+00:18:13.520 --> 00:18:14.890
+Brett Hileman: Yeah, cool. Alright.
+
+132
+00:18:15.750 --> 00:18:33.210
+Brett Hileman: You know, I think part of this build is, you know, we'll build out an admin console for you guys, right? I think this is a place where you're monitoring and, you know, possibly taking action on this, like, orchestration layer. So providing real-time buildability into, like.
+
+133
+00:18:33.210 --> 00:18:36.849
+Brett Hileman: what's being orchestrated, what's happening, you know.
+
+134
+00:18:36.850 --> 00:18:43.190
+Brett Hileman: we're gonna probably need to build some sort of exception management flow. You know, things failed.
+
+135
+00:18:43.190 --> 00:19:01.770
+Brett Hileman: this didn't happen how it should have, we need to give you guys an interface into that. So I think we'll be building out a light, like, admin interface. You know, this is a very conceptual mock here, but I could just picture an area where you could come in, see what clients are going through the orchestration flow, understand the stage of them, understand last updates, and get some
+
+136
+00:19:01.770 --> 00:19:09.129
+Brett Hileman: Some helpful flags as an administrator of this flow to be able to, like, understand what's happening and take action if needed.
+
+137
+00:19:10.670 --> 00:19:11.650
+Karen Sturdivant: Love that.
+
+138
+00:19:13.590 --> 00:19:16.050
+Brett Hileman: Does that make sense to you, Chris?
+
+139
+00:19:16.050 --> 00:19:22.579
+Chris Whitney: Yeah, I'm trying to have a poker face. I want to have a poker face. I do love it. It's good. I think…
+
+140
+00:19:23.200 --> 00:19:38.209
+Chris Whitney: we had some dashboards in client space, but I think we're much better suited to have the tailor-specific dashboard. I really like this. There's another technical perspective on, like, when the orchestration fails, but I think you're capturing that in exceptions.
+
+141
+00:19:38.210 --> 00:19:41.379
+Brett Hileman: Yeah. But I want to get a little click down into, like.
+
+142
+00:19:41.380 --> 00:19:54.120
+Chris Whitney: what… what's included there. There's also… we never… we hadn't talked about this either. There's a FinOps piece and a cost piece, as well that I would love to see, but I don't know if we're talking about a
+
+143
+00:19:54.290 --> 00:20:01.359
+Chris Whitney: what the platform actually is, so there's some of those pieces that are there, but I do like this… I do like this dashboarding.
+
+144
+00:20:02.040 --> 00:20:21.439
+Karen Sturdivant: So, Brett, I will tell you too, like, we attempted to create a dashboard in client space that ultimately was the only thing that we could use for us to be able to monitor where we were from an open enrollment perspective. I wouldn't mind showcasing that so you see exactly what we're looking for when we're looking at a dashboard.
+
+145
+00:20:21.850 --> 00:20:39.500
+Brett Hileman: Yeah, that would be super helpful, and to be clear, you know, I'm not recommending we replace client space, right? Like, I still think client space is probably the place where, like, your non-technical reps go to, like, understand status. I think for me, this is the admin tool for the person that's supervising the orchestration, right?
+
+146
+00:20:39.500 --> 00:20:44.399
+Chris Whitney: Taylor's admin tool. Taylor's admin tool for what's happening with Taylor, right? Sorry to cut you off, Karen.
+
+147
+00:20:45.370 --> 00:21:02.770
+Karen Sturdivant: I do agree, but there's certain things that, you know, even though we're monitoring what's happening in Taylor, we are renewing at the same time. It is not just one renewal that just happened. We are renewing different carriers, and we need information in the different carriers for it to be meaningful to us. Like, we're renewing
+
+148
+00:21:02.770 --> 00:21:19.380
+Karen Sturdivant: 500 with Edna. So if you tell me we have renewal 600 here, and 400 are ancillary only, I don't know where we are. From that perspective, I don't know how to wrap it up. So there's certain things that I still need to… a little bit more break down to be useful for what I need when I look at this.
+
+149
+00:21:19.610 --> 00:21:28.279
+Brett Hileman: Yep, yep. Yeah, I think we can do a more detailed, like, requirement gathering on this. It was intention… yeah, it was kind of lightweight here. But yeah, let's do a.
+
+150
+00:21:28.280 --> 00:21:29.019
+Karen Sturdivant: But this is the question.
+
+151
+00:21:29.300 --> 00:21:30.440
+Brett Hileman: Yeah, yeah.
+
+152
+00:21:30.870 --> 00:21:31.709
+Brett Hileman: I like it.
+
+153
+00:21:32.930 --> 00:21:45.529
+Brett Hileman: Okay, so really our principle is to keep V1, like, low change in terms of, like, you know, we don't want to totally disrupt our operations, you know, we're… by the time we build this, you know, we'll be towards the middle of the year. I think a big change
+
+154
+00:21:45.560 --> 00:22:00.930
+Brett Hileman: big change management effort, probably not ideal. So let's, like, stay explicitly bound within our integrations of Prism and client space. Let's stay more workbook-centric, and logic… a lot of logic stays in workbook as is built out today, right?
+
+155
+00:22:01.450 --> 00:22:07.080
+Brett Hileman: I think we've already talked on that, hit on that pretty good. Let's talk about the architecture here.
+
+156
+00:22:07.640 --> 00:22:19.489
+Brett Hileman: So, really, like, we're… we're… the orchestration is, like, bounding APIs and doing workflows around Workbook, right? So, really how we're thinking about it… actually, Ifa, you're gonna do a way better job explaining this.
+
+157
+00:22:19.950 --> 00:22:23.380
+Brett Hileman: And you guys have heard me talk too much. Ifat, do you want to jump in?
+
+158
+00:22:23.380 --> 00:22:28.369
+Ifat Ribon: Third thing. Yeah, speaking to those kind of, like, bounded,
+
+159
+00:22:28.530 --> 00:22:42.610
+Ifat Ribon: those boundaries around the application, so, I know we were able to validate a little bit of this with you, Chris, but certainly open to questions here. You know, having this… a Node.js app be that… that's like the workhorse of Taylor, right?
+
+160
+00:22:42.610 --> 00:22:52.039
+Ifat Ribon: That's going to be responsible for all the orchestration logic, state management, API integrations, surface that light admin console that can certainly evolve over time.
+
+161
+00:22:52.040 --> 00:22:56.260
+Ifat Ribon: You know, responsible for that workbook generation and parsing, so…
+
+162
+00:22:56.340 --> 00:23:16.150
+Ifat Ribon: for, you know, this initial V1, it's essentially the… the middleware that Brett was talking about for… between that PRISM data, making sure that's the source of truth, and the workbook, maintaining all that logic and macro and tool as you guys have it today. So hopefully all those pieces are kind of called out here. You know, we… we would stand up a database.
+
+163
+00:23:16.150 --> 00:23:21.530
+Ifat Ribon: It would be, a little bit lighter at first, in terms of primarily focused on orchestration data.
+
+164
+00:23:21.530 --> 00:23:28.490
+Ifat Ribon: you know, one of the principles here was making the Excel workbook sort of the in-flight repository for data, so…
+
+165
+00:23:28.490 --> 00:23:44.129
+Ifat Ribon: we're not gonna right away, you know, model everything in PRISM, also in our database. It's in PRISM, it's in the workbook, we don't need to replicate that, but making sure that the core of the Taylor application is responsible for transporting that data between the two systems.
+
+166
+00:23:44.130 --> 00:23:52.110
+Ifat Ribon: And it'll also be responsible for all of those validation checks, those audit processes, and all of that kind of business logic that doesn't currently live in the workbook.
+
+167
+00:23:53.210 --> 00:23:56.310
+Ifat Ribon: I'll pause there. Any initial reactions or questions?
+
+168
+00:24:03.820 --> 00:24:06.249
+Scott Brittain: Chris, I think you're on mute. You're trying to talk.
+
+169
+00:24:07.810 --> 00:24:08.610
+Chris Whitney: Thank you.
+
+170
+00:24:08.910 --> 00:24:14.900
+Chris Whitney: This, there's… I can go on a rabbit hole here. So,
+
+171
+00:24:15.540 --> 00:24:25.730
+Chris Whitney: I need to understand how your staff… how we eventually will staff it, and what your capabilities are around Azure. I had put you all in a Heroku Salesforce box, which is probably wrong.
+
+172
+00:24:25.780 --> 00:24:37.039
+Chris Whitney: Right? So, I love this, I like this, I just wanted… I just need to understand and make sure that you all have capabilities in this area. So, I guess the first question is.
+
+173
+00:24:37.040 --> 00:24:48.660
+Chris Whitney: Are you driven here because you feel like we pushed you down here? Or do you… when you looked at the opportunity, and when you understand what we're doing, and when you understand… understand our tech stacks, did you really feel this was best?
+
+174
+00:24:49.470 --> 00:25:02.610
+Ifat Ribon: Yeah, that's an excellent question. I would say, one, we do have experience building on Azure. You're right that, you know, you kind of came our way because we are Salesforce partners, and Heroku is, you know, one of our core competencies. It's what this company was…
+
+175
+00:25:02.610 --> 00:25:09.700
+Ifat Ribon: started with, but since then, we have had several projects that we also build on Azure, for a variety of reasons.
+
+176
+00:25:09.700 --> 00:25:26.920
+Ifat Ribon: In your case, you know, Azure was mentioned originally as an environment that you guys might already kind of be in, so we did want to, where we could, lean into any existing technologies that you guys already either have familiarity with, or, you know, have accounts with, or things like that.
+
+177
+00:25:26.930 --> 00:25:32.920
+Ifat Ribon: In this design, we wanted to minimize disruption. You know, we did pick Node here, which
+
+178
+00:25:32.920 --> 00:25:49.979
+Ifat Ribon: I think maybe we validated with you, you know, maybe that is net new to you guys, but is our core competency, right? So, a bit of balance here. We definitely explored Heroku, that is… that is not off the table. But, you know, trying to find the right balance of what you guys might already have, kind of, in your wheelhouse or experience.
+
+179
+00:25:50.080 --> 00:25:52.580
+Ifat Ribon: Combined with our experience level was the goal here.
+
+180
+00:25:53.230 --> 00:25:55.520
+Chris Whitney: Yeah, okay, totally accept that.
+
+181
+00:25:55.530 --> 00:26:13.009
+Chris Whitney: This is great. There's a deeper click-through. I don't think it… I need to understand… I think it's a collection of apps, so I wonder if we're gonna be… if we're gonna be running Azure Functions, or if we're gonna throw this all in an app service plan. I have a lot of technical questions, about this, which we could get into.
+
+182
+00:26:13.010 --> 00:26:18.489
+Chris Whitney: when we look at the… I'm sure there's going to be a design and an architecture and approval phases.
+
+183
+00:26:18.490 --> 00:26:29.280
+Chris Whitney: But, but yeah, I feel really good about this, and there's no barriers with Azure, we can just go. We can just move and go, which is good.
+
+184
+00:26:29.860 --> 00:26:38.989
+Ifat Ribon: Yeah, that's what I ultimately wanted to validate, and maybe I got that from your response, but, like, Azure already is kind of a platform environment you guys may be already in, so that sounds great.
+
+185
+00:26:38.990 --> 00:26:42.710
+Chris Whitney: Great resource, we can… yeah, we've got active in flight.
+
+186
+00:26:42.940 --> 00:26:50.479
+Chris Whitney: processes and projects and appares today, the billing's already there, we can just go… we can just work and go.
+
+187
+00:26:50.750 --> 00:26:51.770
+Ifat Ribon: Cool. Okay.
+
+188
+00:26:53.930 --> 00:27:10.360
+Chris Whitney: I mean, like I said, this Node.js app is just showing it's in Azure, there's a whole underground architecture that's here that we really need to unpack. Not the time for it now. And I know it also has to be built out as part of the project. Jagger, did you have any questions?
+
+189
+00:27:12.870 --> 00:27:14.369
+Jagger Sturdivant: No, I think I'm good.
+
+190
+00:27:14.370 --> 00:27:17.359
+Chris Whitney: Why Redis? What's the caching layer for?
+
+191
+00:27:18.430 --> 00:27:37.649
+Ifat Ribon: That helps a lot with, more, like, transient state management. So we might have, sort of, like, a state manager that's a bit more fully persisted, so we can show those statuses in the dashboard, but if there's any sort of, like, very in-flight work, you know, background processing type things like that, Redis is usually a good, kind of, low-stakes memory store for things like that.
+
+192
+00:27:37.660 --> 00:27:46.359
+Ifat Ribon: So, might be a bit conservative at this point. I think, to your point, there's probably another layer of architecture design here that illustrates exactly what's orchestrated in Azure.
+
+193
+00:27:46.890 --> 00:27:47.420
+Chris Whitney: Okay.
+
+194
+00:27:51.800 --> 00:27:55.309
+Chris Whitney: where the… I guess the last question would be, when we…
+
+195
+00:27:56.230 --> 00:28:03.160
+Chris Whitney: we're anchoring in Azure, and we'll have an Azure architecture, so when we move to the…
+
+196
+00:28:03.390 --> 00:28:22.100
+Chris Whitney: V2 of Taylor, where we actually apply a front end, just wanting to make sure that you have end-to-end capabilities full stack for that, right? So the capabilities section is not just for doing what we're wanting to do in Taylor, making sure that you've got the full stack capabilities to be able to
+
+197
+00:28:22.470 --> 00:28:26.970
+Chris Whitney: go all the way through the true vision for Taylor. Does that make sense?
+
+198
+00:28:27.500 --> 00:28:47.539
+Ifat Ribon: It does, and the short answer is that, yes, we definitely have full-stack capabilities, both in terms of coding, you know, back-end design, architecture, database modeling and management, as well as sort of front-end, you know, bringing those UX experiences, maybe some of the ones that Brett teased to life, as well as how that plays out on Azure, in terms of all the interactive services, whether it's the web services.
+
+199
+00:28:47.540 --> 00:28:52.360
+Ifat Ribon: You know, any, like, background services, you know, functions that we may need, and things like that.
+
+200
+00:28:53.550 --> 00:28:54.350
+Chris Whitney: Okay.
+
+201
+00:28:54.420 --> 00:29:18.939
+Chris Whitney: I have another… a lot of other questions, technically, about capabilities, so I think there's a separate call where we just talk about that. I don't have any problem with nearshore or offshore dev, but I just want to make sure it's your tech people. I need to understand how you're technically staffed… how you technically would staff the project. I don't want us… I have a lot of technical questions around this, which we could take offline, but they're all around how you're staffing it, how you… who's the architect, how you approach
+
+202
+00:29:18.940 --> 00:29:31.309
+Chris Whitney: that, where the dev is, if it's happening near-shore or offshore, those are your badged people, not a third party. Lots of stuff that we need to get into there. We could take that as just a kind of offline technical discussion.
+
+203
+00:29:32.040 --> 00:29:38.899
+Ifat Ribon: Totally, yeah, and happy to either have a dedicated session, or, you know, if those were questions you want to send by email, we can respond instantly.
+
+204
+00:29:38.900 --> 00:29:46.570
+Chris Whitney: I'll probably start with that to make it easy. I'll probably start with that, and we'll see what kind of a call we need, and again, we can go from there.
+
+205
+00:29:46.840 --> 00:29:48.830
+Ifat Ribon: Okay, great. Yeah, happy to answer those.
+
+206
+00:29:52.730 --> 00:29:55.530
+Brett Hileman: Ifat, do you want to highlight some of these?
+
+207
+00:29:56.010 --> 00:30:07.280
+Ifat Ribon: Yeah, absolutely. Yeah, I wanted to provide a bit of a risk inventory. This is a bit higher level. I'm sure we can come up with more detailed ones, but, maybe kind of going through this list,
+
+208
+00:30:07.310 --> 00:30:16.280
+Ifat Ribon: you know, Brett kind of touched on this earlier, but a big sort of assumption here, around it being workbook-centric is because that is sort of
+
+209
+00:30:16.640 --> 00:30:31.190
+Ifat Ribon: quote-unquote, like, an offline tool, it is mutable, people could change things, and that is a risk. So, you know, I'm not sure to what degree, you know, having the rep there kind of own the workboat, that probably helps mitigate a lot of that. But this also speaks to.
+
+210
+00:30:31.190 --> 00:30:46.859
+Ifat Ribon: changing any of those macros or formulas would require, like, changes in the code, right? Taylor would need to know about those. So, like Brett mentioned, you know, ideally those are kept to a minimum. It sounds like the workbook you have now is pretty stable. It's not to say that there can't be changes, it's just, what is the risk of those changes?
+
+211
+00:30:47.140 --> 00:30:50.499
+Ifat Ribon: That kind of starts to point to the second one there.
+
+212
+00:30:50.740 --> 00:30:58.299
+Ifat Ribon: And any, like, making sure any changes kind of flow back through, both systems while we're maintaining that workbook.
+
+213
+00:30:58.340 --> 00:31:05.339
+Ifat Ribon: The workbook, you know, also being sort of offline like that and passed around, it's not going to be as secure as an app.
+
+214
+00:31:05.360 --> 00:31:25.279
+Ifat Ribon: this really came into play when we were exploring ways to trigger when is the workbook kind of complete. You know, there's ways to expose an API in the workbook that can really introduce a lot of security risks, so maybe moving away from that and relying more on triggers that we can leverage from SharePoint or client spaces, once that workbook is uploaded or something like that.
+
+215
+00:31:26.880 --> 00:31:45.050
+Ifat Ribon: This fifth one here, integrations are schema coupled, so a key component here will be that Taylor will, you know, need to understand the PRISM schema, as well as the way that the workbook, you know, currently expects that schema to look, to make sure it can fill in those sheets, make sure those macros run properly.
+
+216
+00:31:45.050 --> 00:31:48.839
+Ifat Ribon: Any changes to those schemas, you know, will require downstream changes.
+
+217
+00:31:48.960 --> 00:32:08.050
+Ifat Ribon: And lastly, you know, we talked a lot about how the ideal state is that Excel's not in play, but it is for now, so, you know, just recognizing the limitations of Excel. When things go round, we have a lot more failure points, with multiple systems this way, and kind of just recognizing that you talked about making sure we have exception handling.
+
+218
+00:32:08.050 --> 00:32:19.550
+Ifat Ribon: on the Taylor side, you know, making, you know, surfacing a lot of those, both through, like, error and alert monitoring, as well as in the admin console, so that you all know exactly where those are happening and why.
+
+219
+00:32:22.710 --> 00:32:32.590
+Ifat Ribon: Any, yeah, any reactions here? Any, like, big risks, from a platform technology perspective that don't feel like they're called out here that should be?
+
+220
+00:32:34.010 --> 00:32:36.580
+Chris Whitney: I mean, we talked about it length.
+
+221
+00:32:36.960 --> 00:32:47.270
+Chris Whitney: workbook-centric in Excel for this version, so there's not a lot you can do about all the risks you called out, with Excel being mutable.
+
+222
+00:32:47.270 --> 00:32:59.399
+Chris Whitney: the outside logic changes, the workbooks being sent around outside of process, those just kind of are what they are. Your, integration, the schema-coupled integrations risk.
+
+223
+00:32:59.550 --> 00:33:05.649
+Chris Whitney: is one that I worry about, too, is the… the… what PRISM changes
+
+224
+00:33:05.820 --> 00:33:10.849
+Chris Whitney: And what we don't control with that API, so,
+
+225
+00:33:11.150 --> 00:33:16.810
+Chris Whitney: you're mentioning normalizing… you're mentioning doing some stuff in Node before writing to the workbook.
+
+226
+00:33:17.090 --> 00:33:28.339
+Chris Whitney: I guess I'll just put an emphasis that we had gotten tripped up a little bit with Prism changes. Not that they change the API all the time, but error detection around that is, like, super key.
+
+227
+00:33:29.340 --> 00:33:34.850
+Chris Whitney: So, that one is almost a high to me. For sure. That last one.
+
+228
+00:33:35.860 --> 00:33:45.469
+Ifat Ribon: Totally, yeah, I appreciate that call out. And one thing I would add, that isn't written in the mitigation strategy, but, you know, one thing we do is write
+
+229
+00:33:45.540 --> 00:33:56.860
+Ifat Ribon: the nice thing about writing a lot of that logic in the Node app is that we can also write integration tests. Those tests would actually hit the Prism API, so hopefully we get alerted on those on releases and things like that as well.
+
+230
+00:33:57.110 --> 00:33:58.580
+Chris Whitney: Auto… auto tests?
+
+231
+00:33:58.960 --> 00:34:00.280
+Ifat Ribon: Automated tests, yeah.
+
+232
+00:34:00.440 --> 00:34:01.280
+Chris Whitney: Yeah.
+
+233
+00:34:03.450 --> 00:34:04.270
+Chris Whitney: Okay.
+
+234
+00:34:05.860 --> 00:34:09.380
+Chris Whitney: Do y'all have a release management slide on that, or no?
+
+235
+00:34:10.600 --> 00:34:12.590
+Ifat Ribon: Not in here, but I can certainly add it to our.
+
+236
+00:34:12.590 --> 00:34:13.210
+Chris Whitney: Okay.
+
+237
+00:34:13.219 --> 00:34:13.609
+Ifat Ribon: Max.
+
+238
+00:34:13.610 --> 00:34:16.419
+Chris Whitney: Well, we could talk about that when the time's right, that's great.
+
+239
+00:34:16.420 --> 00:34:17.190
+Ifat Ribon: Okay.
+
+240
+00:34:20.130 --> 00:34:22.930
+Brett Hileman: Alright, let's talk about timeline.
+
+241
+00:34:22.929 --> 00:34:26.800
+Brett Hileman: You know, our current estimate, roughly 12 to 14 weeks to production.
+
+242
+00:34:26.800 --> 00:34:49.369
+Brett Hileman: You know, first couple weeks will be foundation setting, getting API connections going, auth connectivity, starting to set up some of the scaffolding. You know, then we're likely moving into more, like, data pipelines, starting to ingest data, starting to understand it, starting to set up some of that pipeline, and then starting to build into orchestration, right? Starting to connect the dots in between systems after we've…
+
+243
+00:34:49.530 --> 00:34:57.410
+Brett Hileman: got the foundation set with those systems. And then I think as that orchestration involves, we start building out the functionality around, like.
+
+244
+00:34:57.410 --> 00:35:21.690
+Brett Hileman: generating the CBE, generating the benefits guide, starting to do more technical things with client space in terms of, like, the DocuSign signature flows, right? Starting to work through that PRISM import flow, you know, making sure that we have start good coverage around task creation into client space. And then, you know, a pretty good chunk of time to do hardening and QA. So, and then testing across renewal lifecycle.
+
+245
+00:35:21.690 --> 00:35:39.620
+Brett Hileman: Edge case management, performance testing, production readiness testing, go through a full suite of, like, QA testing, to get it hardened and in a good place to, you know, really, you know, we're gonna have a nice little window between the time this is done, between open enrollment, you know, we're gonna get you guys
+
+246
+00:35:39.690 --> 00:35:59.110
+Brett Hileman: you know, we're gonna hand it over, let you start pressure testing it. Obviously, throughout this flow, we're Agile Development Shop, which means every two weeks, you'll be getting demos. Usually within those demos, we're handing off a testing link, so you guys can be pressure testing this as we go. But ultimately, towards the end there, it's all hands on deck.
+
+247
+00:35:59.260 --> 00:36:13.660
+Brett Hileman: you know, end-to-end testing, you know, Karen leaning on your team to be technical experts on what you would expect to see, right? But we will have that nice period between when this is hardened to OE, where we can, you know.
+
+248
+00:36:13.770 --> 00:36:18.810
+Brett Hileman: resolve any changes that made it… resolve anything that maybe made it through.
+
+249
+00:36:18.810 --> 00:36:28.930
+Karen Sturdivant: And I just want to make sure, Brad, the intention for us is to start using this for clients that are coming through implementation, so we get the team really, like.
+
+250
+00:36:29.090 --> 00:36:46.970
+Karen Sturdivant: aware of how to use it, how to turn it around, like, the questions now, before we jump into open enrollment, which is the bigger, enrollment, where we'll do it one by one. So usually we'll have 20, 40 clients going through implementation, which will be a lower volume for us to test it and really, you know, understand it.
+
+251
+00:36:47.170 --> 00:36:58.609
+Brett Hileman: Yeah, nice. How does this… does this timeline line up well for… with how you guys are thinking about it? Because there is some flexibility here, right? Like, we could probably move through this a little quicker with a bit more velocity.
+
+252
+00:36:59.560 --> 00:37:02.199
+Brett Hileman: Yeah, I guess, how does this line up with your guys' timeline?
+
+253
+00:37:03.490 --> 00:37:07.300
+Karen Sturdivant: 14 weeks… let's just look at it here.
+
+254
+00:37:07.580 --> 00:37:08.729
+Karen Sturdivant: That's so impressive.
+
+255
+00:37:09.030 --> 00:37:10.690
+Chris Whitney: Say again? Muted.
+
+256
+00:37:11.210 --> 00:37:12.720
+Karen Sturdivant: Opening account.
+
+257
+00:37:13.490 --> 00:37:15.969
+Chris Whitney: Oh, you're a little muffled, Karen. Say again?
+
+258
+00:37:16.810 --> 00:37:19.199
+Karen Sturdivant: I am… Jeez, so I can see them in the.
+
+259
+00:37:20.090 --> 00:37:21.659
+Chris Whitney: Oh yeah, let me see here, then.
+
+260
+00:37:22.380 --> 00:37:28.970
+Brett Hileman: So the way I was thinking about it is, if we started March 1st, that puts us towards the end of May, middle of June.
+
+261
+00:37:29.090 --> 00:37:31.090
+Brett Hileman: Under this current timeline.
+
+262
+00:37:34.030 --> 00:37:36.759
+Chris Whitney: I actually think, to Karen's point.
+
+263
+00:37:37.330 --> 00:37:51.990
+Chris Whitney: couple of things. I actually think that hardening and QA should be expanded to a go-live period for our implementation clients, and then come back and incorporate revisions that are needed to be able to sustain and scale for OE.
+
+264
+00:37:52.230 --> 00:37:58.350
+Chris Whitney: So I also… I actually see that the go-live period is we…
+
+265
+00:37:58.450 --> 00:38:18.200
+Chris Whitney: target using Taylor for implementation clients, and we are active still. We're not delivered. We're still active. We've completed the QA and hardening, but then we go into a go-live period, and then there's a handful of revisions and optimizations that we have to make to be able to really hit this at scale at the end of the year.
+
+266
+00:38:19.350 --> 00:38:36.859
+Karen Sturdivant: What this will… like, for us, the main thing is that we can even do this parallel, right? So, implementation continues with their process for us not to impact anyone, and we can take it here and just see how does it work on this side, and make sure that we're covering everything that we need to cover.
+
+267
+00:38:37.600 --> 00:38:42.800
+Chris Whitney: If that puts us at… was it at the end of May, you said? For the completion of QA?
+
+268
+00:38:42.800 --> 00:38:45.190
+Karen Sturdivant: middle of May. I'm okay with middle of May.
+
+269
+00:38:45.980 --> 00:38:53.880
+Chris Whitney: So the second… I think this is good, but we're assuming a quick start, which Karen and I will work on. I think the second thing that's super important
+
+270
+00:38:54.040 --> 00:38:58.510
+Chris Whitney: Brett, and you mentioned Agile Shop, and you mentioned Every 2 weeks, like…
+
+271
+00:38:59.140 --> 00:39:03.060
+Chris Whitney: There's a lot of week 1 through week 8 is a lot of tech work.
+
+272
+00:39:03.690 --> 00:39:19.900
+Chris Whitney: And foundation work. And I need to be able to have deliver… we need to be able to have deliverables that, Karen… that we all can see, and we can feel, and we can digest, so that the team knows that we're making progress. We got bit on that last year.
+
+273
+00:39:19.900 --> 00:39:20.350
+Brett Hileman: Hmm.
+
+274
+00:39:20.350 --> 00:39:23.500
+Chris Whitney: So I just want to be able to make sure we, in the statement of work.
+
+275
+00:39:23.500 --> 00:39:44.000
+Chris Whitney: We actually call out, like, visual deliverables, where we can actually show the team the progress, and we can see what's happening, even if we're opening up tech, and even if we're showing platforms, and even if we're running quick little demos, we have to actually just be able to see the progress, especially through those first 8 weeks.
+
+276
+00:39:44.140 --> 00:39:44.680
+Brett Hileman: Yep.
+
+277
+00:39:44.680 --> 00:39:53.430
+Karen Sturdivant: And when Chris mentioned the team, it's this team, right? So, not necessarily that we need to open this outside this team, but we need to make sure that we're on track.
+
+278
+00:39:54.650 --> 00:40:05.280
+Brett Hileman: Yeah, that makes a lot of sense. Yeah, and I'll make sure we're intentional about how we're framing in those first 8 weeks, to make sure there's, like, demoable assets at the end of every sprint.
+
+279
+00:40:05.790 --> 00:40:08.879
+Chris Whitney: Does slide 11 and 12 have prices on them?
+
+280
+00:40:09.240 --> 00:40:11.840
+Chris Whitney: Or did you omit that from this? Thank you.
+
+281
+00:40:12.790 --> 00:40:37.270
+Brett Hileman: Yep, so here's where we're rolling up to. So we are proposing this as, like, a fixed fee engagement, so, you know, you know the price, you know what you're gonna get. This'll roll up into, like, a really detailed SOW that really calls out each of these areas, but this went through all of our estimation efforts, and our estimation process, and where we have it at is $235K, and that's all in delivering every
+
+282
+00:40:37.310 --> 00:40:42.270
+Brett Hileman: all the scope items we've talked about for V1. Now, Chris, to your point.
+
+283
+00:40:42.270 --> 00:41:05.419
+Brett Hileman: you know, we did start to, like, shape up. So, in my mind, this is… this gets you to that hardened app, right, in middle of May. And then, to your point, I think there is some additional support we need to provide to you guys between that and OE. The way I'm thinking about it is, I think, like, an 8K per month package would be pretty good for you guys. I think how that probably goes is, like, that stabilization support.
+
+284
+00:41:05.420 --> 00:41:23.540
+Brett Hileman: Karen, as you guys start using it, I think we're gonna get, you know, you guys are gonna come back with things that need to be updated, and then, obviously, during OE, I think we're, like, in hyper care mode, where, like, you know, we're really on call to make sure that we're addressing anything that comes up, because we can't have any hiccups, right?
+
+285
+00:41:23.540 --> 00:41:31.409
+Karen Sturdivant: Let me ask, if you go back one slide, the 235 will cover, and you put their V1 delivery, this is going with…
+
+286
+00:41:31.530 --> 00:41:35.969
+Karen Sturdivant: The proposed, you know, we're gonna move to everything online, including that.
+
+287
+00:41:35.970 --> 00:41:39.769
+Brett Hileman: No, no, so this would be V1, this is the workbook-centric orchestration.
+
+288
+00:41:39.770 --> 00:41:41.250
+Karen Sturdivant: Oh, perfect, okay.
+
+289
+00:41:41.250 --> 00:41:42.180
+Brett Hileman: Yeah, yeah.
+
+290
+00:41:42.550 --> 00:41:45.450
+Chris Whitney: It's… I like…
+
+291
+00:41:46.240 --> 00:41:57.239
+Chris Whitney: what do I need? What do we need? I like the fixed fee milestone approach, I like that. Now, we're not going to be killed with change orders, you're also probably being conservative because it's fixed fee.
+
+292
+00:41:57.290 --> 00:42:11.899
+Chris Whitney: I really would like to understand a little bit of the economics behind this. How are you staffing the team? What does this include? Really would like to understand that piece. That's… that is key.
+
+293
+00:42:11.900 --> 00:42:21.749
+Chris Whitney: We did not talk about FinOps as part of this, but I do need to have some sort of tech cost management as part of this as well.
+
+294
+00:42:21.750 --> 00:42:36.890
+Chris Whitney: I'll take a stab. I mean, if you guys had a thought on costs, the Azure costs, I'd love that, but I'll take a stab too, but we're gonna need to make sure we work together, because that's another piece, operationally, that really is the total cost of ownership of Taylor.
+
+295
+00:42:36.890 --> 00:42:37.330
+Brett Hileman: Yep.
+
+296
+00:42:37.330 --> 00:42:46.809
+Chris Whitney: So, I think I just need to see a little bit of that, before me to have… so I can have a real reaction on, that 235 working or not.
+
+297
+00:42:47.120 --> 00:42:49.339
+Brett Hileman: Yep. Yep, that makes sense.
+
+298
+00:42:49.590 --> 00:42:54.700
+Chris Whitney: And then, your 8K a month
+
+299
+00:42:56.450 --> 00:43:01.859
+Chris Whitney: I think it's… I'll have to talk offline, Karen, about this, too.
+
+300
+00:43:02.020 --> 00:43:08.420
+Chris Whitney: our goal is to sustain Taylor internally to an extent, and I know we're gonna be…
+
+301
+00:43:08.820 --> 00:43:19.699
+Chris Whitney: partnering, and we're going to really need you through OE, but I want to get it to a point where we can sustain enhancements ourself at some point in time here, so we'll just have to think through this a little bit internally.
+
+302
+00:43:20.790 --> 00:43:21.640
+Chris Whitney: Right.
+
+303
+00:43:22.210 --> 00:43:38.589
+Brett Hileman: Makes sense. Yeah, I mean, I wonder if it's, like, you know, we're pretty in a pretty active support period for 2026, and then as we get into 2027, I'd imagine there's a lot that we could be handing off in that.
+
+304
+00:43:38.760 --> 00:43:47.420
+Chris Whitney: Well, we do this right when… if we do this right in 2026, at the end of it, we're starting to… we're starting to scope V2.
+
+305
+00:43:47.420 --> 00:43:49.460
+Brett Hileman: Yeah. We're starting to scope V2.
+
+306
+00:43:49.460 --> 00:43:50.270
+Chris Whitney: Right.
+
+307
+00:43:50.860 --> 00:43:52.540
+Brett Hileman: That's the goal. Yeah.
+
+308
+00:43:52.740 --> 00:43:53.460
+Scott Brittain: Is this…
+
+309
+00:43:53.460 --> 00:43:58.130
+Karen Sturdivant: pricing does not include B2, so we will need to know what B2 will be.
+
+310
+00:43:58.970 --> 00:44:08.590
+Chris Whitney: if we… I'll do an… I'll talk on the line with you, Karen. I'll do an all-up 26 cost with some of these assumptions on support, too, and we could take a look at that. The,
+
+311
+00:44:08.860 --> 00:44:17.819
+Chris Whitney: this support team is the same technical resources that were through BUILD, or are we transitioning to a
+
+312
+00:44:18.050 --> 00:44:25.560
+Chris Whitney: different LPL, like, now this is your support team, and this is, like, kind of a managed service on that.
+
+313
+00:44:26.890 --> 00:44:46.129
+Brett Hileman: Yeah, it's usually and almost always the same team. Obviously, like, you know, a developer might get moved here and there, like, there's certain things we can't control, but yeah, I mean, we try to maintain the team as much as possible, especially if we're rolling right into a support period, there's really no reason that we would, like, just do a swap.
+
+314
+00:44:46.130 --> 00:44:54.439
+Chris Whitney: I've done these… done a lot of these in my career, and always have the best and brightest up front, and I've worked with partners that have
+
+315
+00:44:54.620 --> 00:45:11.700
+Chris Whitney: taken that away, so this is also why your staffing approach is super important in understanding who stays engaged, especially on the analysts and the chief technical architects that are going to be the technical minds behind the architecture. I really want to understand how that's being staffed.
+
+316
+00:45:11.950 --> 00:45:22.389
+Brett Hileman: Yep, for sure. We… I have a whole other thing that's, like, exactly down to the week and hour of how we would staff this by role, so I can share a version of that with you.
+
+317
+00:45:22.760 --> 00:45:25.899
+Chris Whitney: Yeah, that'll be super helpful if you share it with Karen and I.
+
+318
+00:45:26.280 --> 00:45:32.089
+Brett Hileman: And if we start to narrow in on, like, when we might get SOW signed,
+
+319
+00:45:32.090 --> 00:45:50.379
+Brett Hileman: and there's… there's a feeling of momentum there. What Scott can start to do is start talking with our operations team to start getting some names, and we could start to, like, share more about their profiles and, you know, who they are and what their experience is. But, yeah, I mean, we're a very senior team.
+
+320
+00:45:50.380 --> 00:46:15.019
+Brett Hileman: Like, we just don't have many juniors at Launchpad, so the chance, you know, you're likely getting a pretty senior team of… you know, how I had it shaped is, like a 2.3 FT velocity on the dev end, which means you're gonna have a full-time, like, lead developer, you'll have a TA support behind that, and then you'll have an additional developer that gets flexed in when we're ready to ramp up
+
+321
+00:46:15.020 --> 00:46:33.470
+Brett Hileman: velocity. How it'd probably most likely come together is those are going to be, like, backend heavy devs. Most of our developers are full-stack, but we might have one… we might flex in one that's, like, really dev- back-end focused. So I… I can, like, share the breakdown with you.
+
+322
+00:46:33.900 --> 00:46:44.479
+Brett Hileman: Yeah. And then, obviously, you get a product person that's doing project work and, like, product work, like, helping understand requirements, shaping, all that fun stuff, so…
+
+323
+00:46:44.890 --> 00:46:52.680
+Chris Whitney: feels like, to me, from a Next Steps perspective, feels like we need…
+
+324
+00:46:53.160 --> 00:46:56.859
+Chris Whitney: I'd love a… oh, what do you got here? Perfect.
+
+325
+00:46:58.450 --> 00:46:59.010
+Brett Hileman: Yep.
+
+326
+00:46:59.120 --> 00:47:03.540
+Brett Hileman: I think there's some additional, steps here that we've talked about that aren't noted.
+
+327
+00:47:03.820 --> 00:47:12.429
+Chris Whitney: Yeah, I think we have to schedule the separate workflow review with, at the very least, Anna and Jagger.
+
+328
+00:47:12.640 --> 00:47:32.449
+Chris Whitney: That should happen to make sure the assumptions are correct there. I have a lot of tech… I have questions, technical capability questions. We'll try to do that through email, and I'll ask some of those questions. I would love a reference. I would love a client reference, as well, that Karen and I could speak with.
+
+329
+00:47:32.600 --> 00:47:47.920
+Chris Whitney: And then, let me… let Karen and I regroup offline, and I think we'll give you the green light on a statement of work when we're ready for that, but let me just adjust to the costs and what you have here, and we can be back in touch with y'all.
+
+330
+00:47:50.480 --> 00:47:51.320
+Scott Brittain: Sounds great.
+
+331
+00:47:51.320 --> 00:47:58.449
+Chris Whitney: Anything, Karen, does that sound like a good plan? Anything from your perspective that you'd like to see in addition from the team?
+
+332
+00:48:00.090 --> 00:48:19.380
+Karen Sturdivant: No, I think this is good. I personally would like to know, like, this is the completion of B1, but what is V2? So, I would like to know, like, the entire project will be this, and for us to be able to also report on, like, these are the expectations of the entire cost.
+
+333
+00:48:20.010 --> 00:48:21.770
+Chris Whitney: If you…
+
+334
+00:48:22.520 --> 00:48:36.630
+Chris Whitney: if you had just a straw man on that, Karen's right, it helps a business case, because it helps… our CEO's gonna… they're gonna ask us that, they're gonna ask us what the vision is, what are we getting in bed with long-term, so…
+
+335
+00:48:36.630 --> 00:48:37.080
+Brett Hileman: Yep.
+
+336
+00:48:37.210 --> 00:48:43.159
+Chris Whitney: you know, I don't need the detail behind it, but if you had thoughts on what that might look like from a cost perspective, that's super helpful.
+
+337
+00:48:43.160 --> 00:48:46.050
+Brett Hileman: Yeah. Do you think a range would suffice for that?
+
+338
+00:48:46.050 --> 00:48:46.810
+Chris Whitney: Totally.
+
+339
+00:48:46.970 --> 00:48:47.590
+Brett Hileman: Okay.
+
+340
+00:48:48.780 --> 00:48:54.249
+Brett Hileman: Yep, I can, I… we already kind of have it, I just need to formalize it, so… no problem.
+
+341
+00:48:54.670 --> 00:48:55.520
+Karen Sturdivant: Perfect.
+
+342
+00:48:57.160 --> 00:48:58.160
+Chris Whitney: Okay.
+
+343
+00:48:58.930 --> 00:48:59.860
+Chris Whitney: Pretty exciting.
+
+344
+00:49:01.150 --> 00:49:10.960
+Brett Hileman: Yeah, yeah, very exciting. Really appreciate your guys' cooperation up to this point, and you know, I feel like these sessions have been very productive, and
+
+345
+00:49:11.140 --> 00:49:12.320
+Brett Hileman: Yeah, yeah.
+
+346
+00:49:12.470 --> 00:49:13.000
+Chris Whitney: Yes, ma'am.
+
+347
+00:49:13.000 --> 00:49:14.969
+Brett Hileman: Agreed. We'll be in touch.
+
+348
+00:49:14.970 --> 00:49:21.359
+Chris Whitney: soon, and I guess you could reach out offline to get the… or reach out to get those… the meeting scheduled and the workflow, and then, we'll be in touch today.
+
+349
+00:49:22.110 --> 00:49:22.880
+Karen Sturdivant: Thank you.
+
+350
+00:49:22.880 --> 00:49:23.849
+Brett Hileman: Thank you so much.
+
+351
+00:49:23.850 --> 00:49:25.610
+Jagger Sturdivant: Good. Bye-bye.
+

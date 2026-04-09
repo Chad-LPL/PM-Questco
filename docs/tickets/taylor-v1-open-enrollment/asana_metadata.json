@@ -1,0 +1,662 @@
+{
+  "2.1.1-Review-and-Define-Technical-Architecture": {
+    "asana_name": "2.1.1 - Review and Define Technical Architecture",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Design, review, and approve technical architecture around Azure\ninfrastructure including Azure resources, integration patterns, data\nservices, identity controls, logging/monitoring, and deployment\nenvironments.",
+    "section": "Sprint 0",
+    "sprint_field": "Sprint 0",
+    "start_due": "2026-03-24 / 2026-04-06",
+    "task_id": "1213779725129518"
+  },
+  "2.1.2-Align-on-User-Stories-and-Acceptance-Criteria": {
+    "asana_name": "2.1.2 - Align on User Stories and Acceptance Criteria",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Define, review, and approve finalized user stories and technical\nrequirements include implementation details, and acceptance criteria.",
+    "section": "Sprint 0",
+    "sprint_field": "Sprint 0",
+    "start_due": "2026-03-24 / 2026-04-06",
+    "task_id": "1213779725129520"
+  },
+  "2.10.1.1-Admin-console-form-for-manual-entry-of-OMQ-plan-data": {
+    "asana_name": "2.10.1.1 - Admin console form for manual entry of OMQ plan data",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807848"
+  },
+  "2.10.1.2-Fields-aligned-to-Prism-plan-schema": {
+    "asana_name": "2.10.1.2 - Fields aligned to Prism plan schema",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807850"
+  },
+  "2.10.1.3-Plan-attributes-carrier-rate-structure-and-core-design-elements": {
+    "asana_name": "2.10.1.3 - Plan attributes, carrier, rate structure and core design elements",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Rate structure (composite or age-banded)",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807852"
+  },
+  "2.10.1.4-Server-side-validation-of-entered-data": {
+    "asana_name": "2.10.1.4 - Server-side validation of entered data",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807854"
+  },
+  "2.10.2.1-Injection-of-OMQ-plans-into-renewal-workbook-alongside-Prism-sourced-plans": {
+    "asana_name": "2.10.2.1 - Injection of OMQ plans into renewal workbook alongside Prism-sourced plans",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807856"
+  },
+  "2.10.2.2-Side-by-side-comparison-within-standard-workbook-format": {
+    "asana_name": "2.10.2.2 - Side-by-side comparison within standard workbook format",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807858"
+  },
+  "2.10.3.1-Inclusion-of-selected-OMQ-plans-in-generated-Prism-import-files": {
+    "asana_name": "2.10.3.1 - Inclusion of selected OMQ plans in generated Prism import files",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807860"
+  },
+  "2.10.3.2-OMQ-plans-follow-standard-Taylor-validation-and-orchestration-flow": {
+    "asana_name": "2.10.3.2 - OMQ plans follow standard Taylor validation and orchestration flow",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807862"
+  },
+  "2.11.1-Production-deployment-in-agreed-environment": {
+    "asana_name": "2.11.1 - Production deployment in agreed environment",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807864"
+  },
+  "2.11.2-End-to-end-QA-and-validation": {
+    "asana_name": "2.11.2 - End-to-end QA and validation",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807866"
+  },
+  "2.11.3-Performance-testing-aligned-to-renewal-season-volume": {
+    "asana_name": "2.11.3 - Performance testing aligned to renewal season volume",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807868"
+  },
+  "2.2.1-Prism-HR-API-Setup-authentication-connectivity-normalization": {
+    "asana_name": "2.2.1 - Prism HR API Setup (authentication, connectivity, normalization)",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213834655988109"
+  },
+  "2.2.2-ClientSpace-API-integration-and-workflow-status-updates": {
+    "asana_name": "2.2.2 - ClientSpace API integration and workflow status updates",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213834655988111"
+  },
+  "2.2.3-SharePoint-file-storage-configuration": {
+    "asana_name": "2.2.3 - SharePoint file storage configuration",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213834655988113"
+  },
+  "2.2.4-Azure-hosting-architecture-and-environment-setup": {
+    "asana_name": "2.2.4 - Azure hosting architecture and environment setup",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213834655988115"
+  },
+  "2.2.5-Adapter-mapping-layer-to-manage-Prism-schema-dependencies": {
+    "asana_name": "2.2.5 - Adapter/mapping layer to manage Prism schema dependencies",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213834655988117"
+  },
+  "2.2.6-Client-list-synchronization-with-ClientSpace": {
+    "asana_name": "2.2.6 - Client list synchronization with ClientSpace",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213834655988119"
+  },
+  "2.3.1-Renewal-state-machine-with-defined-milestones-and-transitions": {
+    "asana_name": "2.3.1 - Renewal state machine with defined milestones and transitions",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213834655988121"
+  },
+  "2.3.2-Structured-logging-and-audit-trail-of-system-events": {
+    "asana_name": "2.3.2 - Structured logging and audit trail of system events",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213834655988123"
+  },
+  "2.3.3-Error-handling-retries-and-exception-management": {
+    "asana_name": "2.3.3 - Error handling, retries, and exception management",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213834655988125"
+  },
+  "2.3.4-Submission-process-for-completed-workbook-ingestion": {
+    "asana_name": "2.3.4 - Submission process for completed workbook ingestion",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Submission process for completed workbook ingestion; likely done via\ntriggering in workbook or via SharePoint triggering",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213834655988127"
+  },
+  "2.3.5-Automated-state-transitions-tied-to-signature-import-and-audit-events": {
+    "asana_name": "2.3.5 - Automated state transitions tied to signature, import, and audit events",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213834655988129"
+  },
+  "2.3.6-Admin-console-providing-renewal-status-visibility-and-light-reporting": {
+    "asana_name": "2.3.6 - Admin console providing renewal status visibility and light reporting",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213834655988131"
+  },
+  "2.4.1-Automated-ingestion-of-client-plan-census-enrollment-data-from-prism-and-rate-data-from-admin-console-upload": {
+    "asana_name": "2.4.1 - Automated ingestion of client, plan, census, enrollment data from prism, and rate data from admin console upload (uploaded on demand)",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213866553394534"
+  },
+  "2.4.2-Pre-generation-validation-of-plans-plan-groups-and-rate-band-designation": {
+    "asana_name": "2.4.2 - Pre-generation validation of plans, plan groups, and rate band designation",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213866553394542"
+  },
+  "2.4.3-Data-normalization-prior-to-workbook-population": {
+    "asana_name": "2.4.3 - Data normalization prior to workbook population",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213866553394544"
+  },
+  "2.4.4-Server-side-validation-of-submitted-workbook-data": {
+    "asana_name": "2.4.4 - Server-side validation of submitted workbook data",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213866553394546"
+  },
+  "2.5.1-Role-based-access-control": {
+    "asana_name": "2.5.1 - Role-based access control",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "(administrator, operations user, view only)",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807784"
+  },
+  "2.5.2-Renewal-status-dashboard": {
+    "asana_name": "2.5.2 - Renewal status dashboard",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "With filtering, sorting, and drill-down to individual renewal detail",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807786"
+  },
+  "2.5.3-Rate-book-management": {
+    "asana_name": "2.5.3 - Rate book management",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Upload and tag rate books to clients, set active/inactive status, and validate correct rate application during workbook generation",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807788"
+  },
+  "2.5.4-OMQ-plan-data-entry-and-management": {
+    "asana_name": "2.5.4 - OMQ plan data entry and management",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807790"
+  },
+  "2.5.5-Audit-result-review-and-exception-monitoring": {
+    "asana_name": "2.5.5 - Audit result review and exception monitoring",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807792"
+  },
+  "2.5.6-Renewal-pipeline-reporting-and-workbook-generation-activity-summaries": {
+    "asana_name": "2.5.6 - Renewal pipeline reporting and workbook generation activity summaries",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807794"
+  },
+  "2.6.1-Generate-renewal-workbooks-using-Questco-templates": {
+    "asana_name": "2.6.1 - Generate renewal workbooks using Questco templates",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807796"
+  },
+  "2.6.2-Populate-workbooks-with-Prism-and-rate-book-data": {
+    "asana_name": "2.6.2 Populate workbooks with Prism and rate book data",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807798"
+  },
+  "2.6.3-Backend-rewrite-of-workbook-setup-macro-logic": {
+    "asana_name": "2.6.3 - Backend rewrite of workbook-setup macro logic",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Includes sheet hiding, renaming, cleanup",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807800"
+  },
+  "2.6.4-Programmatic-sheet-and-workbook-protection": {
+    "asana_name": "2.6.4 - Programmatic sheet and workbook protection",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "This protection should mimic current macro-based workbook protections",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807802"
+  },
+  "2.6.5-SharePoint-storage-and-posting-URL-to-ClientSpace": {
+    "asana_name": "2.6.5 - SharePoint storage and posting URL to ClientSpace",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807804"
+  },
+  "2.6.6-Workbook-completion-trigger-automation": {
+    "asana_name": "2.6.6 - Workbook completion trigger automation",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Triggered by SharePoint-triggered events",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807806"
+  },
+  "2.6.7-Retrieval-parsing-normalization-and-validation-of-executed-workbooks": {
+    "asana_name": "2.6.7 - Retrieval, parsing, normalization, and validation of executed workbooks",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807808"
+  },
+  "2.6.8.1-Scheduled-batch-generation-including-overnight-runs": {
+    "asana_name": "2.6.8.1 - Scheduled batch generation (including overnight runs)",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Batch generation of the workbooks",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807810"
+  },
+  "2.6.8.2-Parallel-generation-of-one-some-or-all-client-workboos": {
+    "asana_name": "2.6.8.2 - Parallel generation of one, some, or all client workboos",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Run in transactions to decouple errors on any individual workbook from another",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807812"
+  },
+  "2.7.1.1-Automated-generation-of-the-Client-Benefit-Elections-CBE": {
+    "asana_name": "2.7.1.1 - Automated generation of the Client Benefit Elections (CBE)",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Generated from an executed client workbook, extracting data into templatized document formats",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807814"
+  },
+  "2.7.1.2-Automated-generation-of-the-Cost-Sheets": {
+    "asana_name": "2.7.1.2 - Automated generation of the Cost Sheets",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Generated from an executed client workbook, extracting data into templatized document formats",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807816"
+  },
+  "2.7.1.3-Automated-generation-of-the-Benefit-Guide": {
+    "asana_name": "2.7.1.3 - Automated generation of the Benefit Guide",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Generated from an executed client workbook, extracting data into templatized document formats",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807818"
+  },
+  "2.7.1.4-Automated-generation-of-the-combined-packed": {
+    "asana_name": "2.7.1.4 - Automated generation of the combined packed",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Generated from an executed client workbook, extracting data into templatized document formats\n\nThe packet includes the CBE, Cost Sheet(s), and Benefit Guide.",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807820"
+  },
+  "2.7.2-DocuSign-Workflow-via-ClientSpace": {
+    "asana_name": "2.7.2 - DocuSign Workflow via ClientSpace",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807822"
+  },
+  "2.7.3-Signature-tracking-and-automated-workflow-transitions": {
+    "asana_name": "2.7.3 - Signature tracking and automated workflow transitions",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807824"
+  },
+  "2.8.1-Generate-plan-setup-and-contribution-import-files": {
+    "asana_name": "2.8.1 - Generate plan setup and contribution import files",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "Pull additional data from Prism if needed",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807826"
+  },
+  "2.8.2-Generate-Open-Enrollment-workflow-to-invoke-import": {
+    "asana_name": "2.8.2 - Generate Open Enrollment workflow to invoke import",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807828"
+  },
+  "2.8.3-Manual-review-checkpoint-prior-to-Prism-submission": {
+    "asana_name": "2.8.3 - Manual review checkpoint prior to Prism submission",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807830"
+  },
+  "2.9.1.1-Billing-and-contribution-reconciliation": {
+    "asana_name": "2.9.1.1 - Billing and contribution reconciliation",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "This is a pre-enrollment audit in the admin console",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807832"
+  },
+  "2.9.1.2-Audit-Reporting": {
+    "asana_name": "2.9.1.2 - Audit Reporting",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "This is a pre-enrollment audit in the admin console",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807834"
+  },
+  "2.9.1.3-ClientSpace-task-creation-for-exceptions": {
+    "asana_name": "2.9.1.3 - ClientSpace task creation for exceptions",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "This is part of the pre-enrollment audit in the admin console",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807836"
+  },
+  "2.9.2.1-HSA-Audit": {
+    "asana_name": "2.9.2.1 - HSA Audit",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "This is a post-enrollment audit in the admin console",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807838"
+  },
+  "2.9.2.2-Orphan-audits": {
+    "asana_name": "2.9.2.2 - Orphan audits",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "This is a post-enrollment audit in the admin console",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807840"
+  },
+  "2.9.2.3-Enrollment-mismatch-detection": {
+    "asana_name": "2.9.2.3 - Enrollment mismatch detection",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "This is a post-enrollment audit in the admin console",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807842"
+  },
+  "2.9.2.4-Data-discrepancy-validation": {
+    "asana_name": "2.9.2.4 - Data discrepancy validation",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "This is a post-enrollment audit in the admin console",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807844"
+  },
+  "2.9.2.5-Exception-routing-through-ClientSpace-workflows": {
+    "asana_name": "2.9.2.5 - Exception routing through ClientSpace workflows",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "This is a post-enrollment audit in the admin console",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213863006807846"
+  },
+  "Spike-Admin-Panel-Framework-or-Library": {
+    "asana_name": "[Spike] Admin Panel Framework or Library",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213866893441647"
+  },
+  "Spike-Architecture-and-Infrastructure-Needs": {
+    "asana_name": "[Spike] Architecture and Infrastructure Needs",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213866893441643"
+  },
+  "Spike-Document-Generation": {
+    "asana_name": "[Spike] Document Generation",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213866893441651"
+  },
+  "Spike-Node-Application-Boilerplate-Setup": {
+    "asana_name": "[Spike] Node Application Boilerplate Setup",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213866893441641"
+  },
+  "Spike-Workbook-Generation-Tool": {
+    "asana_name": "[Spike] Workbook Generation Tool",
+    "assignee": "",
+    "est_dev_days": "",
+    "notes": "",
+    "section": "Backlog",
+    "sprint_field": "",
+    "start_due": "",
+    "task_id": "1213866893441645"
+  }
+}
