@@ -2,12 +2,12 @@
 
 | Field | Value |
 | --- | --- |
-| **Version** | 1.3 |
-| **Date** | April 9, 2026 |
-| **Sources** | SOW: *LaunchPad Lab – Taylor v1 Build – MSA & SOW* (Statement of Work 1); meetings: *Taylor Flow Review/Confirmation – April 7, 2026* ([recording](https://fathom.video/share/4J9apsvNkz-pPdRFxShF4ZpxgBMbGgTy)); *Deep Dive: Workbook – April 8, 2026* ([recording](https://fathom.video/share/NWNNKYC5HZsyyquUZ-zD3ojb1EZ_A4-_)); *Weekly Status – April 8, 2026* ([recording](https://fathom.video/share/Fwev1sti75f5_-WVsTUz42isSgp7hHPw)); *Deep Dive: OMQ – April 9, 2026* ([recording](https://fathom.video/share/A1c3f7uxoXA4TxwiY9uHhGruYARkhotL)) |
+| **Version** | 1.5 |
+| **Date** | April 14, 2026 |
+| **Sources** | SOW: *LaunchPad Lab – Taylor v1 Build – MSA & SOW* (Statement of Work 1); meetings: *Taylor Flow Review/Confirmation – April 7, 2026* ([recording](https://fathom.video/share/4J9apsvNkz-pPdRFxShF4ZpxgBMbGgTy)); *Deep Dive: Workbook – April 8, 2026* ([recording](https://fathom.video/share/NWNNKYC5HZsyyquUZ-zD3ojb1EZ_A4-_)); *Weekly Status – April 8, 2026* ([recording](https://fathom.video/share/Fwev1sti75f5_-WVsTUz42isSgp7hHPw)); *Deep Dive: OMQ – April 9, 2026* ([recording](https://fathom.video/share/A1c3f7uxoXA4TxwiY9uHhGruYARkhotL)); *Deep Dive: Executed Workbook & Document Generation – April 9, 2026* ([recording](https://fathom.video/share/TnPSDgSApSmzzSZFz71SpvrzEbwH7EEE)); *Discovery: Prism Import – April 10, 2026* ([recording](https://fathom.video/share/Y65zDZsayxBmmsj9XjHigju11Fyf1bP4)); *Benefit Guide Discovery – April 14, 2026* ([recording](https://fathom.video/share/br6RERW8BguggHz64QpMhF85BTDwXUxn)) |
 | **Product** | Taylor v1 |
 
-This PRD describes what Taylor v1 must do for Questco, how it fits existing renewal operations, and where scope decisions remain open. Contractual scope is defined by the SOW; this document operationalizes that scope with stakeholder workflow inputs from the April 7 session, follow-on discovery April 8, and the **April 9 OMQ deep dive** (agency operations, materials liability, audits).
+This PRD describes what Taylor v1 must do for Questco, how it fits existing renewal operations, and where scope decisions remain open. Contractual scope is defined by the SOW; this document operationalizes that scope with stakeholder workflow inputs from the April 7 session, follow-on discovery April 8, the **April 9 OMQ deep dive** (agency operations, materials liability, audits), the **April 9 executed workbook and document generation deep dive** (validation columns, triggers, CBE/cost sheet/benefit guide behavior), **April 10 Prism import discovery** (two-file import, benefit rules complexity, Open Enrollment grid vs. CSV import), and **April 14 benefit guide discovery** (static PDF library in SharePoint, workbook-first selections vs Prism validation, per-class benefit guides, DocuSign attachment thinning).
 
 ---
 
@@ -160,22 +160,53 @@ flowchart TB
 
 ### 5.8 Executed workbook → documents & signature
 
-- **Trigger:** **Executed workbook** in SharePoint drives generation (stakeholder alignment from session).
+- **Definition of “executed” (April 9):** For medical, dental, and vision, elections are reflected in **column L**; **column N** must have an explicit **contribution method** chosen (not left in bracketed placeholder text); **O/P** (and related **L–R** band) hold contribution values as applicable. **Employer-paid** lines at the bottom of the workbook (disability, life, EAP, etc.) must be completed. Validation should align with **Baby Taylor**–style checks (kick back incomplete contributions rather than assume). Column **T** remains exploratory from earlier discovery; **April 9** confirmed primary parsing emphasis on **L–R** for MDV plus employer-paid blocks.
+- **Today vs target (April 9):** **Today**, the executed workbook is uploaded to **ClientSpace** (dedicated field); **consultation complete** advances batch status—**SharePoint is not** used for this step today. **Target:** Taylor still needs a reliable **trigger** when an executed workbook is ready. Options under architecture: **SharePoint** file event, a **global ingest folder** with Taylor routing to the correct client using **client ID embedded in the workbook**, or **ClientSpace** configuration that **calls an HTTP endpoint** Taylor hosts when a file is uploaded (mitigates lack of a formal webhook). **Taylor** should **write the SharePoint URL** of the executed workbook back to **ClientSpace** so renewal reps do not maintain two manual steps.
+- **Trigger:** **File availability** drives document generation; exact transport (SharePoint-only vs ClientSpace-first) is an **open architecture** decision ([§8](#8-open-decisions--dependencies)).
 - **Generate together:** **CBE**, **cost sheet(s)**, **benefit guide**, and a **logically combined client deliverable** (SOW §2.7.1). **April 9:** Stakeholders want the **three artifacts available together** for signature and review, but **not** a single merged file or **zip** that an employer might forward incorrectly—prefer **separate files** in the DocuSign envelope (same signing event, distinct attachments). Refines “combined packet” to **combined in workflow**, not necessarily one PDF.
+- **Classes (April 9; benefit guide refined April 14):** **One cost sheet per benefit class** so employees only see costs relevant to their class (employer contribution privacy across classes). **CBE** still presents classes **together** where the template does so (April 9). **Benefit guide (April 14):** Operations leaned toward **one benefit guide per benefit class**—aligned with cost-sheet privacy (different waiting periods by class, owner vs non-owner compensation visibility, etc.); each file **labeled** with class. **Taylor** may generate **all** class guides; renewal reps **remove** redundant attachments in **DocuSign** when one guide truly applies to everyone. **Open:** how **multiple** class-specific guides land in **Prism managed documents** (employee-visible library) if at all—**Dimple**/**Anna** follow-up (**April 14**).
+- **CBE (April 9):** Annual **fees and commission** / disclosure pages update **every year** (blanket Questco). **Signature-page notes** (short call-out text) today come from a **ClientSpace** field; stakeholders favor optionally capturing **notes in the workbook** (e.g., total cost / summary area) so the client has one place to complete everything, with Taylor **syncing notes to ClientSpace** for year-round reference. **Renewal plan rows** on the CBE follow workbook selections; **ordering** is typically **cheapest to most expensive** within groups (align with ClientSpace/Baby Taylor behavior where possible). **Voluntary** block at the bottom is populated from workbook content (today Baby Taylor pushes via ClientSpace round-trip; Taylor can read **directly from the workbook**).
+- **Cost sheet (April 9):** Output is the **cost sheet tab** (formatted third tab today after macro); goal to **eliminate reliance on client-run macros** for generated outputs. Costs use **column Q** (monthly) with **pay frequency** from **Prism** / client master (not necessarily on the workbook); derive per-pay amounts. If the client is **not renewing benefits**, there is **no executed workbook upload**—separate ClientSpace workflow applies (out of this path).
+- **Benefit guide (April 9):** **Conditional inclusion:** include pages for **benefits the client selected**; **static** boilerplate pages can live in a **library** (e.g., SharePoint) with **annual** updates (IRS HSA/FSA limits, plan design changes). **Medical, dental, and vision** each need **dynamic side-by-side** pages (up to **three** plans per page; **paginate** when more than three—e.g., seven plans → three pages). **Table of contents** must reflect dynamic page counts. **Carrier- or OMQ-supplied** PDF pages may still require **manual insert** (compliance stop); third-party historically produced the master guide. Cover / client name and branding patterns per template.
+- **Benefit guide (April 14):** Vendor **master** assets historically labeled “master guide” on **every** page so ops do not email the wrong PDF to a client—Questco requested **revised** assets **without** that banner on each page; **full static page inventory** from vendor still **pending**. **Welcome** page: **waiting period** days (**0 / 30 / 60**, rarely **90** for client-sponsored) are **dynamic** from **Prism benefit rules** (also in ClientSpace; Taylor should prefer Prism). **Enrollment center** and similar **Questco-wide** pages are **static** with **annual** phone/QR updates. **Notices/disclosures** and other **Questco master** carrier pages attach when the client offers that **master** plan; omit when Questco does not sponsor the plan. **Health Advocate:** **fixed** PDF; included with Questco master medical or **standalone**—add **workbook checkbox** alongside other voluntaries. **Medical comparison** grid may list **all** offered options; **rates** stay on the **cost sheet**, not the guide. **Workbook vs Prism:** **Selections** (including new plans not yet in Prism) drive inclusion; **validate** executed workbook vs Prism—**material mismatch** after carrier/plan corrections implies **regenerate** workbook and downstream docs (wide book-of-business errors may bump renewal to **workbook audit**). **Static library:** **PDFs** in **SharePoint**; **Anna** owns content updates; map pages to **plan IDs** in Prism/workbook where possible, else **numbered static map** plus **business logic** in generation. **Carrier logos** for side-by-sides stored in SharePoint; **separate summary pages** per carrier when multiple medical carriers appear (layout preference).
 - **Cost sheet vs. CBE/benefit guide:** Cost sheet reflects **employee-paid** costs per paycheck; benefit guide communicates **employer-paid** benefits that do not appear on the cost sheet.
 - **OMQ and broker-of-record (April 9):** When Questco is **not** the broker for an OMQ plan, operations **avoid Questco-branded materials** that imply Questco liability for that carrier/plan. Today that is handled by **manual** omission, third-party pages, or vendor-inserted medical pages. **Open:** whether Taylor models a **flag**, checklist, or phased automation so **regenerated** documents do not re-introduce excluded content—product/legal follow-up.
 - **When Questco is the broker:** Agency may still supply **side-by-side** medical pages for the third-party benefit-guide vendor to **insert**—process nuance alongside Taylor-generated shells.
 - **Final rates timing (April 9, open risk):** For some small-group OMQ paths, **final** rates may only settle **after enrollment and carrier audits**—implications for when workbook and downstream materials are “final” need further design (**Anna**, **Betty**).
 - **DocuSign:** Routed **via ClientSpace** (SOW §2.7.2). Requirements from workshop:
-  - **Human send (April 9):** **Dimple** and **Anna** prefer a **person** to click **Send DocuSign** after coordinating with the client (reduces surprise expirations and supports outreach).
+  - **Human send (April 9):** **Dimple** and **Anna** prefer a **person** to click **Send DocuSign** after coordinating with the client (reduces surprise expirations and supports outreach). **April 14:** Reps can **remove** extra benefit-guide attachments before send when redundant; **Questco** can also **swap** a PDF if needed (today’s CBE is not client-editable in the envelope—void/decline paths apply).
   - **Notify** on expired, declined, or voided envelopes; avoid silent failures.
   - **Reduce bottleneck:** automation so Anna/Jagger are not the only path to **resend** or reset (exact mechanics TBD with ClientSpace capabilities—e.g., **reset/re-send** flow, batch status rules).
   - Preserve **guardrails:** stakeholders still want **controlled status progression** so batches are not left in inconsistent states.
 
 ### 5.9 Prism import files & manual checkpoint
 
-- Taylor **generates** plan setup / contribution / open enrollment workflow import artifacts as specified (SOW §2.8).
-- **Mandatory manual review** before Prism submission: analyst/imports team must **open and review** files; **ClientSpace task should include a link** to SharePoint location for one-click access.
+- **Two artifacts (April 10):** Prism return is **two separate CSV imports**, not one combined file: **client plan** (plan setup) **first**, then **benefit rules** (contribution strategy, waiting periods, coverage tiers, eligibility rows, etc.). **Rules cannot attach without plans**—analysts run **two separate Prism import actions** (cannot upload both simultaneously).
+- **Benefit rules file complexity:** The rules template has on the order of **~82 columns**; Prism expects the **full header row**—missing columns cause import failure. Prism validates **headers** and **some** required fields; **which** columns are optional is **not clearly documented** in Prism help (gap). Row patterns include **EE / ES / EC / FAM** sequencing, **contribution method** codes (**F** fixed vs **P** percentage; **both** can apply on a plan in some cases), and **dummy/placeholder lines** for certain disability/life products so eligibility tiers still enroll—generation must match **analyst-reviewed** samples (**Sue**, **LaWanda**). **Multi-company ID:** one file may include rows for **affiliated entities** when they share benefits.
+- **Workbook coverage gap (April 10):** Not every Prism rules column has a natural cell on the executed workbook (examples discussed: **eligible status** codes, **eligible days**—may be **derivable** or **static** per client). Questco owes a **column-by-column mapping** (workbook cell / Prism field / derived default) and, where possible, **required-field** markers—see [§10](#10-dependencies-on-questco). **Workbook template** may need **new fields** to close gaps.
+- **v1 posture: file + review (April 10):** Stakeholders lean **CSV import** for v1 so analysts **review** files before Prism, can **hand-edit** edge cases (e.g., waiting period after CBE signed), and absorb **Prism header churn** without assuming API stability. **API** may be more stable long term; **either** path requires maintenance when Prism changes—document as product stance, not ad hoc.
+- **Manual review:** **Mandatory** before production import: analyst/imports team **opens files**; **ClientSpace task** includes a **SharePoint** link ([2.8.3](../tickets/taylor-v1-open-enrollment/2.8.3-Manual-review-checkpoint-prior-to-Prism-submission.md)). **Change policy (April 10):** If client-visible data is wrong, **fix the workbook** and **regenerate** imports so the CBE/signing story stays consistent; **raw import-only edits** are for **process bugs** or **non–client-visible** fixes (with exceptions for rare internal mismatches—see transcript). **Early analyst involvement** remains a workshop commitment.
+- **Open Enrollment “workflow grid” vs CSV import (April 10):** The Prism **enrollment grid** (assign **open enrollment windows**, **workflow** dropdowns, dates so employees can enroll) is **largely orthogonal** to uploading plan/rules CSVs—it is a **separate step** today. Desired end state may include **auto-adding** grid rows after CBE is signed and/or **bulk grid import** from Excel; workflow choice varies by client (medical-only vs ancillary-only vs custom **NBS**-style). This maps to SOW **§2.8.2** as **Prism OE grid / workflow windows**, not “upload CSV to invoke import.” See ticket [2.8.2](../tickets/taylor-v1-open-enrollment/2.8.2-Generate-Open-Enrollment-workflow-to-invoke-import.md) and [§8](#8-open-decisions--dependencies).
+
+```mermaid
+flowchart TB
+  subgraph imports [Prism_CSV_imports]
+    planCsv[Plan_setup_CSV]
+    rulesCsv[Benefit_rules_CSV]
+  end
+  subgraph prism [Prism]
+    plans[Plans_attached]
+    rules[Rules_attached]
+  end
+  subgraph oeGrid [Prism_OE_grid]
+    windows[OE_windows_workflows]
+  end
+  planCsv --> plans
+  plans --> rulesCsv
+  rulesCsv --> rules
+  rules -.->|separate_step| windows
+```
+
 - **Change management:** involve the analyst in Prism import design **early** (workshop action item).
 
 ### 5.10 Audits & reconciliation
@@ -241,7 +272,7 @@ Contextual workflow detail (batch renewal, Prism as SoR, OMQ template preference
 - **2.6.3** Backend rewrite of workbook-setup macro logic (sheet hiding, renaming, cleanup) — [ticket](../tickets/taylor-v1-open-enrollment/2.6.3-Backend-rewrite-of-workbook-setup-macro-logic.md)
 - **2.6.4** Programmatic sheet and workbook protection mimicking current macro-based workbook protections — [ticket](../tickets/taylor-v1-open-enrollment/2.6.4-Programmatic-sheet-and-workbook-protection.md)
 - **2.6.5** SharePoint storage and posting URL to ClientSpace — [ticket](../tickets/taylor-v1-open-enrollment/2.6.5-SharePoint-storage-and-posting-URL-to-ClientSpace.md)
-- **2.6.6** Workbook completion trigger automation via SharePoint-triggered events — [ticket](../tickets/taylor-v1-open-enrollment/2.6.6-Workbook-completion-trigger-automation.md)
+- **2.6.6** Workbook completion trigger automation (SharePoint events and/or alternate triggers per architecture) — [ticket](../tickets/taylor-v1-open-enrollment/2.6.6-Workbook-completion-trigger-automation.md)
 - **2.6.7** Retrieval, parsing, normalization, and validation of executed workbooks — [ticket](../tickets/taylor-v1-open-enrollment/2.6.7-Retrieval-parsing-normalization-and-validation-of-executed-workbooks.md)
 - **2.6.8** Batch generation
   - **2.6.8.1** Scheduled batch generation (including overnight runs) — [ticket](../tickets/taylor-v1-open-enrollment/2.6.8.1-Scheduled-batch-generation-including-overnight-runs.md)
@@ -260,7 +291,7 @@ Contextual workflow detail (batch renewal, Prism as SoR, OMQ template preference
 ### 2.8 Prism import management
 
 - **2.8.1** Generate plan setup and contribution import files; pulling additional data from Prism if needed — [ticket](../tickets/taylor-v1-open-enrollment/2.8.1-Generate-plan-setup-and-contribution-import-files.md)
-- **2.8.2** Generate Open Enrollment workflow to invoke import — [ticket](../tickets/taylor-v1-open-enrollment/2.8.2-Generate-Open-Enrollment-workflow-to-invoke-import.md)
+- **2.8.2** Prism Open Enrollment grid / workflow windows (separate from plan/rules CSV import; SOW §2.8.2) — [ticket](../tickets/taylor-v1-open-enrollment/2.8.2-Generate-Open-Enrollment-workflow-to-invoke-import.md)
 - **2.8.3** Manual review checkpoint prior to Prism submission — [ticket](../tickets/taylor-v1-open-enrollment/2.8.3-Manual-review-checkpoint-prior-to-Prism-submission.md)
 
 ### 2.9 Auditing & exception handling
@@ -319,10 +350,16 @@ Contextual workflow detail (batch renewal, Prism as SoR, OMQ template preference
 | **OMQ: one template vs. medical/dental/vision split** | Clarify (Apr 9) | Agency rarely shops dental/vision OMQ; **separate templates** discussed—decide with LPL/product. |
 | **OMQ: non-broker benefit guide / Questco liability** | Open (Apr 9) | When Questco is **not** broker, exclude OMQ from Questco-branded outputs; **flag vs. manual** process vs. phased Taylor behavior. |
 | **OMQ: final rates vs. enrollment timing** | Open (Apr 9) | Some small-group OMQ **final** rates land **after** enrollment; may affect materials timing or phasing. |
-| **DocuSign: attachment packaging** | Narrowed (Apr 9) | **Human send** preferred; **CBE + cost sheet + benefit guide** as **separate attachments**, not one sloppy combined file or zip ([§5.8](#58-executed-workbook--documents--signature)). Notifications/resend mechanics still **in design** with ClientSpace. |
+| **DocuSign: attachment packaging** | Narrowed (Apr 9; Apr 14) | **Human send** preferred; **CBE + cost sheet + benefit guide(s)** as **separate attachments**, not one sloppy combined file or zip ([§5.8](#58-executed-workbook--documents--signature)). Reps may **drop** duplicate class guides before send (**Apr 14**). Notifications/resend mechanics still **in design** with ClientSpace. |
+| **Prism managed documents vs per-class benefit guides** | Open (Apr 14) | If **all** class guides were stored in **Prism** employee-visible folders, **access** may not respect class—policy TBD (**Dimple**, **Anna**). |
 | **DocuSign automation details** | In design | Notifications, resend/reset, batch rules with ClientSpace constraints. |
 | **Prism import UX for analysts** | In design | ClientSpace task + SharePoint deep link; early analyst involvement. |
 | **Post-enrollment audits: Taylor vs. underwriting** | Partial (Apr 9) | Taylor **flags**; full underwriting stays external; possible **follow-up** session. |
+| **Executed workbook trigger** | Open (Apr 9) | SharePoint file event vs **global ingest folder** + client ID routing vs **ClientSpace → HTTP callback** to Taylor; permissions (e.g., upload-only drop folder). |
+| **Prism rules/plan column mapping** | Open (Apr 10) | Pending Questco **spreadsheet**: template column → workbook / Prism / derived default; **required** fields where knowable (**Anna**, **Dimple**, **Jagger**, **Sue**, **LaWanda**). |
+| **Prism Open Enrollment grid vs imports** | Open (Apr 10) | **Grid** (OE windows, workflow assignment) is **not** the same as plan/rules CSV upload; automation vs manual vs **grid import** file—see [2.8.2](../tickets/taylor-v1-open-enrollment/2.8.2-Generate-Open-Enrollment-workflow-to-invoke-import.md). |
+| **Prism write path: file vs API** | Narrowed (Apr 10) | **v1:** generate **CSV** + analyst review; API may reduce long-term churn—either path needs maintenance on Prism schema changes. |
+| **Admin / OE grid visibility** | Open (Apr 10) | Surface whether clients have **OE workflow windows** configured so none are “left behind” ([2.3.6](../tickets/taylor-v1-open-enrollment/2.3.6-Admin-console-providing-renewal-status-visibility-and-light-reporting.md)). |
 
 ---
 
@@ -343,6 +380,8 @@ Contextual workflow detail (batch renewal, Prism as SoR, OMQ template preference
 - **Timely feedback**, approvals, rate data, and test data (SOW §4.11).
 - **Workspace/data form IDs** and related identifiers for integrations (per April 7: report in progress).
 - **OMQ samples:** **SBC** examples and **real open-market case** walkthroughs from agency (**April 9**) to stress-test templates, partial age-banded display, and materials edge cases.
+- **Prism import mapping (April 10):** **Column-by-column** mapping from Prism **plan** and **benefit rules** templates to sources (**workbook** cells, **Prism** fields, **derived** defaults); **required-field** list where **Sue** / **LaWanda** / help text can confirm; **sample files** illustrating edge cases (disability/life tier lines, multi-entity rows).
+- **Benefit guide assets:** Page **inventory**, static library ownership (in-house vs third party), and **annual** update ownership for IRS limits and plan design changes (**April 9**). **April 14:** Complete **vendor** page set (PDF), **naming/ID** scheme aligned to workbook/plan IDs, and **carrier logos** for side-by-sides.
 
 ---
 
@@ -359,5 +398,7 @@ Contextual workflow detail (batch renewal, Prism as SoR, OMQ template preference
 - **v1.1:** §6 functional requirements reframed as SOW §2 line items with links to repo tickets under `docs/tickets/taylor-v1-open-enrollment/`.
 - **v1.2:** §5.4/§5.7/§8 updated from **April 8, 2026** transcripts (SharePoint rebanding, Prism rate import ownership, Q Insights gate, OMQ template and age-banded caveat, renewal timing).
 - **v1.3:** §5.4/§5.7/§5.8/§5.10/§8/§9/§10 updated from **April 9, 2026** *Deep Dive: OMQ* (agency kickoff and timing; temps vs. agency roles; OMQ exempt from master rate bands; Prism import headers in Asana; SBC boundary; broker liability and DocuSign packaging; audit scope vs. underwriting; Questco sample dependencies).
+- **v1.4:** §5.8/§5.9/§8/§10 updated from **April 9, 2026** *Deep Dive: Executed Workbook & Document Generation* and **April 10, 2026** *Discovery: Prism Import* (executed definition L–R/N/O/P, triggers, per-class cost sheets, CBE notes, benefit guide dynamics, two-file Prism import, rules file complexity, OE grid vs CSV, review policy, mapping dependency).
+- **v1.5:** §5.8/§8/§10 updated from **April 14, 2026** *Benefit Guide Discovery* (per-class benefit guides vs single guide; SharePoint static PDFs; workbook vs Prism validation; master-label vendor assets; welcome/enrollment/disclosure/Health Advocate rules; DocuSign attachment thinning; Prism managed-documents open question).
 - This PRD should be updated when admin console, rate-book, OMQ capture, or DocuSign decisions close.
 - **Contractual scope** remains governed by the MSA and SOW; discrepancies should be resolved via change control, not informal docs.

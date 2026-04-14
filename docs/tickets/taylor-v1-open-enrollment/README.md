@@ -27,6 +27,23 @@ Repo tickets and [Taylor v1 PRD v1.2](../../prd/Taylor-v1-Open-Enrollment-Orches
 - **Reporting:** Q Insights evaluation in flight; if it cannot deliver, build admin console reporting. Triggers for generate/regenerate: not ClientSpace-only—manual procedure / M365 / Taylor UI.
 - **OMQ:** BSR = tracking checkboxes only; Excel template + regenerate workbook; age-banded quotes may be partial in workbook; batch stays in consultation.
 
+#### April 9–10, 2026 — executed workbook, documents, Prism import ([PRD v1.4](../../prd/Taylor-v1-Open-Enrollment-Orchestration-PRD.md))
+
+Transcripts: [Executed workbook & document generation — April 9](../../meetings/DeepDiveDiscovery-executedworkbookanddocgeneration-4.9.26.md), [Prism import discovery — April 10](../../meetings/DiscoveryPrismImport-4.10.26.md).
+
+- **Executed workbook:** Definition uses **L**, **N** (explicit contribution method, not bracketed placeholder), **O/P**, **L–R** for MDV, plus **employer-paid** block; **Baby Taylor** parity for kick-backs. Triggers: SharePoint event vs **global folder** + client ID in file vs **ClientSpace → HTTP** to Taylor; **Taylor** posts **SharePoint URL** to ClientSpace ([2.6.5](./2.6.5-SharePoint-storage-and-posting-URL-to-ClientSpace.md), [2.6.6](./2.6.6-Workbook-completion-trigger-automation.md)).
+- **Docs:** **Per-class cost sheets**; **CBE** notes from workbook optional; **benefit guide** static library + dynamic M/D/V side-by-sides (max 3 per page, paginate); **TOC** dynamic; separate DocuSign attachments ([2.7.1.x](./2.7.1.1-Automated-generation-of-the-Client-Benefit-Elections-CBE.md)). **Superseded for benefit guide class model** by April 14 session—see below.
+- **Prism:** **Two CSV imports** — **plan** then **benefit rules**; full **~82-column** rules header; mapping **gap list** from Questco; **OE grid** (windows/workflows) ≠ CSV import ([2.8.1](./2.8.1-Generate-plan-setup-and-contribution-import-files.md), [2.8.2](./2.8.2-Generate-Open-Enrollment-workflow-to-invoke-import.md)); v1 **file + analyst review** ([2.8.3](./2.8.3-Manual-review-checkpoint-prior-to-Prism-submission.md)).
+
+#### April 14, 2026 — benefit guide discovery ([PRD v1.5](../../prd/Taylor-v1-Open-Enrollment-Orchestration-PRD.md))
+
+Transcript: [Benefit guide discovery — April 14](../../meetings/BenefitGuideDiscovery-4.14.26.md).
+
+- **Structure:** **Per-class benefit guides** (labeled), paralleling **per-class cost sheets**; **Taylor** can generate **all**; renewal reps **remove** extras in **DocuSign** when one guide applies to every class.
+- **Assets:** Static pages as **PDFs** in **SharePoint**; vendor **full inventory** and **master-label** revision pending; map pages to **plan IDs** where possible.
+- **Data:** **Workbook** drives selections; **validate** against **Prism**—mismatch → **regenerate**; **welcome** waiting period from **Prism benefit rules** (0/30/60/90 edge cases).
+- **Open:** **Prism managed documents** visibility across classes if **multiple** guides are stored—policy follow-up ([2.7.1.3](./2.7.1.3-Automated-generation-of-the-Benefit-Guide.md), [2.7.1.4](./2.7.1.4-Automated-generation-of-the-combined-packed.md)).
+
 #### April 9, 2026 — OMQ deep dive ([transcript](../../meetings/DeepDiveonOMQ-4.9.26), [PRD v1.3](../../prd/Taylor-v1-Open-Enrollment-Orchestration-PRD.md))
 
 - **Ops:** Agency owns shopping; kickoff = proactive strategy or client request (CS → shopping task). Quote timing often **5–10 BD** (longer for appointment gaps / large group). **Temps** key template; agency does strategy + client summary; Taylor needs **full Prism-level** template fields.
@@ -89,7 +106,7 @@ Then **export CSV from Asana** (when ready) and regenerate `asana_metadata.json`
 - [2.7.2 - DocuSign Workflow via ClientSpace](./2.7.2-DocuSign-Workflow-via-ClientSpace.md)
 - [2.7.3 - Signature tracking and automated workflow transitions](./2.7.3-Signature-tracking-and-automated-workflow-transitions.md)
 - [2.8.1 - Generate plan setup and contribution import files](./2.8.1-Generate-plan-setup-and-contribution-import-files.md)
-- [2.8.2 - Generate Open Enrollment workflow to invoke import](./2.8.2-Generate-Open-Enrollment-workflow-to-invoke-import.md)
+- [2.8.2 - Prism Open Enrollment grid / workflow windows (SOW §2.8.2)](./2.8.2-Generate-Open-Enrollment-workflow-to-invoke-import.md)
 - [2.8.3 - Manual review checkpoint prior to Prism submission](./2.8.3-Manual-review-checkpoint-prior-to-Prism-submission.md)
 - [2.9.1.1 - Billing and contribution reconciliation](./2.9.1.1-Billing-and-contribution-reconciliation.md)
 - [2.9.1.2 - Audit Reporting](./2.9.1.2-Audit-Reporting.md)
