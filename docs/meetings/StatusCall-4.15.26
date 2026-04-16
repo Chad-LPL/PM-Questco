@@ -1,0 +1,219 @@
+Questco - LPL: Weekly Status Check-In - April 15
+VIEW RECORDING - 31 mins (7 mins of highlights): https://fathom.video/share/K_ycEbRvgzBEyQDrHPNcLyT7xDCzhdFs
+
+---
+
+0:00 - Chad Gregory (LaunchPad Lab)
+  Good. Same here. Let's see. We've got the usual suspects. Do we know if Chris will be joining today?
+
+0:14 - Dimple Desai (Questco Cos)
+  He should be. Okay.
+
+0:18 - Chad Gregory (LaunchPad Lab)
+  Let me pull up here. Give him a moment.
+
+0:34 - Dimple Desai (Questco Cos)
+  Connor, are you still getting the unable to validate database error?
+  SCREEN SHARING: Chad started screen sharing - WATCH: https://fathom.video/share/K_ycEbRvgzBEyQDrHPNcLyT7xDCzhdFs?timestamp=38.652712
+
+0:43 - Conor Hawes
+  Yeah, was 20 minutes ago. Oh, okay.
+
+0:48 - Dimple Desai (Questco Cos)
+  I haven't tried since I sent the message. The only thing I can think of is there's a different password for the demo account than there is for live, but I'm sure you already saw that.
+
+0:59 - Conor Hawes
+  Yeah. Yeah, when I use, like, a different password, like, if I use a different password and the PEO ID of 492, then it just, it gives me a different error message.  So it's, like, invalid login. Whereas when I use, when I try and use the PEO ID of 492 asterisk D, that's when I get the, like, invalid database lookup.
+
+1:25 - Dimple Desai (Questco Cos)
+  Okay. So, yeah, not sure. I tested the, like, the production web service user, like, went back to that, and that's working, so.  Should I just reset the password again, maybe? I don't know, maybe.
+
+1:42 - Conor Hawes
+  Yeah, I mean, worth a shot. Yeah, it's worth a shot.
+
+1:47 - Dimple Desai (Questco Cos)
+  I'll take another look, too, though, at the setup, but I kind of, I just copied the same setup as live, except the PEO ID is different, and the password is different.  That's the only difference. Okay, I'll let you know. Okay, thanks.
+
+2:07 - Chad Gregory (LaunchPad Lab)
+  I'm going to get us rolling since we only have 30 minutes. It'd be good for Chris to hear some of this, but hopefully he'll be able to join in a minute or so.  We want to start with a lightweight demo from Conor, showing some of the progress on Prism integration. I wanted to talk through some change order discussion.  This is kind of just throwing the first shot across the bow or whatever, like thinking about some differences between what we've been talking about and what was in the original scope of the SOW.  I think one of the good things is like Admin Console kind of has come back to, I mean, maybe it's good, maybe it's bad.  Admin Console. It's kind of come back now, and we do have a call tomorrow morning with Anna to determine some of the specifics about where Admin Console is landing, because some of it still has changed or is less needed than we had originally thought.  Brief, quick touch on probably some demo data stuff, although I do think we will get some time early next week just to look through that and kind of validate that we think it'll be good for testing.  And then if we have time, I want to show you guys sort of our sprint goals for these first three sprints.  Sprint zero did take a little bit longer than was initially planned, but we have somewhat of a sort of like a high level plan here for the next six weeks and wanted to share that with you.  Obviously, you have access to see this as well, but let's start by giving Connor a chance to show off what he's been up
+  HIGHLIGHT - WATCH: https://fathom.video/share/K_ycEbRvgzBEyQDrHPNcLyT7xDCzhdFs?timestamp=240.0
+    Or part of what he's been up to, least.
+
+
+4:08 - Conor Hawes
+
+    Thanks, Chad. This won't be the most interesting demo, but in the spirit of showing things that we're working on, just wanted to give you guys a little bit of insight there.
+
+  SCREEN SHARING: Conor started screen sharing - WATCH: https://fathom.video/share/K_ycEbRvgzBEyQDrHPNcLyT7xDCzhdFs?timestamp=269.013378
+    So apologies if it's not super buttoned up here. So one thing that I was doing was just exploring the Prism integration.
+
+    So right now, I'm using the web service user that has access to production, but only the demo accounts on production, and still working with Dimple to figure out how to get it, working for the sandbox.
+
+    And what I have here is just... It's like a pretty simple script that will pull the employees, and then, sorry, my co-workers joining me here.
+
+    It will pull the employees for the specific client, and then check to see if any of their zip matches.
+
+    And this is like, it's very contrived, right, for this example. But if it matches, you can see here that I have some like hard-coded plans here.
+
+    So I will, I'm going to use, I think I'm going to 105, which is a test account. And I can't show you in Prism because I don't have, I don't have the user to log into Prism.
+
+    I only have that on the demo side. So apologies for like not having the full end to end there.
+
+    So when I run the script, I'll clear this out, increase the font size a little bit. So I'm going to run it, and then I'll show off a few things here.
+
+    So we can see there are a couple of requests. So I'm getting the list of employees. So there are 26 employees active or on leave.
+
+    And then I'm getting the details from Prism for those employees. And of the 26 employees, there are eight or nine of them that have a zip code that match this contrived setup that I have.
+
+    And so then it identifies that these additional plans are needed. I know we've had conversations about like where exactly that mapping is going to live.
+
+    And this demo by no means attempts to solve for that. But I am trying to replicate like a piece of baby Taylor that will be incorporated into Taylor for performing this validation and making sure that the plans are in place.
+
+    And one. And one other thing that I wanted to show off was just more so from like a DX perspective or for the experience for the dev team.
+
+    Like from the Prism API documents, we are able to export their OpenAPI JSON file. And that's actually what I'm using to generate the types for our TypeScript files.
+
+    And one of the benefits of that is that using another tool, a CLI tool called Redocly, we can actually filter the actual like API endpoints that we use to match the like pretty granular settings that the web service user has.
+
+    So if I look here in Prism, there are like hundreds of API endpoints. And we certainly... We don't need access and we certainly won't like tailor the API, the web service user from the principle of least privilege won't be able and shouldn't be able to access some of these payroll, for example.
+
+    So within the development experience, we can filter the docs that we get so that we only are generating types for specific endpoints.
+
+    So if I go in here and I set this up ahead of time, but if I try and get the client codes, which is actually ironically an endpoint that we will need, but it's not set up yet, then I will get an error inside my editor saying that this pack isn't available.
+
+    And so that'll keep us kind of laser focused on what the web service user actually has access to. And if I were to like ignore this error and run it, I would then subsequently get an error in the, from the.
+
+    API, because the web service user hasn't been configured for that particular endpoint. But in the kind of the flow of Taylor, we would be using this particular endpoint with the benefit group option to get the benefit groups for, or the classes for the client, and then match that to the benefit group IDs that we have here.
+
+    So we can see here, among, across the eight or nine employees that it matched, there are two benefit groups.
+
+    Now, that doesn't mean that there are only two benefit groups for this client, but that is, and I can't see that because I don't have access to the API endpoint with the web service user yet.
+
+    But within the subset, we can see that there are multiple classes represented. And then the, I guess the last thing I want to mention is, too, is that being able to export the, this, like, OpenAPI JSON file also allows us to pull it into.
+
+    To tools like Postman. So we can have collections. You can see here basically like I have the documents in here, but it goes all the way through to actually having the like individual API endpoints and I can set variables and everything and work and test Prism from here, which has really helped accelerate my exploration of the API outside of this like scratch file that I've been working out of.
+
+    So that's it. That's the scope of the demo. It's not, you know, Taylor isn't done yet.
+  I wish I could say that, but yeah, this is sort of been a step in the right direction. And this Postman collection especially will help me in terms of the work for this sprint and really trying to map out all of the different endpoints, you know, tweak some of the configuration settings with Dimple for the endpoints that we'll need and maybe some that we won't need.  Like I said, like we don't want to over permission. Like Thank Then the user, and really just like figure out where to get all the fields and like how to transform them for the document.  So Dimple and Jagger, you will be hearing a lot from me this week.
+
+11:19 - Chad Gregory (LaunchPad Lab)
+  What questions do you guys have for Conor based on what you saw? Anything?
+
+11:27 - Anna.Fiske
+  Not from my side.
+
+11:30 - Dimple Desai (Questco Cos)
+  Not at the moment, but thank you for showing us. Yeah, it all looks great. Wait, are you saying Taylor isn't done yet?
+
+11:38 - Anna.Fiske
+  We're close.
+
+11:39 - Chad Gregory (LaunchPad Lab)
+  I wish, I wish.
+
+11:40 - Conor Hawes
+  Super close.
+  SCREEN SHARING: Chad started screen sharing - WATCH: https://fathom.video/share/K_ycEbRvgzBEyQDrHPNcLyT7xDCzhdFs?timestamp=706.159086
+  SCREEN SHARING: Chad started screen sharing - WATCH: https://fathom.video/share/K_ycEbRvgzBEyQDrHPNcLyT7xDCzhdFs?timestamp=706.159086
+
+11:43 - Chad Gregory (LaunchPad Lab)
+  All right, let me pull my screen back up. I know Chris still isn't here yet. This recording, I'll tag you guys on so he can watch it as well, see the demo.  But definitely on the change order discussions, I think he'll be... Let's Let's Go. Interested in, and I think Scott B.  is planning to give him a call tomorrow afternoon just to check in one and also to touch on these.  These probably, I mean, I don't know how big of a shock it might be to you guys that like we're calling these things out or not, and that's why I want to have this discussion.  But these are kind of the things that we're identifying as likely, like out of scope at least. And there's also room for, you know, maybe we aren't doing these things, so they don't need to be in the change order.  But I want to just talk through them. So one, the first area was on those workbook changes. So there were a few things that we, or a couple things at least, that we called out to make changes to the workbook template that we received.  It's possible that... You all actually make those changes, and then there's probably still a little bit of additional work or, you know, it affects the work that we're doing, but would change the scope of the change order.  But one was moving those voluntary plans from just being on the workbook to actually being selectable on the workbook in those class sheets and kind of formatting that so it looks nice.  And then additionally reformatting the bottom of the class sheet so that it matches all the medical, dental, and vision plans as well.  Then the other change that we had on the workbook was adding the notes to the total cost sheet. The total cost, I guess, yeah, total cost sheet so that that could be included in the CBE.  The big reason for these is, I think, in In this statement of work, it kind of references, you know, we're just going to get the template and then start working on it kind of as is.  But in addition to that, it would also have like ripple effects to other work that we need to make these changes to the workbook.  And that makes, you know, like picking up the ticket for data parsing for the CBE, for example, that makes that ticket different than just if the workbook was ready to go.  Any comments on that? Any discussion that we want to have on that? Would it make sense for you all to take the task of updating the workbook template?  I think that's the one thing that I'm curious about because obviously you're going to want that workbook to look a certain way for your clients as well.  But you also haven't done that to date. So I don't if there's a blocker or something there.
+
+15:00 - Anna.Fiske
+  I think that's something we can take on for Questco as far as adding the changes to the workbook that we need.
+
+15:07 - Chad Gregory (LaunchPad Lab)
+  Okay. That's great. I think that does lessen the amount of change here. Do you know how quickly that would be able to be done?
+
+15:21 - Anna.Fiske
+  I don't. And the only reason I said yes is because I asked Jagger really quick, are we able to make those changes?  Because he's the one who knows how to break into the workbook because it's pretty sophisticated for me. But we can meet internally, just try to look at it, what we want to get done, and then give you a timeline after that, if that's okay.  And I'm also okay if it's like a little bit of collaboration there too.
+
+15:44 - Chad Gregory (LaunchPad Lab)
+  Okay. You know, maybe it's like, well, there's two things rattling in my head. One is like, maybe it's a scenario where, you know, Jagger doesn't have to build out all of the functionality of it, and we just really need the format.  Okay. Okay. Okay. But the other end of that is you would want sort of that functionality in there so that when we build it, then you're able to like test and it's like one-to-one.  But let's discuss that more. I'll consider this like probably Questco is going to take on the changes to the workbook itself.  Jagger, how do you feel about that? Do you have any thoughts given what Anna just said? No, I think that's what we need to do.
+
+16:33 - Jagger Sturdivant (Questco Cos)
+  We just need to regroup internally first.
+
+16:35 - Chad Gregory (LaunchPad Lab)
+  Okay, perfect. Yeah, let us know. Oh, Nikki, go ahead.
+
+16:40 - Nikki Dow
+  Yeah, I guess when you say like the functionality, are we talking about like making sure the formulas and whatnot are wired up?
+
+16:51 - Chad Gregory (LaunchPad Lab)
+  Yeah.
+
+16:52 - Nikki Dow
+  Okay, because I think my preference would be that that is all wired up just because the That's it. Yeah.  Okay. The generation tools I'm looking at kind of need a version of the worksheet with those in place. Okay, that's a good call.
+
+17:09 - Chad Gregory (LaunchPad Lab)
+  that makes sense. That's a good call out. I'll keep going on this. The other area that we saw some changes or like difference from the scope was on the benefit guide.  I don't think there was really an assumption that there would be more than one benefit guide needing to be generated, which was a thing that we wanted to call out.  So when multiple classes occur, needing to generate multiple benefit guides, which was something that we found yesterday. And I think also, I mean, this one, I wasn't in the sales cycle, so I wanted to get Scott B's opinion on this too.  But generally generating dynamics. Content on several of these pages, rather than just like taking the pages as they are and collating those together based on those client selections are kind of two different things.  And I don't know if you have felt that there's a difference in what had been talked about during the sales cycle and what we've been talking about on dynamic generation.
+
+18:28 - Anna.Fiske
+  Not specifically the dynamic generation, but definitely having a benefit guide for each class. That was not discussed in the beginning.  And I don't think that would, that's ideal for Questco either. But as we talked about it more in our calls where I was like, it kind of feels like we're going to have to do it that way just because there's so many variations and it's not a complete if then, you know, it's always, it just depends.  Well, maybe, but definitely the dynamic benefit guides were discussed as far as having the client name, the new year, the new disclosures, that kind of stuff.  That's good to know.
+
+18:59 - Chad Gregory (LaunchPad Lab)
+  I'm sure. Scott would tell me that too. So, you know, maybe that's not really included here, but, and I know on the multiple benefit guides front, you had also mentioned that you weren't really sure how they did it last year, since you were on a maternity.  If for some reason they had like a good way of doing it with one guide, I mean, maybe there is a way to do, I don't know.
+
+19:28 - Anna.Fiske
+  I think it was one guide, except for the ones when we needed multiple guides, like the owners got a different life insurance, but our third party really did all of that for us.  So that would be all the work was generated on them, not us.
+
+19:43 - Chad Gregory (LaunchPad Lab)
+  Yeah. So in that case, that would be kind of the, oh, we give somebody a chance to click a checkbox to say generate multiple first, because Taylor just always generates multiple.  Okay. That's good to know. um, as, I mentioned on the Admin Console, we'll talk more about this tomorrow. There was a world where we just weren't doing the Admin Console for a little bit, but knowing that we need definitely the reporting, I think we are going in the direction of the Admin Console.  I've gotten Nico back moving on the Admin Console. He'll be involved in that conversation tomorrow. I think we'll land on where these requirements are, and I just wanted to call these out as I think there are going to be changes.  It may even be in Questco's favor, potentially. You know, if, for example, we're not doing as many errors in the Admin Console, although I do also want to call out those errors still need to be tracked and would be somewhere, even if they're not in the Admin Console.  So that may not actually change scope, but could change the verbiage and the change order or something so that it's.  It's at least in line with what we're actually doing. So we'll talk more about that tomorrow and kind of get in alignment there.  But I think there's probably something around that in a potential change order. I also just want to mention, I don't want the change order to be scary for anybody.  I think this is just a thing that we've all found new requirements throughout the discovery. So it's not anything that anybody's mad about, I think.  It's just we want to be in line and make sure that it aligns what we agree on versus what we actually build.  Any other questions, thoughts, or concerns about any of that? Do you guys have a hard date for the workbook changes?
+
+21:47 - Anna.Fiske
+  Like, ideally, you would like to get it back by a certain day?
+
+21:51 - Chad Gregory (LaunchPad Lab)
+  Let me think. Nikki, I might need your thought here, too, because you are working on the CSS. Export and the Class Plans, is that the name of that one?  Yeah, Classes Plans Sheet right now. I don't think it impacts either of those sheets. It does impact the parsing and normalization that we had planned for José here, but maybe there's a world where we just account for it a little bit.  But, I mean, ideally we could have it figured out this sprint, I would say, like by the end of next week.  But I don't know if that's crazy for you, Jagger. I don't know what else you have going on. I know we're taking a lot of your time already.
+
+22:50 - Jagger Sturdivant (Questco Cos)
+  You said end of next week? that what you... Yeah.
+
+22:54 - Chad Gregory (LaunchPad Lab)
+  I'm trying to be reasonable-ish, but also know what we're working on.
+
+22:58 - Jagger Sturdivant (Questco Cos)
+  I think it depends. We need... We to figure out what all we want to add to it before we can kind of determine a good timeline for that.  That doesn't sound unreasonable on paper, but like I said, I don't know what we're going to be changing.
+
+23:12 - Anna.Fiske
+  Yeah. Okay.
+
+23:15 - Chad Gregory (LaunchPad Lab)
+  Plus, you're here on Friday. That's true. Okay. Well, yeah, start having those internal discussions. Let us know where we can jump in to add some thought to.  Let's just say right now we're aiming for end of Sprint 1, which is next Friday. That way, we have a date in mind.  But if it gets crazy, Jagger, and we need to like readjust our timeline or something, we can.
+
+23:43 - Jagger Sturdivant (Questco Cos)
+  Okay.
+
+23:46 - Chad Gregory (LaunchPad Lab)
+  I have five minutes left-ish. So I wanted to talk about demo data. So Dimple, thank you for providing notes about this.  Um, and... And... Connor and Nikki, may ask you to weigh in a little bit here, because I haven't seen what's on demo or anything yet.  Dimple, you mentioned that there are a bunch of different clients in demo already that kind of span the breadth of scenarios, status, like stages of the process.  The main goal of this ticket to you, and I just didn't know what was maybe there already, is that as we go through the process of building certain things, you know, for example, Nikki builds out the CS export sheet of the workbook, and we can generate that.  We would like to be able to run that on an example and demo and see that it matches what would have already been, you know, generated by BabyTaylor, for example.  Mm-hmm. Do you feel like that's what's already there? Yes.
+
+25:05 - Dimple Desai (Questco Cos)
+  So to give you guys a little bit of context, I got both of the sandbox environments for ClientSpace and Prism refreshed on either Friday or Monday.  Sorry, last Friday or this Monday. forgot which of the days it was. But so we have real client data in there.  So it should span every single kind of situation that we currently have. In addition to that, when I looked in our ClientSpace QA environment, I did take a look at some of our batch statuses.  And we do have a ton of different batches under every single status that we have available in the system.  But we have every single benefit plan, every single client-sponsored plan that we offered last year available in the sandbox environment.
+
+25:59 - Chad Gregory (LaunchPad Lab)
+  Good. Um, Connor and Nikki, I'll let you guys weigh in on if you feel like there's areas that might be critical or missing, if you've done any digging on there yet.
+
+26:17 - Nikki Dow
+  Um, I'm glad to hear there's like a, uh, the database was like refreshed from real data. That's definitely going to come in handy.  Um, I think it might be helpful to have, um, a list of clients that maybe, you know, are in those like weirder scenarios that you all run into that we need to be accounting for.  Um, I guess maybe if we had like two or three clients that are like run of the mill, like kind of happy path, and then two or three that, um, you know, like their setup is more complicated, like having that list to be checking against would be really helpful.
+
+26:59 - Dimple Desai (Questco Cos)
+  Yeah. Yeah, I can definitely look into that for you.
+
+27:02 - Nikki Dow
+  That would be awesome. And then just going forward in the development phase, having help from Anna and Dimple on testing those scenarios will be really crucial, I think.  Absolutely, we'd be happy to.
+
+27:20 - Chad Gregory (LaunchPad Lab)
+  Awesome. Okay, cool. Just to give you a sense now of what we're focused on right now in Sprint 1, I'm just going to run through this, but Nikki is sort of focused on getting the Azure hosting environment set up, setting up this application stack, and updating some architecture on that, which Jagger, I think, will want your and Chris's eyes on and approval on when it's ready.  She's also working on those two workbook sheets that I mentioned. Connor is... It is in sort of integration mode, following up off of his demo for Prism and Client Space, and getting ready to kind of set up that initial SharePoint configuration, which is why we had some questions on that this week already.  And meanwhile, José has been very focused on the benefit guides so far, which is at the bottom, but that's actually the first thing that he's working on.  Trying to figure out, okay, how do we generate these? What's the best way to think about mapping everything, all the pages to the selections, and like the conditionals there?  How do we generate the dynamic data appropriately? And I guess also generate multiple guides for the different classes here.  The expectation is potentially like next on the call next week. Maybe we'll show like a little proof of concept version of that.  That's definitely TBD. But the goal is that in the future sprints, José will be able to like actually get to work on a lot of that stuff.  Also, this sprint, José is going to be working on like picking up the SharePoint from where Connor leaves it so that he can make sure that an executed workbook can actually get stored there and send the URL to client space and then trigger Taylor when that is in there and hopefully parse and normalize data for the CBE and the cost sheets, not actually generating those documents, but pulling the data that we need out of the workbook and potentially from Prism if there's any case where we need to get it from Prism for those sheets so that it's in the database ready to generate those documents.  Again, I'll tag everybody in here. So you can kind of look at what Sprint 2 and 3 look like as well.  Obviously subject to change based on, you know, moving parts here, but hopefully that'll give you a good idea of what our focuses are over the next, I guess, five weeks at this point.  How does that feel? And I know we're at time, so I don't want to keep everybody too long, but I just gut check from Questco.  How are you guys feeling?
+
+30:28 - Anna.Fiske
+  Very productive. Awesome.
+
+30:31 - Chad Gregory (LaunchPad Lab)
+  That's what I like to hear. Okay. Well, we will let you guys go. We'll talk to Anna Brighton early in the morning.  Dimple, have a good couple days. Jagger, let us know if you need anything, and we'll let you guys know if we need anything on our side.
+
+30:45 - Anna.Fiske
+  Thank you, guys. Thanks, everybody.
+
+30:46 - Chad Gregory (LaunchPad Lab)
+  See you. Bye.

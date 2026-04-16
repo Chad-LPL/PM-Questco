@@ -1,0 +1,893 @@
+Taylor Deep Dive on Prism and Initial Workbook - April 08
+VIEW RECORDING - 61 mins (No highlights): https://fathom.video/share/NWNNKYC5HZsyyquUZ-zD3ojb1EZ_A4-_
+
+---
+
+0:08 - Chad Gregory (LaunchPad Lab)
+  Anna.
+
+0:11 - Anna.Fiske
+  Hi Chad, how are you?
+
+0:12 - Chad Gregory (LaunchPad Lab)
+  Doing good, how are you?
+
+0:14 - Anna.Fiske
+  Good.
+
+0:25 - Chad Gregory (LaunchPad Lab)
+  What part of South Carolina are you in?
+
+0:29 - Anna.Fiske
+  Clemson, up in the upstate.
+
+0:32 - Chad Gregory (LaunchPad Lab)
+  Oh nice, did you go to Clemson?
+
+0:33 - Anna.Fiske
+  I did not.
+
+0:37 - Chad Gregory (LaunchPad Lab)
+  I'm a big Ohio State fan and alum and Clemson has a place in my heart that I hate. Are you right?  Yeah.
+
+0:51 - Anna.Fiske
+  Yeah, my husband went to University of South Carolina. So the fact that we live in Clemson just, you know, drives me.  A little crazy.
+
+1:00 - Chad Gregory (LaunchPad Lab)
+  Eats at them. Yeah. Okay. Dimple, Jagger, how are you guys doing?
+
+1:11 - Jagger Sturdivant (Questco Cos)
+  Good. How are you?
+
+1:13 - Chad Gregory (LaunchPad Lab)
+  Doing good.
+
+1:15 - Dimple.Desai
+  Good. Thank you for asking.
+
+1:18 - Chad Gregory (LaunchPad Lab)
+  We've got Nikki, and I think the others are going to join too, Connor and Jose at least. But I don't want to waste any time, and we're recording.  So I think, well, first of all, I know Jagger and Anna have been going back and forth with Connor on questions, which I think is becoming very helpful there.  But in this deep dive discovery, and as you know, we've got a few of these on our calendar. In this deep dive discovery, I titled it Prism, an initial workbook.  I think the main focus will be... If you guys can walk through the workbook for us. We'll have a number of questions, and you can see a lot of those in this ticket, which I'll just put in the chat, too.  But, yeah, it would be helpful maybe just to go page by page through the workbook and understand what each page is representing.  And I think that one of the main goals here is to understand, okay, what data from PRISM do we need in order to generate this workbook?  That'll get us pretty far here.
+
+2:42 - Anna.Fiske
+  All right. Jagger, do you think sharing the executed workbook first, or should I share a pre-macro version?
+
+2:50 - Jagger Sturdivant (Questco Cos)
+  Probably should start with pre-macro. Let me send it to you.
+
+2:57 - Anna.Fiske
+  Sorry, I had an executed one pulled up.
+
+3:00 - Chad Gregory (LaunchPad Lab)
+  That's okay. Maybe one question just to ask you, Anna, because you mentioned this yesterday, in terms of like kicking off the renewals, like a job to create all of these batches, should that go off of the expiration date itself?  Or like, when do you create the batches today? Like a new batch, is that like, you know, 20 days before the expiration date?  Or is it on the expiration date?
+
+3:35 - Anna.Fiske
+  How does that work? So for our monthly renewals, we do it 90 days in advance. But we have that set up specifically that way in client space to get a notification saying that this company is going to renew in 90 days.  And then we go ahead and set up all the materials and get that conversation started with the client. And that's on our month-to-month renewals.  For our big open enrollment at the end of the year, which is a 1-1 renewal, we usually start that.  In August, we'll start creating the batches and all of the information because we get all of our rates at the end of August so that we then start talking to the client in September.
+
+4:11 - Chad Gregory (LaunchPad Lab)
+  Yeah. Is there, should we do that? Like have it? Well, I guess, does it matter how early the batch is created?  Does that cause a problem if it's like if we create the batch and generate the work? Because I assume there's going to be like employee differences if you do it too early.  or something like that. That's right.
+
+4:33 - Anna.Fiske
+  Yeah. So to create the workbook, it takes in the employee participation count into the workbook. And we would want that to be as accurate and as close to the conversation that we're having with the client, which is in September.  Now, we always tell them during the conversation, hey, we pulled these numbers a month ago or a month and a half ago.  So we always let them know that they're not going to be completely accurate because the sooner for us to have the materials, the better.  And I say that. Because we have, we call it a summit that we have in September where all of our team, we're all virtual.  So we all get together in Houston and we would like to have all of our workbooks ready for real renewals so that we can go over them as a team.  And we practice, you know, delivering really hard renewals and strategizing and that kind of stuff. So it's a really interactive workshop.  So the earlier, the better for me, but I don't see a consequence. But it's, sorry, go ahead, Dimple.
+
+5:29 - Dimple.Desai
+  Sorry, in terms of creating a batch 90 days in advance, is there a, oh, I'm so sorry. In terms of creating a batch 90 days in advance, is there a purpose for like that 90-day timeframe?  Or would you prefer like as soon as possible?
+
+5:50 - Anna.Fiske
+  For me? Yeah. So the 90 days in advance is what, that's for our client-sponsored plans. And specifically not to get too detailed.  And to Benefit rules, that's very time sensitive because we're working with an external broker and or carrier. It's not a Questco sponsored medical plan that we're renewing.
+
+6:10 - Dimple.Desai
+  So there's more cooks in the kitchen.
+
+6:12 - Anna.Fiske
+  So we have to reach out to the broker, reach out to the carrier. We have to get more reports.  We have to shop if it's not a good renewal. So there's more to do within that time. So 90 days gives us a really good buffer because if they renew 5-1, everything has to be said and done.  Elections submitted, everything wrapped up by the 15th prior to that 1st because the carriers won't accept anything after that.  So that's why it gets a little time sensitive with the 90 days. Not to get too complicated on that.
+
+6:47 - Chad Gregory (LaunchPad Lab)
+  Yeah, I guess I'm just trying to figure out if there is like a timeline that we should run those based on the expiration date or something.  Like, does that mean we should do 120 days? For like most of them at least to get you at that beginning of September or I don't know.  This doesn't have to be answered right now. And if you're ready to go through the workbook, we can make that.
+  SCREEN SHARING: Anna.fiske started screen sharing - WATCH: https://fathom.video/share/NWNNKYC5HZsyyquUZ-zD3ojb1EZ_A4-_?timestamp=441.030684
+
+7:18 - Anna.Fiske
+  Make sure I share the right screen. Are you guys able to see my screen?
+
+7:27 - Chad Gregory (LaunchPad Lab)
+  Yes. I might need you to zoom in a bit, but yeah.
+
+7:31 - Anna.Fiske
+  It's a big fancy screen is what I told you, Edgar. Can you see it okay?
+
+7:37 - Chad Gregory (LaunchPad Lab)
+  Yeah, it's better.
+
+7:39 - Anna.Fiske
+  Okay. So this is going to be our pre-macro version. So the first thing I want to point out is like this button is the macro button that we have built into the workbook.  So this is what will format and run that macro to format this workbook. And at the bottom is all these tabs that do not show up on the post-macro workbook.  But this first one is just going to be. The basic client details and then the macro button. The second tab, this is going to be all of the plans that are available in the workbook.  So you can see that we're going to have a good bit of our Aetna plans. Let me scroll to the top.  And then our dental plans, everything that's going to be listed within this workbook. And if you have technical questions on this, Jagger might be able to answer them better than I can.  And then this is going to tell us how many benefit classes we have. And by classes, we also call those groups.  So think your executive group, and then you have your staff group, and then you have your temporary or seasonal group.  So it's however they want to group out their staff, because sometimes they contribute differently depending on the class that you're at.  the executives, get 100% employer contribution. Your staff may get 50%. Any questions on this one so far?
+
+8:58 - Conor Hawes
+  How are those plans determined?
+
+9:00 - Anna.Fiske
+  That's up to the client. So the client will choose what plans they want to offer to what classes. Is that what you're asking?  Like by the class?
+
+9:10 - Conor Hawes
+  Like within the unique plan codes, like from 28 on.
+
+9:16 - Anna.Fiske
+  Oh, so the client will, when they onboard with Questco, we offer them Aetna, Blue Choice, Kaiser, or we can offer them an open market, which could be UnitedHealthcare, any kind of carrier you can think of.  And they choose that, and that's what we implement them with. And then all of these plans, so they chose Aetna, the specific client.  So they chose to be with Aetna. This is every single Aetna plan that they can choose from within that book of Aetna that we offer.  So they can choose any plan they want to. And then they move forward within that calendar year with those plans.  But we need to offer them everything so they know what they have the option of.
+
+9:55 - Chad Gregory (LaunchPad Lab)
+  Is that something that we would know based on PRISM data? don't know. So. So. You Which plans they have available here?
+
+10:03 - Anna.Fiske
+  Yes. So in PRISM, it's going to show, let's say they only selected four plans. So you'll only see those four plans in PRISM.  But because it's an Aetna carrier, we would know to, we call it apply plan group. You would apply all the Aetna plans to this workbook so that they can choose from any Aetna plan that we offer.
+
+10:23 - Chad Gregory (LaunchPad Lab)
+  Okay.
+
+10:24 - Anna.Fiske
+  And then further down, you'll see this is Kaiser that's offered. So sometimes we're able to offer them multiple carriers.  Now they can't pick both. They can't have one Kaiser plan and two Aetna plans. But if they're a good candidate for our Kaiser or Blue Choice, we can offer that alongside Aetna and say, okay, if your Aetna renewal isn't what you want, you don't see a plan that you like, you're also eligible for Blue Choice.  And here's those plans also in the workbook to choose from.
+
+10:54 - Conor Hawes
+  How is that determined? Yeah.
+
+10:56 - Anna.Fiske
+  That's determined above me. But we get that in the rate grid, so we would know. They would get their rate band with the carriers that they're eligible for.  So they could get a rate band with Aetna and a rate band with Blue Choice, and we would import that in.
+
+11:13 - Chad Gregory (LaunchPad Lab)
+  Would we know this Kaiser being an option in PRISM?
+
+11:17 - Anna.Fiske
+  I'm not sure if we would know it in PRISM. Jagger, do you know how we would do that? Because right now it's Jagger doing it.
+
+11:24 - Jagger Sturdivant (Questco Cos)
+  It won't. It's not in PRISM. It's just like a set list of, like, here's the carrier they're eligible for, here's all the plans that we need to offer them.  And then you have to just add those plans.
+
+11:36 - Chad Gregory (LaunchPad Lab)
+  Where do you get that, Jagger?
+
+11:39 - Jagger Sturdivant (Questco Cos)
+  It's just like a list that, well, actually, ClientSpace does that. That Apply Plan Groups, it has the list.
+
+11:47 - Chad Gregory (LaunchPad Lab)
+  Okay. So we might have to go to both for this list. Or maybe just ClientSpace for that list. Go ahead, Jose, sorry.
+
+11:56 - José Blanco
+  So within ClientSpace, there's... Basically a map that says Aetna goes to all of these Aetna plans, Kaiser goes to all these Kaiser plans.  Is that what you're saying? Pretty much, yeah. Okay.
+
+12:16 - Conor Hawes
+  Is that still true if the OBP import is getting skipped?
+
+12:20 - Jagger Sturdivant (Questco Cos)
+  No. No, we won't want to update that. We shouldn't go to client space for that.
+
+12:26 - Chad Gregory (LaunchPad Lab)
+  We probably need to track that map ourself.
+
+12:33 - José Blanco
+  And then where would we get the key of that map, assuming that we are tracking the map within the app?  Basically, like, where would we fetch that they're eligible for Aetna and Kaiser, so we can do the rest of the figuring out?
+
+12:52 - Jagger Sturdivant (Questco Cos)
+  You'll get that from the rebanding. So if you have a band for a client in Aetna, then you'll have to pull the Aetna.  If you have a blue choice band for them, you'll pull the blue choice plans.
+
+13:07 - Chad Gregory (LaunchPad Lab)
+  And I had more questions about the rebanding. I wasn't expecting to get to it so soon. My assumption, well, I think this goes to the rate question that we had yesterday of whether or not rates could be stored in PRISM.  I thought that then that would also mean that the bands would be in PRISM too, like what band a client was.  But it sounds like maybe not, Jagger.
+
+13:42 - Jagger Sturdivant (Questco Cos)
+  Well, we could. Like, we could put it in that future band field, I think. Wait, maybe not, because I think that's plan-specific, right, Anna?
+
+13:57 - Anna.Fiske
+  It is. So that's what I was just thinking of how. We would, how Taylor would know to pull a specific rate band, for example, Kaiser, we can put in the Aetna one because Aetna's already in that client in prison, and we can put in that future rate band, but to get the Kaiser one, we might have to come up with a way for Taylor to ingest the rebanding file.
+
+14:20 - Jagger Sturdivant (Questco Cos)
+  That's what baby Taylor does, is it just ingests the rebanding files.
+
+14:29 - Chad Gregory (LaunchPad Lab)
+  And how often do you get rebanding? Every year?
+
+14:32 - Anna.Fiske
+  Oh yeah, every year. Not more often than that. No, once you get your, once you get your band, if you're able to negotiate it down and we reband it, then that's your rate band for the rest of the year.  But that's for renewing clients, know, new clients get a new rate band because they're new.
+
+14:55 - Chad Gregory (LaunchPad Lab)
+  Yeah. Every month.
+
+15:00 - Anna.Fiske
+  Okay.
+
+15:03 - Chad Gregory (LaunchPad Lab)
+  Sorry.
+
+15:04 - José Blanco
+  Oh, go ahead. They get a new band every single month, is what you said?
+
+15:10 - Anna.Fiske
+  If it's a new client. So if you're a new client and you're joining Questco for the first time, obviously you're going to get a new rate.  It'll be new to us, new to you. It'll be a new right band then to add to the list.
+
+15:21 - Chad Gregory (LaunchPad Lab)
+  You're just saying when you meant every month, you'd meant every month there are going to be new clients that have new.  Yeah, sorry.
+
+15:28 - Anna.Fiske
+  Yeah. Every month you get new clients to onboard. Yeah.
+
+15:31 - José Blanco
+  Thank you.
+
+15:32 - Anna.Fiske
+  Sorry. Yeah. But one client as a whole only gets one rate every year. It renews every year.
+
+15:38 - Chad Gregory (LaunchPad Lab)
+  Yeah.
+
+15:39 - José Blanco
+  Perfect.
+
+15:40 - Anna.Fiske
+  Once a year. Yep. Okay. And then down here, it's going to be kind of similar. So this is our dental.  So we want to be able to offer our Aetna Dental alongside our MetLife Dental. And they get to choose one, not both.  So if they like the MetLife rates better than the Aetna rates, they can choose MetLife Dental. And that goes the same for vision.  Vision, and vision and dental are together. So if you choose MetLife Dental, you have to choose MetLife Vision. Can't mix and match carriers there.  But same thing, we still want to offer the Aetna Vision and the MetLife Vision side by side.
+
+16:18 - Nikki Dow
+  Sorry, what you just said about, like, if you choose MetLife Dental, you can't choose a different vision. Is that, like, a rule specific to MetLife, or is that, for everyone, dental and vision have to be the same?
+
+16:32 - Anna.Fiske
+  Uh, that's a carrier rule, so MetLife won't play nice with Aetna, and vice versa. So if the client chooses, they like the MetLife Dental, and they want to offer vision, they have to offer the MetLife Vision also.  They can't choose Aetna Vision and MetLife Dental, because they don't play nice together.
+
+16:50 - Chad Gregory (LaunchPad Lab)
+  But you could do MetLife Vision and Dental and Aetna Health. Correct.
+
+16:56 - Anna.Fiske
+  Yep, just the dental and vision played by those rules.
+
+17:01 - Nikki Dow
+  Are those rules like in PRISM somewhere, or is it more just like something that's enforced?
+
+17:07 - Anna.Fiske
+  It's something that's enforced, and yeah, Baby Taylor does that now, right, Jagger? Yeah, it'll verify to make sure they have it mixed and matched.  If they have, throws a flag to say that needs to be changed. And then down here, STD, LTD, that's going to be our disability, short-term and long-term disabilities.  So those plans are going to be the employer-paid plans and the option to opt out. They don't want to offer it.  And then your life plans are down here. Also, it's going to be your employer-paid life, and those are all the different lives that we have.  And then your other, which is going to be your voluntary plans. So that's going to be our carrier, Chubb, which I know is a horrible name, but that's their name, Chubb.  And it's all the products that they offer, our voluntary MetLife products. Legal Shield, Pet Insurance, that kind of stuff.  So this is what the raw data looks like outside of the workbook. So the client wouldn't see this list like this.
+
+18:11 - Conor Hawes
+  So are all those voluntary plans, like, are those considered to be offered by the client?
+
+18:19 - Anna.Fiske
+  Yes.
+
+18:20 - Conor Hawes
+  Yeah, they can choose not to offer it.
+
+18:21 - Anna.Fiske
+  So, for example, we have a big client who's a vet. It's a veterinarian clinic. They do not want us to offer pet insurance because they take care of their staff's pets for free because they're a vet.  So they don't want them paying for something that's not relevant to them. So the client will say what they don't want to offer, but if they don't specifically say, don't offer this, we automatically offer it because it's a voluntary product for the employees.
+
+18:45 - Conor Hawes
+  I guess maybe more from, like, Jagger's perspective, would all these plans be coming back from get client benefit plans or would we need to be pulling from, like, the system-wide list?
+
+19:01 - Jagger Sturdivant (Questco Cos)
+  They would be in get client benefit plans if they offer them currently, but they would need to be added from the global list just to make sure that they are there.  Because sometimes this list changes. This one doesn't have it, but we have other Chubb plans that we added this year, so we would have to add those in.  They wouldn't already exist for the client. Okay.
+
+19:28 - Chad Gregory (LaunchPad Lab)
+  This whole thing is global, right? This is not just what they did last year, is my understanding. Is that right for this whole page?
+
+19:38 - Jagger Sturdivant (Questco Cos)
+  Yeah, this is all of what they can pick.
+
+19:41 - Chad Gregory (LaunchPad Lab)
+  Yeah.
+
+19:42 - Conor Hawes
+  And so for the case of the example of the veterinarian, they would just not elect the family pet program.  They wouldn't be surprised that you're still offering it to them.
+
+19:56 - Jagger Sturdivant (Questco Cos)
+  So it would still show up in this list because... It's a global plan that we offer to everybody, but then they would just choose to not offer it to their employees, but it would still be in the workbook.
+
+20:07 - Conor Hawes
+  Yeah, okay. They can uncheck it, yeah. Yeah, okay.
+
+20:15 - Anna.Fiske
+  Thank you, Jagger.
+
+20:17 - Chad Gregory (LaunchPad Lab)
+  José, have a question still?
+
+20:19 - Anna.Fiske
+  Oh, sorry.
+
+20:20 - José Blanco
+  Yeah, just one quick question regarding enrollment of companies that enroll in the middle of the year. Will they be taking part in the open enrollment at the end of the year as well?  Yes. Or are they renewed? Okay, they all renew at the end of the year then. Okay.
+
+20:39 - Anna.Fiske
+  Yeah, if they sign up for our master plans, which would be the Aetna, Blue, Choice, and Kaiser, those carriers, those plans renew 1-1.  So just because they join us in the middle of the year, they're still going to have a 1-1 renewal.  Yeah, that's a good question. So that kind of goes back to the rate band. So they would have a different rate band.  different band. So They joined in July as a new client to Questco. They would still have a renewal for 1-1, so they could get a separate, another rate band, another increase for 1-1.  That's a good question. And then after that, they would only be on a 1-1 cycle. They wouldn't renew again in July because that's when they joined.  They would just stay on the 1-1. Okay. This is a busy page, but it's showing their current plans, what they currently offer, and what they contribute.  But this is like kind of ugly. That's what the macro does. It'll format all of this to make it prettier for them.
+
+21:41 - Chad Gregory (LaunchPad Lab)
+  And this is everything then from the year prior or the, yeah, the current year. The current year.
+
+21:49 - Anna.Fiske
+  Not the one that they're picking for or anything. Yeah. Correct. So you can see this client, they're on Kaiser, but they were eligible for Aetna.  So we added Aetna into the workbook to show them those plans. Same thing here. They chose. The MetLife Dental, but we still want to offer them the Aetna Dental if they ever want to switch over.  But this is going to show what they currently have, including voluntary. Renewal plans, this one's busy, but this is just adding all the plan information.  So what an office visit would cost per plan for these carriers and these plan options. And it goes into great detail for all the plans.
+
+22:34 - Chad Gregory (LaunchPad Lab)
+  All of this comes from PRISM with the plan data or with, yeah.
+
+22:46 - José Blanco
+  The plan name, I assume.
+
+22:48 - Jagger Sturdivant (Questco Cos)
+  I think this comes from client space, but it is in PRISM.
+
+22:52 - Chad Gregory (LaunchPad Lab)
+  Okay.
+
+22:53 - Jagger Sturdivant (Questco Cos)
+  You can pull this from PRISM also.
+
+23:00 - Anna.Fiske
+  And this is going to be technically the first page that the client sees. And we have an executor workbook to show you after this.  But this is basically just like how to use the workbook for the client because they are able to take this with them and play with it.  So this just kind of gives an overview of how the workbook works. What does it mean? What do the tabs mean?  All that good stuff. And then this was going to be their total cost. it's kind of a summary. So it's based off of their classes that they have.  They only have one, which is primary, and they have 26 people participating in their medical, 26 in their dental.  21 in their vision, so on and so forth. I think my screen is freezing, so bear with me,'all. So they will also see this page as like a summary of what it's costing them and participation-wise.  Okay, this is going to be the first page. Let me skip to the very top. This is going to be the first class.  So their first... Benefit group that they have.
+
+24:02 - Chad Gregory (LaunchPad Lab)
+  you zoom in a little bit on this one? I can.
+
+24:09 - José Blanco
+  Just to double check, are we guarding this meeting, Chad?
+
+24:12 - Chad Gregory (LaunchPad Lab)
+  Yeah.
+
+24:14 - José Blanco
+  Perfect.
+
+24:17 - Anna.Fiske
+  So at the very top here, you're going to see these hyperlinks that skip you through the workbook. It's going to be the medical, which is this first part.  If you hit dental, it's going to bring you to the bottom of medical. So you scroll down just a little bit, and then your dental's here.
+
+24:28 - José Blanco
+  Same thing with your vision.
+
+24:30 - Anna.Fiske
+  Scroll down a little bit. And then the life and disability, which is the employer paid options, down here at the very bottom.  And this will look different after Taylor, because Taylor solved for this bottom part. It wasn't detailed enough for us.  So baby Taylor does change this bottom part for us to include a little bit more detail. And then up here at the top is going to be the renewal.  So what's going on with this? their current rates and participation, which we saw on the total cost. The renewal rates.  So what does it look like in column L? To R, what does it look like with the renewal plans that are sitting here for them as a summary?  And then their alternate rates, which is like how you do, we call it a buy-down strategy. So if you're getting a really big renewal, what does it look like to go down a plan, downgrade, or get a higher deductible?  And what does that do to your renewal here? And that's going to be column T to Z. And the best way for me to like train people on the columns is L is for love.  You love these plans, and that's what you're going to renew with, so that's what you put here. T is for try.  You're just trying it out, see if it's the right fit, but you're not really sold on it. And this is going to be pre-filled for the client, so we're going to put in what they're renewing with.  Sometimes client space does this, sometimes it doesn't. Baby Taylor solved for that to make sure it always does. So it's going to take the exact same plan that's sitting here in column D for current plans, and it's going to make sure that plan is reflected here with the new renewal rates, and their participation is common.  And that'll go down for every single one.
+
+26:05 - Chad Gregory (LaunchPad Lab)
+  For everything that they've chosen slash where people are currently select, like the counts that they already had from the current year.
+
+26:16 - Anna.Fiske
+  Correct. Yep. So it's like if everybody who's currently enrolled, enrolls again, this is what it's going look like for you.
+
+26:22 - Chad Gregory (LaunchPad Lab)
+  Sticks with what they did. Yeah.
+
+26:24 - Anna.Fiske
+  Yep. And then over here is going to be a buy-down strategy, which is a key that we have in-house.  So what does it look like to buy down this plan for Kaiser specifically is going to be going up a deductible $1,500 versus $1,000.  And then we keep the participation as well to say this is what it would look like.
+
+26:44 - Conor Hawes
+  And is that key in just like a file that BabyTaylor references locally or is that part of client space's export?
+
+26:55 - Anna.Fiske
+  No, it's not part of client space. That's something we create in-house in BabyTaylor and Jest. And it'll do that for dental, vision, everything like that.  So also with like dental, we also offer the Aetna of the similar plan just to show them what it would cost.  So for this one, the MetLife Dental High Plus is $45 as a renewal. It's $50 on Aetna, so it's not really a buy-down.  So we would recommend them staying with MetLife.
+
+27:26 - Chad Gregory (LaunchPad Lab)
+  And it goes all the way down.
+
+27:30 - Anna.Fiske
+  And then you go across the tabs down here at the bottom, so Class 2. They don't have another class, so there's nothing.  There's no data here. And we have all the way up to Class 7. So, I mean, they can have, we have a client that has, I think, 12 classes.  So BabyTaylor also has to solve for that to add more classes.
+
+27:50 - Jagger Sturdivant (Questco Cos)
+  I don't think it does, actually. I think it breaks if you try that.
+
+27:54 - Anna.Fiske
+  Oh, just kidding. BabyTaylor doesn't solve for that.
+
+27:56 - Jagger Sturdivant (Questco Cos)
+  She breaks. Yeah, that's a client-based problem because...
+
+28:00 - Anna.Fiske
+  It just doesn't export past seven. Fixed client space.
+
+28:05 - Jagger Sturdivant (Questco Cos)
+  Yeah. Why they picked seven is beyond me, but.
+
+28:08 - Anna.Fiske
+  Yeah, we do need more than seven.
+
+28:10 - Chad Gregory (LaunchPad Lab)
+  Okay. This might be a really stupid question. Can you explain what these classes are?
+
+28:17 - Anna.Fiske
+  Yes. So the classes are the benefit groups. So. Like owner. Yeah. So you see right here, it says primary.  You're going to see that a lot. It's very common. Oh, I remember this. Benefit groups. Yes, you have executives, staff, temporary, that kind of stuff, whatever they want to name it.  But in the pre-work, pre-macro workbook, everything says class and the executed one, it's actually going to say the name primary, executives, staff, like it will say the names.
+
+28:46 - Conor Hawes
+  And is that, so is the classes that are available for renewal, is that inferred through all of the employees that they have and what benefit group that employees type?  Or is that like in PRISM at the client level?
+
+29:05 - Jagger Sturdivant (Questco Cos)
+  It's in PRISM. So you'll have, there's an endpoint that gives you all of the benefit groups. It gives you the group name and the group ID.  And then when you request an employee using GetEmployee, it'll give you the group ID that they're a part of.
+
+29:20 - Conor Hawes
+  Okay. But so we use the client's benefit groups as a source of truth and not like the reverse engineered what all the employees are.  It's like they might have like a temp benefit group, but they might not have any employees that are tagged as temp at the time.  Okay.
+
+29:42 - Anna.Fiske
+  And then this page that I showed you before, this is broken out into these tabs down here. This is health summary, dental summary.  It's all right here on one page. All medical, dental, vision, everything here, but we break it out here and make it look prettier.  So this is going to be still. Big page, but it's going to show all the plan designs with the rates for each individual plan.  The client can shop side by side, what's going on here.
+
+30:11 - Chad Gregory (LaunchPad Lab)
+  Yeah, that's definitely easier to see.
+
+30:13 - José Blanco
+  It's a large improvement, yeah.
+
+30:17 - Anna.Fiske
+  Yep, and we just break it out by benefit style. So STD, is it in here, LTD.
+
+30:25 - Dimple.Desai
+  And Anna, this is where you're hoping the open market plans are going to be?
+
+30:30 - Anna.Fiske
+  Not in these pages, I would want them here as far as in the dropdown. So to switch between plans, you would do the dropdown and the plans are loaded here.
+
+30:42 - Chad Gregory (LaunchPad Lab)
+  So if we wanted to see what the Aetna looked like, it would load the rates here and it would compare that renewal to their current.  And those dropdowns are everything from that first list, right?
+
+30:54 - Anna.Fiske
+  Correct, yep. So I would want whatever template we can create. We, as in LPL, by the way, for Taylor to read to put into the workbook, I would want it to be able to be a drop down here.  And the plan designs would also be keyed in, which is what these are, the plan designs. And when you, there's an open button here, it's really small.  That will open, oh, it can't. Okay. But it'll open the plan designs also on this page. So you can see what you selected here side by side instead of scrolling through and trying to find your plans here.
+
+31:37 - Dimple.Desai
+  Yeah, the main reason why Anna would want them to be a drop down is because sometimes when a client decides to go to open market to get some quotes, our broker team does get up to two to three plans, alternative plans by the current plan that the client has, I guess.  So... So... The list can get very big.
+
+32:03 - Anna.Fiske
+  Right. So let's say they had this Aetna high deductible 5,000 and they're like, we hate it. We want you to shop it.  And we want UnitedHealthcare, Cigna, and Blue Cross Blue Shield. So we would get three comparative plans from Blue Cross Blue Shield for this plan.  Three from Cigna, three from UnitedHealthcare. Yeah. So it gets extensive because we're trying to give them as many options.  Nine times out of 10, we're showing them that they're not competitive on the market and that this is going to be their best bet, but they want to see everything.  To make the best decision for their company.
+
+32:34 - Chad Gregory (LaunchPad Lab)
+  And today they're getting like a bunch of PDFs to like compare against this.
+
+32:43 - Anna.Fiske
+  Right. So what we do is we present to them so that they don't have to dig through it. we try to break it down for them, but they do get a packet of PDFs.
+
+32:54 - Chad Gregory (LaunchPad Lab)
+  Yeah.
+
+33:01 - Anna.Fiske
+  And that's the voluntaries on this page, just listed like so, which will have to be updated because the rates do change on these year to year.  And then the census, this is the employee census that's plugged in to get that employee count for participation, which is in these columns.
+
+33:27 - Jagger Sturdivant (Questco Cos)
+  That tab is something Baby Taylor adds, the census. Yes.
+
+33:31 - Anna.Fiske
+  Oh, yeah, the zip codes are here. So we know what plans to offer. So that goes into the regional plans.  Do you guys want to talk about that here or no?
+
+33:39 - Chad Gregory (LaunchPad Lab)
+  Or do we need to talk about it?
+
+33:41 - Anna.Fiske
+  If you don't need it, that's fine too.
+
+33:42 - Chad Gregory (LaunchPad Lab)
+  We can talk about it.
+
+33:44 - Nikki Dow
+  Yeah, I'd like to talk about it.
+
+33:46 - Anna.Fiske
+  Okay, so the regional plans are based off of the employee's zip code. So, I mean, we're all remote. So we all live all over the place.  So the employer does have to make sure that if they're participating, is an Aetna exclusive thing also. It's just...  It's Aetna. And MetLife is adding it for their dental, but I'll hit on that. So for Aetna, if your employee lives in specific states and it's like North Carolina, Arizona, Texas, there's another one that I'm forgetting.  And then we have the tri-state, which is New York, New Jersey, and Connecticut. There's specific plans that they have to offer for those areas to give them adequate coverage because the other Aetna plans just don't reach them.  So they have these regional plans. So if your zip code falls within that North Carolina area, then we would know based off that zip code, we also need to offer the Aetna North Carolina plans, not just the standard national plans.  So that's why these zip codes become really important. And there was a question earlier about if we insert the census and they used to have somebody who lived in Arizona, but that person has since left the company.  So they don't have any Arizona zip codes in their census. Would we renew that plan? We would still want to see it here to show as a renewal.  And we'll say you had three people participating, but since then they've all left. You don't need this plan anymore.  But if you plan on hiring in that area, I would recommend keeping it. Otherwise, we would have to add it mid-year.  And that just becomes a lot of lift on Questco and the client. That wouldn't be a Taylor thing. That's how I would ideally like to handle that.  And then it's up to the client if want to keep it or not.
+
+35:31 - Chad Gregory (LaunchPad Lab)
+  So if any employee is in one of the zip codes that matters, then we need to add a plan, a specific regional plan to the list, basically.
+
+35:47 - Anna.Fiske
+  And if they already offered it and had people signed up, then it should already be showing up there, right?  Correct. Yeah.
+
+35:56 - Chad Gregory (LaunchPad Lab)
+  Okay. But otherwise, if they didn't have anybody in it, Last year, then it would just be one of the dropdowns.
+
+36:04 - Anna.Fiske
+  Right. Yep, yep, yep.
+
+36:06 - Chad Gregory (LaunchPad Lab)
+  Okay.
+
+36:10 - Anna.Fiske
+  There's a lot of rules around it, but we do have the zip code file that follows those rules. And that's what BabyTaylor follows.
+
+36:17 - Chad Gregory (LaunchPad Lab)
+  Does that get updated? Well, yeah, see some of those files. Yeah.
+
+36:23 - Anna.Fiske
+  Yeah, it gets updated every year, but zip codes rarely change within the United States. So we get a new file every year from Aetna, but I don't think it changed from last year to this year.
+
+36:34 - Chad Gregory (LaunchPad Lab)
+  The plan details, do those change, though?
+
+36:38 - Anna.Fiske
+  They do.
+
+36:39 - Chad Gregory (LaunchPad Lab)
+  We had, I think, 30 of those change from last year to this year out of 99.
+
+36:46 - Anna.Fiske
+  So not bad.
+
+36:49 - Nikki Dow
+  In that zip code file, is that what maps, like, the state X, Y, and Z plan are required?
+
+36:55 - Anna.Fiske
+  Mm-hmm. Yes. Yep. And it starts with... Where the client is headquartered. So if the client is headquartered in New York, New Jersey, or Connecticut, then they have to exclusively offer those three state plans with Aetna.  So if Dimple's company is located in New Jersey, Dimple can only offer her staff the tri-state plans, so the New York plans.  So we start with where the client's headquartered, or CITUS, and then we do the employee.
+
+37:29 - Chad Gregory (LaunchPad Lab)
+  Yeah, okay. Okay.
+
+37:31 - Anna.Fiske
+  It gets super complicated. Okay. So that's not executed. This is executed. So this is what the client's going to see, and this is also, I think it's filled in after we have that discussion with the client, they make their election.  So this is what the client would see, though. It's a lot shorter, a lot prettier, and you see the classes are now gone.  It just says primary because they only have one class named primary. So it's going to have their welcome page.  Their total cost page will look the same.
+
+38:04 - Chad Gregory (LaunchPad Lab)
+  Oh, does total cost also update as you're changing things on the other page, unlike the primary page?
+
+38:12 - Anna.Fiske
+  It does not. It's going to show.
+
+38:16 - Jagger Sturdivant (Questco Cos)
+  It does?
+
+38:17 - Anna.Fiske
+  It should, yeah.
+
+38:18 - Jagger Sturdivant (Questco Cos)
+  If you change something, it should do that. The renewal one, yeah.
+
+38:22 - Chad Gregory (LaunchPad Lab)
+  Oh, yeah, the renewal. Yeah, I won't change current, but it'll change the current. Yeah.
+
+38:27 - Anna.Fiske
+  And then, Jagger, BabyTaylor adds this right here, the renewal increase. This is 6.75%. And the reason we had to add that is when it gets plan to plan, you'll see here, this is the renewal increase down here.  says 7%. And then the plan is 7%. Well, this isn't a good example. Sometimes it'll say something different because it's showing you what that plan to plan renewal is.  Sometimes it's a 2%. Sometimes it's 7%. Sometimes it's a negative because these rates went down. But this number up here.  guys. Thanks, Excuse me. We'll give you the overall increase for all of your points.
+
+39:04 - Jagger Sturdivant (Questco Cos)
+  For this group.
+
+39:05 - Anna.Fiske
+  That's why, yeah, for this group, yeah. So that's why we had Taylor out of here, because it just got relations losing for flyers.  So this is important to have on this page. And that's something that baby Taylor does today.
+
+39:20 - Chad Gregory (LaunchPad Lab)
+  That one on the total page, that's across all groups, right? Yeah, that's every group.
+
+39:27 - Jagger Sturdivant (Questco Cos)
+  So right now it matches because there's only one group, but if there were more than one, yeah, it accounts for all of them.
+
+39:35 - Nikki Dow
+  Does that mean it's an average or?
+
+39:38 - Jagger Sturdivant (Questco Cos)
+  No, it's not an average. It's a very complicated formula that I would have to look at again to understand.
+
+39:44 - Chad Gregory (LaunchPad Lab)
+  Sounds fun.
+
+39:47 - Anna.Fiske
+  Yeah, we pretty much broke our brains over the last two years, universe. Okay. I'm going to go to the top.  This is executed, so we can see this. The plans that they love, so anything in this column, Baby Taylor is going to read as that's what we're implementing, that's what we're renewing.  She doesn't look at the T column and over, they just tried it on for size, it didn't fit, they put it back on the shelf.  So anything that's here is what they're renewing with. And then you'll see here in this option to drop a plan, that's an option and it'll black it out so that it does not renew.  They don't want to keep this plan, so they're going to have to find somewhere for these five people to go.  Contributions are put in here, we have the option of keep your percentage the same, keep the dollar amount, the same, or you can enter the dollar amount or the percentage.  And then here is where our new plans can be added, so they added a plan. So they dropped two plans and then added one down here.
+
+40:49 - Chad Gregory (LaunchPad Lab)
+  What if they wanted to add more than one?
+
+40:52 - Anna.Fiske
+  We have several spots to add it.
+
+40:56 - Chad Gregory (LaunchPad Lab)
+  Okay.
+
+40:56 - Anna.Fiske
+  I don't know how many, so it looks like three, depends on how many they... ... Thank
+
+41:01 - Jagger Sturdivant (Questco Cos)
+  It's always three new ones, and if you want to add more than three, tough luck. There's no way to add more than three.
+
+41:10 - Anna.Fiske
+  Blop something old out, yeah. Yeah, at that point, yeah, there's too many medical plans. And then same thing with the dental, same rules apply.  They can add new dental, but we only offer three of each, and they can't mix and match again. So they can have MetLife here, but they can't add Aetna alongside their MetLife.
+
+41:33 - Chad Gregory (LaunchPad Lab)
+  Is that, so is that controlled here on this page? It's not.
+
+41:38 - Anna.Fiske
+  So if they wanted to add the Aetna here, they can.
+
+41:43 - Chad Gregory (LaunchPad Lab)
+  And they can put in their contribution here if they wanted to, but BabyTaylor flags that.
+
+41:47 - Anna.Fiske
+  BabyTaylor audits the workbook to make sure they're not mix and matching.
+
+41:51 - Chad Gregory (LaunchPad Lab)
+  Okay.
+
+41:51 - Jagger Sturdivant (Questco Cos)
+  when it uploads this workbook data into, back into client space, it's checking for that to make sure that doesn't happen.
+
+41:58 - Chad Gregory (LaunchPad Lab)
+  That is, uh. Tomorrow morning, part of that discussion.
+
+42:07 - Anna.Fiske
+  Any questions on that? want to show you the bottom, how they be tailored.
+
+42:10 - Chad Gregory (LaunchPad Lab)
+  Yeah.
+
+42:11 - Anna.Fiske
+  And it's the bottom of it, because she adds a lot more detail. So you can see there's a lot more here of options that need to be offered, and if they want to elect it or not.  So that would be some of our voluntary stuff, if they want to offer that down here. So before, it just stopped at the EAP, stopped at this line.  So everything below that is new.
+
+42:42 - Chad Gregory (LaunchPad Lab)
+  Oh, okay.
+
+42:44 - Anna.Fiske
+  And these are added because they were brand new benefits. Brand new to every single client. So these are what we added last year.  So it wouldn't have been an option in their workbook as current. It would say, okay, these are brand new.  Do you want to offer these or not?
+
+42:58 - Chad Gregory (LaunchPad Lab)
+  Hmm.
+
+42:59 - Anna.Fiske
+  Otherwise. As everything on the Questco Voluntary tab, again, this is going to be offered unless they specifically say not to, like the vets, for example.  They're going to look at this page, and they're going to see the pet benefits down here, and they're going to say, do not offer my staff pet benefits, and we would exclude that.  Currently, there's no way for them to elect it or reject it in the workbook. They have to verbally tell us, and then we notate that in client space.
+
+43:26 - Chad Gregory (LaunchPad Lab)
+  So then, in the world of Taylor, if we got back an executed workbook, we wouldn't know to do anything with that today, or like, when we got that workbook.  But during the review step, the workbook review step, is that when somebody would like, or I guess during the review steps of the documents, would somebody be making changes?
+
+43:54 - Jagger Sturdivant (Questco Cos)
+  I think ideally, we add a way for them to reject them in the workbook.
+
+44:00 - Anna.Fiske
+  Yeah, I would love to have a selection rejection for every single benefit that's in here. And for voluntary, I mean, it'd be easier to just have them all selected because it's easier for them to go in there and find what they don't want and unselect it rather than click, click, click every single benefit.  But you got to think we have all these benefits listed here, plus all these new ones that will be added for this year's renewal.
+
+44:28 - Chad Gregory (LaunchPad Lab)
+  So would those just, would all the voluntary just show up there below, like right there, to be accepted or rejected, potentially?
+
+44:40 - Anna.Fiske
+  Um, I don't know how I would want it. To be honest, I don't really like the bottom of this workbook.
+
+44:45 - Chad Gregory (LaunchPad Lab)
+  I think it's totally. Mm-hmm.
+
+44:47 - Anna.Fiske
+  Um, but nobody wants to know that their baby is ugly, so I don't know how I would want it.  I mean, ideally, yeah, because they're making all of their elections here, I would want to continue the format through column L.  To select and reject benefits, even voluntary ones. Make it as streamlined as possible for clients.
+
+45:12 - José Blanco
+  Okay, so I just want to confirm that I'm getting it right. At the moment, the ancillary services or the optional ones can only be declined by the end user or the employee, right?  But not the employer. That's the current problem, right?
+
+45:34 - Anna.Fiske
+  No, the client can decide not to offer a benefit, whether it's voluntary or not. But for us to know that, they have to tell their renewal rep verbally or in an email, like, I don't want to offer pet benefits.  Make sure it's not offered to my staff. We then have to notate that in client space. Me and Jagger, who are running the batches, we have to read that and know to exclude that.  From the CBE and the plan offerings.
+
+46:03 - José Blanco
+  Manually, right? Manually. Okay, so you're missing a section to be able to do that via the workbook is what I was trying to get at.
+
+46:12 - Anna.Fiske
+  Right, yeah. I would love for every benefit, which the voluntary ones are listed here, every benefit that's here also be listed here as a selection and or rejection so that Taylor can just absorb one page of every benefit that needs to be offered to the staff.
+
+46:30 - Chad Gregory (LaunchPad Lab)
+  Yeah. Here.
+
+46:31 - Anna.Fiske
+  That would be ideal. And I hate this format, so I hate this as a solo. Sorry. That's all I have on here.  And these pages are the same, the side-by-sides.
+
+47:03 - Chad Gregory (LaunchPad Lab)
+  I'm just looking at all these questions that we have in Asana to try to see what, where I should go back to.  I guess the main question I think I have is like, right now, is Baby Taylor is getting information to add into the workbook, generate the workbook, right?  But it's not all coming from Prism. Some of it's coming from different places, it sounds like.
+
+47:35 - Anna.Fiske
+  Correct.
+
+47:39 - Chad Gregory (LaunchPad Lab)
+  What are the main, yeah, like, what do we need from Prism and what do we need from other places, I guess, is maybe the biggest area to figure out right now.  So we should get all of the, yeah, Jagger, should get all the client data from Prism and that doesn't seem like that big of a problem.  But the plan and rate data right now is like in different places, I think. Is that what I'm getting, hearing?
+
+48:12 - Jagger Sturdivant (Questco Cos)
+  The plan data will be in PRISM as well. And actually the rates will be too.
+
+48:20 - Chad Gregory (LaunchPad Lab)
+  Are we pretty confident about that now? I was curious because, well, for the plan data, it sounded like there were some that weren't there in PRISM, like the global list.  Current plan data for the client is definitely there, but like getting the global list, is that in PRISM?
+
+48:43 - Jagger Sturdivant (Questco Cos)
+  Yes, it should be.
+
+48:45 - Chad Gregory (LaunchPad Lab)
+  Awesome.
+
+48:47 - Conor Hawes
+  Well, guess, but like the rate for, like if they're on Aetna, but they're eligible for Kaiser, like band that they'd be assigned is not available.  Right. Because it's client specific.
+
+49:03 - Jagger Sturdivant (Questco Cos)
+  No, the bands are global still. So you would have access to that at the global level.
+
+49:10 - Anna.Fiske
+  But to know what band is assigned to that client, we would still need the rebanding file.
+
+49:14 - Jagger Sturdivant (Questco Cos)
+  Yeah. And that's that would not be in PRISM.
+
+49:17 - Anna.Fiske
+  Yeah.
+
+49:18 - Chad Gregory (LaunchPad Lab)
+  So the band that a client is in does not show up on PRISM. Is that because they get assigned the rate based on the band?  So like the rate shows up in PRISM based on the band, but the band itself isn't in PRISM.
+
+49:41 - Jagger Sturdivant (Questco Cos)
+  Right.
+
+49:42 - Chad Gregory (LaunchPad Lab)
+  Yeah. Yeah.
+
+49:43 - Jagger Sturdivant (Questco Cos)
+  Their band assignment isn't in PRISM.
+
+49:45 - Chad Gregory (LaunchPad Lab)
+  Yeah. Is that possible?
+
+49:52 - Jagger Sturdivant (Questco Cos)
+  I don't know where we would put it.
+
+49:56 - Chad Gregory (LaunchPad Lab)
+  Okay. PRISM's not like it sounds like client. And SPACE is pretty customizable, but PRISM isn't. Okay. Yeah.
+
+50:05 - Anna.Fiske
+  As far as I know, it's not.
+
+50:09 - Chad Gregory (LaunchPad Lab)
+  Yeah, we can't add fields to specific pages in PRISM.
+
+50:14 - Dimple.Desai
+  That would be a billable request from the vendor. But actually, I don't even think that they would do it, to be honest with you.
+
+50:23 - Anna.Fiske
+  Even if we ask nicely?
+
+50:25 - Dimple.Desai
+  Yeah.
+
+50:28 - Chad Gregory (LaunchPad Lab)
+  I guess this is all getting back to a conversation we'll have in like 15 minutes here. Or as to the admin console, it does kind of seem like, oh, you need a way to get the rebanding at least in.
+
+50:47 - Nikki Dow
+  Is that something that could be like stored in SharePoint and like read by Taylor? Yeah.
+
+51:00 - Anna.Fiske
+  I would love that, too, because then if we ever needed to update it, if someone had a late rebanding change, we could just update that file.  Good idea, Nikki.
+
+51:14 - Nikki Dow
+  Thanks.
+
+51:17 - Chad Gregory (LaunchPad Lab)
+  Okay, interesting. Nikki, what other questions do you want to try to hit on in nine minutes here on our list?
+
+51:35 - Nikki Dow
+  I'm probably going to narrow them down to, like, workbook specifics, since that's where we mostly stayed. Password protection. Do you have password-protected sheets?  On the version of the workbook that clients receive? And if so, Password protection. have-protected Do Password Do have-protected Is that like a standard password that they all share or is it specific to the client and how do you kind of track that and communicate the password?
+
+52:08 - Jagger Sturdivant (Questco Cos)
+  Yeah, BabyTaylor applies passwords to the structure and to the sheets they're not allowed to change and it's just it's the same password for every workbook.
+
+52:16 - Nikki Dow
+  Okay, okay. So same password for every workbook and you all just know it and you don't have to like send it out to anyone.
+
+52:25 - Anna.Fiske
+  Okay.
+
+52:34 - Nikki Dow
+  I was wondering if we could just circle back. So you're generating this workbook with census data from PRISM and the like that census data is populating in those count fields on the planned comparison.  If someone is like hired or leaves the company after that workbook. Generation, is there an expectation that the workbook is updated based on that change census or?
+
+53:06 - Anna.Fiske
+  No, because when we talk to the client, we do say we pulled this a month ago or a month and a half ago, so it might not be current to your employee count as it is today.
+
+53:14 - Nikki Dow
+  That's what I heard you say.
+
+53:16 - Jagger Sturdivant (Questco Cos)
+  The client can change those numbers. Those fields are editable. So if they know something changed, they can just modify it.
+
+53:24 - Anna.Fiske
+  Or if they know you're going to hire a lot in the future, they can change that to kind of see what it's going to look like.
+
+53:29 - José Blanco
+  Yeah, that's why those were updating the total when she was changing them earlier, just playing around with it, and it was still updating the totals on the employee count.  I think it's the totals tab is what it was called.
+
+53:48 - Nikki Dow
+  Okay, and then that's also not a problem when we get to the actual workbook submission and they've made their selections.
+
+53:57 - Jagger Sturdivant (Questco Cos)
+  Yeah, only count will matter.
+
+54:02 - Nikki Dow
+  Okay, this is maybe a large loaded question, but so when you're doing the OBP import from PRISM to ClientSpace, we obviously saw like there can be a lot of errors about, I think primarily like plans that are in PRISM but not maybe in ClientSpace.  My understanding is that OBP is gonna basically go away once we have Taylor generating the workbook, right? But are there like...  Is there, like, an initial list of validations that you expect the workbook is going to need to, like, or that Taylor's going to need to check for before it generates the workbook?  Like, I know we've already identified, for example, if you have employees in Arizona, you need the Arizona plans. Is there anything else like that that kind of comes to mind immediately?
+
+55:28 - Anna.Fiske
+  I can't think of anything, but I feel like there is. That's a hard question. I wasn't ready for that one.
+
+55:38 - Nikki Dow
+  know. It's definitely the zip codes.
+
+55:40 - Jagger Sturdivant (Questco Cos)
+  I mean, checks the rates, because ClientSpace's rates cannot be trusted sometimes.
+
+55:50 - Anna.Fiske
+  That's right.
+
+55:51 - Nikki Dow
+  But that shouldn't be a problem if we're not.
+
+55:53 - Jagger Sturdivant (Questco Cos)
+  Right. That shouldn't be a problem.
+
+55:55 - Conor Hawes
+  Jagger, didn't you mention that there's, like, a deny list? But plans that should never be included?
+
+56:04 - Jagger Sturdivant (Questco Cos)
+  Mm-hmm. There is. So there's like a list of like test plans and stuff that we use. Those should not be in the workbook ever.  And then also if a plan is like grandfathered or removed, we don't want them to renew that plan because they shouldn't be able to.  So it'll just flag if those are there.
+
+56:24 - José Blanco
+  I guess, yeah, if a plan ends, it terminates.
+
+56:27 - Anna.Fiske
+  So it shouldn't be an option to renew.
+
+56:29 - Jagger Sturdivant (Questco Cos)
+  That's a good point. Yeah. the gap plans is I added to that list.
+
+56:33 - Chad Gregory (LaunchPad Lab)
+  Mm-hmm.
+
+56:37 - Conor Hawes
+  And is that just like an array in BabyTaylor?
+
+56:43 - Jagger Sturdivant (Questco Cos)
+  Yeah.
+
+56:44 - Conor Hawes
+  And you update it as in when you just realize.
+
+56:48 - Jagger Sturdivant (Questco Cos)
+  Yeah. Whenever I realize, oh, that plan should not be in here after that. How often do you do that?  I mean, ideally you do it once the right way and then you don't look at It again until the next year.
+
+57:02 - Chad Gregory (LaunchPad Lab)
+  Yeah.
+
+57:03 - Jagger Sturdivant (Questco Cos)
+  But for this year, I added to it a couple times. It was just the GAP plans at first, and then it was the test plans.  I think that's all that's in there right now.
+
+57:12 - Ifat Ribon
+  I guess, is there anything else about those plans that identify them as test or removed? Or how do you end up finding out that you need to go update that?
+
+57:24 - Jagger Sturdivant (Questco Cos)
+  Word of mouth was the GAP plans. I don't think there's anything in PRISM that denotes them as terminated permanently.
+
+57:30 - Anna.Fiske
+  And we can't terminate a plan in PRISM until after 1-1 because we're still taking payroll deductions. People are still actively enrolled.  So we wouldn't be able to do that as a new process either to terminate those plans early for these workbook purposes.
+
+57:47 - Ifat Ribon
+  Oh, interesting. So a plan could be not eligible for renewal, but it's still active for a year. Yeah.
+
+57:53 - Anna.Fiske
+  Even if we put in like, I don't think we have a future end date spot for it.
+
+57:59 - Dimple.Desai
+  Is there not any? An expiration date in which you can put a future date?
+
+58:02 - Anna.Fiske
+  I have no idea. I don't know. I don't know either. That'd be a Lawanda question.
+
+58:07 - Dimple.Desai
+  Is this like client-specific or global? Or does it matter?
+
+58:14 - Anna.Fiske
+  Global. Global. If it's master, if it's a Questco-sponsored client, could be global. If it's client-sponsored, it's client-specific.
+
+58:21 - Dimple.Desai
+  Hold on, let me look. You guys can keep talking to you while I'm looking.
+
+58:33 - Anna.Fiske
+  No, we're going to watch you look for it.
+
+58:39 - Chad Gregory (LaunchPad Lab)
+  Just going back to the question at the beginning, Anna, is there like a window or a date that we should be renewing plans, like starting this process for plans that hit like a certain date?  Is that like the 90 days that you were saying? Doesn't sound like that's right for the... And end of year open enrollment stuff, though.
+
+59:04 - Anna.Fiske
+  Yeah, I would say non-Questco sponsored plans. So that's going to be, we call it CSP, client sponsored plans. That's going to be a 90 day rule.  Anything that's Questco sponsored will always be a one-on-one renewal. That's going to be, what is it? December, November, October, September.  So like four months in advance, maybe four and a half. Because we want to start getting those workbooks generated.
+
+59:29 - Chad Gregory (LaunchPad Lab)
+  So there is something we could, is there something that is, something we can use to know that they are client sponsored or Questco sponsored?
+
+59:41 - Anna.Fiske
+  Yeah, so we have naming convention. Pretty standardized within our plan IDs.
+
+59:48 - Chad Gregory (LaunchPad Lab)
+  In the plan IDs, okay. I would probably get you a key for that from our analyst team. Yeah, okay.  Let write that down, hold on, let over go.
+
+1:00:00 - Dimple.Desai
+  Anna, for these global plans, would those be housed in the group benefit plans page in PRISM?
+
+1:00:06 - Anna.Fiske
+  Yes, group benefit plan setup, yes.
+
+1:00:09 - Dimple.Desai
+  There is a termination date field there. Is it future? You could put a future date in it.
+
+1:00:22 - Anna.Fiske
+  I feel like we had an issue with that last year. I added our analyst team to one of the meetings coming up.  I think it was a Friday one. So that would be a good question to ask them. I feel like we had a hiccup with that date last year.  And it stopped deducting employees early. It was still within December, 1231, but it stopped early. And we had a real big issue with that.  I could also be making that up. So let me say that.
+
+1:00:52 - Chad Gregory (LaunchPad Lab)
+  I know we're at time and we have another call. And we kind of just need to hop over to meet with Chris, I guess, now.  So we can wrap this discussion. We've got three big discussions tomorrow. So I feel ready for those. Thanks. We'll see you in a second.
+
+1:01:12 - Anna.Fiske
+  Thanks, Joe. Thanks.

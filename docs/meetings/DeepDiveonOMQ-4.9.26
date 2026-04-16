@@ -1,0 +1,745 @@
+Taylor Deep Dive on OMQ and Audits - April 09
+VIEW RECORDING - 59 mins (No highlights): https://fathom.video/share/A1c3f7uxoXA4TxwiY9uHhGruYARkhotL
+
+---
+
+0:00 - Anna.Fiske
+  Yes, six months old.
+
+0:04 - Chad Gregory (LaunchPad Lab)
+  My daughter is 20 months right now. So I definitely remember last year. Yeah, see, oh, there's Dimple, awesome. All right, I think we've got everybody.
+
+0:22 - Anna.Fiske
+  Okay, I invited Betty Lee to the call. She is the manager over our agency. So she is in charge of all the open market quote.  She has her team running all of those year round. So I wanted her input on the open market quote process.
+
+0:35 - Chad Gregory (LaunchPad Lab)
+  Fantastic. Yes. Thank you for coming and joining us today, Betty.
+
+0:40 - Betty.Lee
+  Yeah.
+
+0:42 - Chad Gregory (LaunchPad Lab)
+  We have, we want to focus on OMQ. I've also got some questions around like some of the pre-enrollment and post-enrollment audit tasks that we had in the SOW, Anna.  So we can get into those second, but definitely want to focus on OMQ first. First, I guess, Betty, maybe you can walk us through again how this OMQ process happens and how does it get kicked off, who owns that carrier relationship and is accountable for the quote, getting to Questco, and what would you typically be doing with that today?  And then we're going to kind of transition into how do we build a template for collecting that OMQ information so that we can get it into Taylor and into the workbook.  And this is all around current clients and renewals, correct?
+
+1:42 - Betty.Lee
+  The open market around that process?
+
+1:45 - Anna.Fiske
+  Yep. Okay.
+
+1:47 - Betty.Lee
+  Yeah, so my team pretty much owns the whole process. So if a current client needs to shop or maybe they're getting a bad renewal, we'll have that strategy beforehand and we'll begin the process.  That can happen. Okay. In two ways, like me and Anna looking at groups and realizing we need to create a strategy, and then I will assign my team to shop it, or a current client can request an open market, quote, during the renewal process, and then the client service team will kick off a task, like a shopping task, which that would come to my team, and we would pick it up from there.  So it does come through multiple avenues. It just kind of depends on each client's unique situation. But yeah, Leo, go ahead.
+
+2:34 - Chad Gregory (LaunchPad Lab)
+  You might, before even like starting the renewal, think like, oh, there's a, this doesn't look like it's going to be good.  We want to get them an open market, Yeah, because we can shop them early.
+
+2:49 - Betty.Lee
+  The rates won't be correct, but we know that the rates are only going to go up. So as time goes on throughout the years, so we can be proactive and look and see if there's a potential more competitive.  Competitive option out there, especially for like small group, because it's based on location and age. So since as the year goes on, people get older, you know, rates are going to increase.  They're not going to, unless they have a big hiring, you know, change within the company.
+
+3:19 - Chad Gregory (LaunchPad Lab)
+  So we can be proactive and do that.
+
+3:22 - Betty.Lee
+  We will do that. And we also present that as part of the strategy. Like you're, yes, you're getting a 20% renewal, but you're on the best option out there.  This is what is out there kind of thing.
+
+3:32 - Chad Gregory (LaunchPad Lab)
+  Okay. How long does it usually take to get the quotes back and like synthesize those however you do?
+
+3:40 - Betty.Lee
+  It depends. This is the hardest part. had this conversation with Dimple and I was like, I wish I could give you a timeframe.
+
+3:47 - Chad Gregory (LaunchPad Lab)
+  It's going to depend on the carrier and it's going to depend on the state.
+
+3:49 - Betty.Lee
+  So we'll say most cases during fourth quarter, five to 10 business days. So that's a big window, but there's.  It's an influx, so carriers slow down, but also states and certain carriers are faster than others. We do have resources where we can pull them directly ourselves, but that's not for all carriers in all states.  So that also plays a part. Open market's probably the trickiest part of this whole thing, because it does change so much.
+
+4:23 - Chad Gregory (LaunchPad Lab)
+  Yeah, and is that kind of why today it is kind of treated as separate from everything else right now?  Like, you're not even putting it in the workbook or anything, you're just having that as kind of a side consultation, and if they choose one of those, how do you get that into PRISM today?
+
+4:43 - Betty.Lee
+  So I'm going to have to defer to Anna on how it gets into PRISM. For that, as far as I know, it's manually built out, or it wasn't necessarily part of the workbook.  It was like a proposal that was on the side. So yeah, to get into PRISM is just manually keyed in.
+
+5:03 - Anna.Fiske
+  So we get all the plan information that they've elected on the market. So that'd be all those plan details and all the rates.  And that is keyed in manually by our analyst team. So I don't know.
+
+5:16 - Betty.Lee
+  Yeah. And if certain states and carriers, it's age banded rates.
+
+5:21 - Anna.Fiske
+  So it's not even composite rating.
+
+5:23 - Betty.Lee
+  So each age is going to have a rate. And depending on that group, you could have 48 people and, you know, a different rate for each person, plus their dependents have rates.  And then you also get into, if they have more than three dependents, it cuts off. So you got to make sure the system is not bringing in rates for anything over three dependents.
+
+5:44 - Chad Gregory (LaunchPad Lab)
+  Because there's that too.
+
+5:45 - Betty.Lee
+  It's very.
+
+5:47 - Chad Gregory (LaunchPad Lab)
+  Anna, forget. Does the workbook, the workbook, I think we said yesterday, does not handle like the age bands? Correct.
+
+5:56 - Anna.Fiske
+  Yep. So it wouldn't handle age banded rates. I don't see us being able to build.
+
+6:00 - Chad Gregory (LaunchPad Lab)
+  We into the workbook template this year.
+
+6:02 - Anna.Fiske
+  So we would just put age-banded the words like where the rates would be. And then we would have that sheet with all the age-banded rates.  mean, it's zero to 99 plus dependents get a different rate depending on their age. So that's going to be a lot of numbers.
+
+6:17 - Chad Gregory (LaunchPad Lab)
+  So when somebody went through the workbook and they hit one of those, they would have to go look at a different.
+
+6:23 - Anna.Fiske
+  We would have to provide that separate sheet of ages, of rates.
+
+6:28 - Chad Gregory (LaunchPad Lab)
+  But then when we wanted to, oh, but then in our template for the OMQ, we could build out the age-band piece.  I mean, theoretically. I would like to.
+
+6:41 - Anna.Fiske
+  So that you had an easier time of getting it into Prism.
+
+6:47 - Chad Gregory (LaunchPad Lab)
+  Mm-hmm. Okay. Would we need like two different templates, one for age-banded? Not sure about that yet, I think. Um, like maybe, I don't know, I'm just like envisioning like columns, but let's see.  So I want to ask more about that timing factor. It sounds to me not that bad, but maybe seven, maybe four to 10 business days is, is long in the scheme of things.  I'm just not understanding the scheme of like how big, how long this whole thing happens. But, um, when you, when it goes, when you're doing it before hand, that's probably like less of a factor.  But when it's in the middle of a renewal and a client says, oh, I want to go OMQ, you take a week to get that.  Is it okay? We said yesterday, like maybe we just leave the batch status in consultation. Is it okay for it to stay in there for two weeks?  I would like it to, yeah, just so we know that's where that client is sitting.
+
+8:04 - Anna.Fiske
+  They have not made a decision, and they're waiting for another consultation to happen.
+
+8:10 - Chad Gregory (LaunchPad Lab)
+  Okay.
+
+8:12 - Betty.Lee
+  Yeah, and as far as the open market, depending, we may not be appointed with a carrier, so we also may not be able to obtain any rates until we get that appointment.  So that could be some of those situations where it really drags out the process.
+
+8:26 - Chad Gregory (LaunchPad Lab)
+  We're working on getting appointed everywhere, but it's, you know, time and money, so. I think, go ahead, José. Quick question there.
+
+8:35 - José Blanco
+  Can a client request more than one open market quote, or does a single one, oh, they can request more than one?
+
+8:45 - Anna.Fiske
+  Yeah, usually when they make the request, Betty's team gets them multiple, so we don't have to keep going back and forth.  So it's usually a lot, honestly, yeah.
+
+8:55 - Betty.Lee
+  Yeah, we try to pull anything available at that time, so that would be a little bit. Betty, didn't you say it's like two to three alternative plans per plan that the client currently has?  So, well, depending on what they're offering, we try to do a comparison with comparable plans, but we potentially are getting back 100 plus plans and rates per carrier for each group.  So we try to narrow that down on the front end, usually before it even goes to the client.
+
+9:26 - Dimple Desai (Questco Cos)
+  we don't see, it's overwhelming to see that other document.
+
+9:29 - Betty.Lee
+  So we try not to send that unless it's specifically requested.
+
+9:34 - Chad Gregory (LaunchPad Lab)
+  Yeah, when I was looking at the files you sent, Dimple, there were some that were like the sheet that Questco gets back.  But then I think there were documents with some at the front of it. And those were what you're talking about, Betty.  Like you guys stripped out the good ones to send to them. Yeah, we build something out on our end, usually, is what we do.
+
+9:57 - Betty.Lee
+  So, and that can be in multiple different formats. So, formats. Depending on what resource we obtain the proposal from.
+
+10:05 - Chad Gregory (LaunchPad Lab)
+  How long does that process take? Because that's kind of what we're going to need you to do into the template, I think, essentially.
+
+10:12 - Betty.Lee
+  For us to come up with a strategy, it could take anywhere from an hour to a whole entire day.  Depends on the group and if we've already met and what that is. And if we're really have to sell them on something to not lose the business.  You know, we may have to change their whole thought process and what they're offering. So we have to make it make sense at the client level.
+
+10:36 - Chad Gregory (LaunchPad Lab)
+  And it sounds like it would be Betty's team that fills out the template then.
+
+10:41 - Anna.Fiske
+  Yes, what I'm doing is asking for temps on her end to key all that into the template. Like her team, they have the knowledge and the licenses to do the strategy.  So they would still have to do that legwork, which they're already doing year round anyways. But as far as the manual keying into the template for Taylor.  Or to absorb, I would want tips to be able to do that.
+
+11:02 - Chad Gregory (LaunchPad Lab)
+  I was just asking because it sounds like they're already putting together this like summary document. I'm wondering if it's the same people do that or not.  So our summary document, we focus on what's important to clients, deductible, co-insurance, out-of-pocket, primary, specialist, co-pays, prescription co-pays, that's it.  So a lot of these other things require a lot more data.
+
+11:26 - Betty.Lee
+  We just focus on a lot of the simpler highlights. So yes, we build out these strategies, but it's actually a simpler Excel sheet than these big like intensive, lot more plain detailed things that goes out that I'm assuming that's what Taylor is and what you're referring to.  Like it'll have emergency room, urgent care, all that.
+
+11:49 - Anna.Fiske
+  Yes, I need Taylor to have all the details as far as what Taylor will need for the prism and port for it to be fully built out in prism, which is a ton more detail than what that summary page.
+
+12:01 - Betty.Lee
+  And we have templates, so a lot of the times we're just having to modify here and there and tweak things, so we try not to have to reinvent the wheel from scratch every time we're going in to do this.
+
+12:15 - Chad Gregory (LaunchPad Lab)
+  Okay. Sorry, I've got a million questions over here that I'm just looking at what I want to ask for.
+
+12:22 - Nikki Dow
+  Yeah, sorry if I missed this, but, so all those details that like the workbook does need are typically available for the OMQ, you're just not necessarily presenting all of that to the client.
+
+12:38 - Betty.Lee
+  Yeah, think that's more after the fact when it needs to go in the benefit guides and on the enrollment platform for employees to review where it really breaks down more of those details, but as far as that, they're just, is it a comparable plan and does the premium make sense?  That's mainly, you know, why they're shopping and... Are they shopping for a specific product, like health or dental or vision, or is it always everything, or is it a subset?  So we mainly focus on the health part of it, just because dental and vision are a less expensive of the benefit offerings.  Those are on the lower end, normally in cost. Dental and vision usually only becomes highlighted when it's like a network issue.  So we do compare it, but that's not usually the main focus. It's always around medical, because that's the benefit that's just out of control nowadays, you know?
+
+13:40 - Chad Gregory (LaunchPad Lab)
+  Yeah. Should our template, though, account for all different products? I would guess, though.
+
+13:52 - Anna.Fiske
+  I would say the main three. What do you think, Betty?
+
+13:56 - Betty.Lee
+  Well, if they're already on our master products, we're not trying to resell them on our master. Master, right? It's only if they have a specific request to shop.
+
+14:04 - Anna.Fiske
+  I think that's case by case basis because we want them on our master products as much as possible. Right.
+
+14:09 - Betty.Lee
+  So we really don't ever offer. Go ahead. Sorry, you finish.
+
+14:14 - Anna.Fiske
+  No, I'm done. I think I would want the option to have medical dental vision, but maybe as all three separate templates, because just to echo what Betty said, it's 90% of health.  Very rarely do we need to shop them out of our dental and vision. And that would really, I've seen it twice in four years, and it was a carrier preference.  There was nothing wrong with MetLife or Aetna. They just really wanted a specific dental carrier. So I would want the option, but separate, because we'll use health rather than anything else.  We've usually already handled that on the sales side of it.
+
+14:51 - Betty.Lee
+  So by the time it gets to where they're a current client, we've already implemented that open market dental or vision plan.  So they're usually content. Or they'll end up moving to our master from an open market, I think is what happens in most cases.
+
+15:07 - Chad Gregory (LaunchPad Lab)
+  Okay, that's good. So I guess getting to the idea of like being able to import this into Prism, maybe one of the biggest things to try to hit on is what does Prism look like?  What does like the schema of a plan look like in Prism so that we can sort of build that template around it?  I know, I think there's been mention of an existing Prism import sheet that maybe Lawanda uses, and I don't know if that should be basically what we go off of, or if it would be different for OMQ plans.
+
+15:52 - Anna.Fiske
+  We get the same import, and I did invite the analyst team to our Prism conversation today. So we could ask them there.  Okay.
+
+16:02 - Chad Gregory (LaunchPad Lab)
+  José?
+
+16:04 - José Blanco
+  You mentioned that the OMQ data was keyed in by Analyst in PRISM. It would be good to look at what the information that is keyed in is, since that's likely all the relevant info that we would need to build the plan details, basically.
+
+16:22 - Chad Gregory (LaunchPad Lab)
+  Oh, yeah. Actually, is there a reason they're not using the import file? Is it just easier to just put it straight into PRISM?
+
+16:29 - Anna.Fiske
+  I think it's easier just to key it into PRISM, but I would, we could ask them that. But I feel like everything they're keying in is also what's on the import.
+
+16:38 - Chad Gregory (LaunchPad Lab)
+  Should be, I would assume.
+
+16:41 - Dimple Desai (Questco Cos)
+  I did put the sample header file for the import into Asana, I think.
+
+16:46 - Chad Gregory (LaunchPad Lab)
+  Oh, sample headers.
+
+16:47 - Conor Hawes
+  I guess maybe, maybe to like test my understanding, the PRISM import is generated in client space. Oh, yes. Yeah, and then Baby Tailor is running.  But that would only be for, like, from the OBP import to get into client space. That's only existing plans.  So if there was an OMQ and they elected one of the open market plans, it wouldn't be in client space for it to be exported out.
+
+17:26 - Anna.Fiske
+  Correct. Yep.
+
+17:31 - Conor Hawes
+  So, Chad, that might be why they...
+
+17:34 - Chad Gregory (LaunchPad Lab)
+  Well, I was just wondering if they could have put it into the import file and then imported it into Prism, but I guess the work just is the same either way, or maybe even more work to do it into the import file.  But that import file is probably what our template should look like for the most part. And my question off of that...  That is, if we give you an import file that you add three OMQ plans to, and we pull that into the workbook to show alongside the other plans in the workbook, and they choose, are we only importing the OMQ plans that they choose to Prism?
+
+18:23 - Anna.Fiske
+  Correct. Yep. It'll be in that column L.
+
+18:27 - Chad Gregory (LaunchPad Lab)
+  Not all three or whatever. Yeah. That's good to know. So from that, if they choose plans, we can just provide SPCs, and is there a way the system can read that to import information or no?
+
+18:44 - Anna.Fiske
+  Not at this time. I'm hoping maybe Taylor Berger too. I don't know.
+
+18:50 - Betty.Lee
+  Okay.
+
+18:51 - Conor Hawes
+  And can you define SPC?
+
+18:55 - Betty.Lee
+  Summary of benefit coverage. And I can send over examples. of what those look like, if that's helpful for you all to review.
+
+19:03 - Anna.Fiske
+  Yeah, that page, the health summary tab, dental summary at the bottom of the workbook that we looked at yesterday, and it had all those plan details side by side.  That's pulled from an SBC. So an SBC is just more like language, I guess, to kind of define exactly what pays out when and why not exclusions.  That's just like listed out that way.
+
+19:27 - Chad Gregory (LaunchPad Lab)
+  Anna, how confident are you that that import file that we've been talking about would have all the right data for the workbook, too?  I guess it should, right? Like, that's because you would be getting all the information from PRISM, which was, you know, yeah.  Right.
+
+19:51 - Anna.Fiske
+  So even with our master plans, if they select a different Aetna plan, all the information in the workbook goes into the import that goes into PRISM, and we usually don't have an issue there.
+
+20:00 - Chad Gregory (LaunchPad Lab)
+  I would be pretty confident, yeah. Okay, good. Are rate bands aren't affected by the OMQ process? Whatever your rate band is, is still applicable to the OMQ plans?
+
+20:25 - Anna.Fiske
+  No. So there won't be rate bands for OMQ plans because they'll have their own static rates based off of how they're performing in the market.  So rate bands are global to everybody who's on our Aetna or our Blue Choice. So that's why we have those rate bands in place.  But for open market, it would be just static rates for that specific Oh, they just give you a rate.
+
+20:46 - Chad Gregory (LaunchPad Lab)
+  Yeah. Yeah.
+
+20:51 - José Blanco
+  I believe we mentioned earlier that on open market quotes, there was going to be a rate per dependent. Yeah.  All Potentially. Possibly, okay. So each carrier that is coming from an open market code will give you like the 0 to 99 list and you'll present that to a client when you're showing them the OMQ?
+
+21:19 - Betty.Lee
+  So like for an example, in Texas, you get composite rating for small group. So it's going to be everybody that enrolls in a plan as employee only is going to have the same rate.  Everybody that enrolls in that same plan as employee spouse is going to have the same rate. But then you get to states like, I think, California.  California has age banded. So each age is going to have a rate. So two employees can enroll in the same plan as employee only, but a 26-year-old is going to have a different rate than a 34-year-old.
+
+21:52 - José Blanco
+  And then like all carriers from California will work the same way.
+
+21:58 - Betty.Lee
+  Nope. So some will use these H-bands and some others won't. Some will do composite. Each carrier makes their own rules and regulations per state, and it's not uniform across the country.
+
+22:15 - Chad Gregory (LaunchPad Lab)
+  I see. Yeah, wasn't a state. It wasn't a state. It's a carrier preference, basically.
+
+22:23 - Anna.Fiske
+  Yeah. That's why open market is so difficult.
+
+22:26 - Betty.Lee
+  There's not one agent you can go through. There's not one. You always have to use multiple resources, and it's because of things like that.  know, state rules, carrier rules, federal regulations. mean, it's crazy.
+
+22:42 - José Blanco
+  One more question. Does it ever happen that, like, some clients that are originally, like, open market, you then implement them to be, like, in-house, similar to how Aetna and Kaiser are?
+
+22:59 - Betty.Lee
+  Like, like, And implement them to be in-house as in master plan.
+
+23:04 - Anna.Fiske
+  Yeah.
+
+23:05 - Betty.Lee
+  So that's always our ultimate goal. If it's a fit for a master, we want them on our master plan offerings.  But also, if it's not in the best interest of our other clients in our master plan, then we pivot to the open market.
+
+23:22 - Chad Gregory (LaunchPad Lab)
+  Nikki, you've had your hand raised.
+
+23:25 - Nikki Dow
+  Yeah, sorry. My question came up when we were talking about rate bans. So we said there's not rate bans applied to open market quotes.  How does that then work, like, the next year if they're renewing that plan? Is there still no rate band attached?  No.
+
+23:47 - Betty.Lee
+  So it's going to be based on what renewal the carrier gives themselves and what rates they file with the state, because they have to do that in a certain amount of time, and then what the ages look like within a group.  And this is all talking for a small group. Open. Once you get over 50, there's a whole other set of rules, just so you know.  So small group is the main open market thing. So that's why I'm kind of focusing on that. But as far as the renewal, so everybody gets a year older or demographics change within a group.  You know, people turn, new people are hired. So the rates are going to change based on that. And the carrier renewal, and depending on whether it's age-banded or composite, it's going to play a difference.  And what that looks like, too. So you can have a single digit all the way up to a 30%, 40% increase.
+
+24:39 - Anna.Fiske
+  Depending on what has been the rates. Yeah.
+
+24:42 - Chad Gregory (LaunchPad Lab)
+  Is that, like, comes in with the rate book or, like, rate sheet?
+
+24:48 - Anna.Fiske
+  Yeah, we'll send the renewal.
+
+24:51 - Betty.Lee
+  Yeah, it'll come 60 to 90 days out. We'll usually know what those new rates are going to be. And then there's alternatives with  Then that rate book. So when they're already on an open market, it's a little bit easier, I think, to navigate because you have that subset that's like delivered to you, you know, for that specific client.  You're not going out necessarily.
+
+25:17 - Chad Gregory (LaunchPad Lab)
+  60 to 90. I'm trying to think of how to make that work in a way that would be beneficial.  60 to 90 days, you get the new rates for an OMQ that is the plan that one of your clients is trying to potentially renew on.  So at that point, once you had it, it could be entered into Prism in the future rate field that we've talked about in other calls, I'm assuming.  But the timing, Anna, for that doesn't really make, doesn't really work for like the four month window. Know that we were talking about running the big batch for all of the open enrollments, because those rates are going to come in later, seems like.  Right.
+
+26:11 - Anna.Fiske
+  That four-month window is for a master open enrollment, which all of Questco plans are new for 1-1. So that's what we were saying there.  But then you have client-sponsored, which is open market. So if they go on an open market, they're now considered client-sponsored, and they're in the 90-day rule.  I'm sorry.
+
+26:29 - Chad Gregory (LaunchPad Lab)
+  Okay. And so if you choose an open market plan, you're not in the, I just want to make sure, you're not in the open enrollment, like, big, big group then?  You will be.
+
+26:45 - Anna.Fiske
+  So that's where it gets kind of complicated, is that Betty's on our master. She's on Aetna, but she doesn't like Aetna.  She's not getting coverage where she is, so she wants her open market quote. So we get her on UnitedHealthcare.  She's still going to have a 1-1 renewal, because that's. What we renewed her for, but now she's client sponsored, so she gets the 90-day cases for one-one instead of we start launching her in August, September with the big batch of workbooks, like our master plan that we can do that with.  Okay, so this is starting to make more sense.
+
+27:16 - Chad Gregory (LaunchPad Lab)
+  There's really like three groups of these plans that I'm understanding now. There's like the monthly new ones that you're adding every month.
+
+27:25 - Anna.Fiske
+  There's the big batch of open enrollment that are on the master plan that you're going to start four months ahead of time.
+
+27:32 - Chad Gregory (LaunchPad Lab)
+  Then there are folks who are client sponsored who still are on the one-one, but because they're client sponsored are on a different timeline, and you would start them 90 days early, or 90 to 60, I guess, based on what you said, Betty.  Okay. Are there any others that don't go to 1.1?
+
+28:04 - Anna.Fiske
+  We do have clients sponsored that renew throughout the year. So they can renew in March. We have clients that renew every month.
+
+28:11 - Chad Gregory (LaunchPad Lab)
+  That's just like... clients, but they renew.
+
+28:13 - Anna.Fiske
+  Yeah.
+
+28:14 - Chad Gregory (LaunchPad Lab)
+  Okay. And that's just based on when they started or something? When they elected that plan.
+
+28:21 - Anna.Fiske
+  Yeah. Okay.
+
+28:24 - Chad Gregory (LaunchPad Lab)
+  How many of those do you have? I think you said... I thought you said like three a month, but is that...  It depends on the month.
+
+28:31 - Anna.Fiske
+  I don't have a number for you off the top of my head. I think it's less than a hundred though.  We consider those off cycle. So on cycle would be one full calendar year, 1.1 to 12.31. That we have like 200 client sponsored that do that.  And then off cycle where they renew randomly throughout the year, it's less than a hundred.
+
+28:50 - Chad Gregory (LaunchPad Lab)
+  I think it's 71. Total for the whole year. Mm-hmm.
+
+28:54 - Anna.Fiske
+  Okay.
+
+28:55 - Chad Gregory (LaunchPad Lab)
+  Mm-hmm. Okay. We're bringing on a lot of open market right now, so.
+
+29:05 - Anna.Fiske
+  And I expect a lot of open market quotes. Yeah, one-one, because our Aetna is not going to be a good renewal.  So people are going to ask to see what's on the market. Yeah.
+
+29:17 - Chad Gregory (LaunchPad Lab)
+  Betty, so you said you were focusing on the small, under-50 employee companies. What are those big changes that we should be thinking about for the bigger ones?
+
+29:27 - Betty.Lee
+  So large group is, and it will depend on the state for that, but that's 50 plus in most states.  Some of them, large group is considered 100 and over, but that's when carriers can start taking into consideration health items.  So ACA rules don't necessarily apply as much, meaning the carriers underwrite based on health for a group. So each, there's nothing really uniform.  It's very negotiable with carriers on that, but the process takes a lot longer.
+
+29:57 - Chad Gregory (LaunchPad Lab)
+  For those, so especially during.
+
+30:00 - Betty.Lee
+  The January's for the open enrollment, that fourth quarter, I guess is what I should say, is we're looking at 10 to 20-ish days to get something back because there is so much back and forth.  Now, carriers will also develop plans if we request them, so there's not like a set of plans. Like, we could say that we need a specific deductible with a specific coinsurance, and carriers will develop a plan for groups, depending on their size for that.  So, it's very customizable, I guess, compared to small group open market.
+
+30:42 - Chad Gregory (LaunchPad Lab)
+  From our perspective, is there anything that changes, or is it like, we just want, you're going to still get back the plans, and we're going to put them into that, like, file.  We're going to get them into the workbook, and let them pick, and then get it into PRISM if needed.
+
+30:59 - Betty.Lee
+  Yeah. I guess not from your guys' side, if it's all what needs to happen after the fact.
+
+31:07 - Chad Gregory (LaunchPad Lab)
+  I'm sure it's way more work on your side.
+
+31:10 - Betty.Lee
+  Yeah, and I've been on sales for so long that I'm always, you know, I think from a sales point of view first.  But yeah, for you guys, if we're just providing what is the final outcome, then besides timing, it being a longer process, I don't think there's any other difference necessarily.
+
+31:29 - Chad Gregory (LaunchPad Lab)
+  Okay, that's good. Yeah, if I think of something, I'll be sure to share it, but at this time, I can't.  What are the questions do we have on OMQ, Nikki or José or Conor? 45. Does anything change with the CBE or cost sheet or benefit guide?
+
+31:58 - Nikki Dow
+  That's what I was just going to ask.
+
+32:00 - Chad Gregory (LaunchPad Lab)
+  If they use an OMQ plan?
+
+32:04 - Anna.Fiske
+  Yes. So, Betty, help me explain this part. If we're not the broker, we don't want it in our guide.
+
+32:15 - Betty.Lee
+  Correct. If we're not, so we, there's outside brokers that are used. Clients have a relationship. BDMs have a relationship.  So we don't want to take liability for someone else's plan. We're not getting paid commissions. We're not in any agreements.  We didn't sign any documents with that carrier or that plan. So, as much as possible, we don't want it in our On all materials.  Documents, yeah, in our materials.
+
+32:45 - Anna.Fiske
+  That would be pretty specific cases that we would know about as we're generating the materials. So, as I'm talking it out, I don't know if we need that stoppage in place.  It just, maybe we produce a guide as normal, and then we know to take that. out of the guide because we don't want that liability on us.  Essentially, we're not involved in the plan to a certain extent. We don't want any of that on Questco, letterhead, materials, anything like that, because then we're taking ownership of something we have no control over and we don't want that.
+
+33:19 - Chad Gregory (LaunchPad Lab)
+  So you would get the generated benefit guide and in the review process, you would strip out the stuff that you don't want.
+
+33:28 - Anna.Fiske
+  think that's okay. How do you feel about that, Betty? It would be on the renewal rep to know that, but I feel like we're getting a little too variable when it comes to these open market quotes as far as Taylor.
+
+33:41 - Chad Gregory (LaunchPad Lab)
+  Is that what they're doing today, actually? Or are they, in its own queue, they're just like going completely separate, I guess.
+
+33:49 - Anna.Fiske
+  So what we're doing today with open market is if they choose it and we are the broker, so we do want it on our Questco materials, then we send them, Betty's team is developing a side-by-side.  So they're developing that medical page individually for the benefit guides for our third party to just plug that page into the benefit guide when we request it.  So if we don't want it in our benefit guide, we just don't create it and don't send it. And we ask for a benefit guide and say we're specifically leaving the medical page out on purpose for compliance.  And then they produce the benefit guide for us without that page.
+
+34:23 - Chad Gregory (LaunchPad Lab)
+  So we're still having to communicate it on a case-by-case basis.
+
+34:26 - Anna.Fiske
+  There's really nothing to flag it in the system. Besides us.
+
+34:31 - Betty.Lee
+  I'm new to this Taylor stuff. Can you just provide a quick understanding what Taylor's role would be with the benefit guides?  Like what would be developed to go in there outside of EOI or whoever?
+
+34:44 - Anna.Fiske
+  So I'll be as quick as I can, but Betty, it's magic. So I know.
+
+34:49 - Betty.Lee
+  Yeah.
+
+34:49 - Anna.Fiske
+  So Taylor's going to absorb the executed workbook. And based on that column L for love, they love these plans.  Taylor's going to develop the CBE, the cost sheet, and the benefit guide based off of those columns. And yesterday we talked about, I know how the workbook is now, it's just medical dental vision, and then employer paid at the bottom.  had talked yesterday about adding all of the voluntary plans there, so it's an official yes or no, because you know, like the vets, they don't want pet benefits at all.  So they have to say that every single year, don't offer that to my employees. Now they can visibly uncheck it.  Taylor's going to take that and develop the cost sheet, CBE, and benefit guide based off of that. And then when the client signs their CBE, we're going to add language that says you're also approving your cost sheet and benefit guide that have been provided to you to review.  Ding. Like magic. I love it.
+
+35:41 - Conor Hawes
+  So if it's like, I guess just checking the workflow. So when the executor workbook comes back and say it's like electing a master plan for renewal, that would generate all the documents and then send the docusign.
+
+36:01 - Betty.Lee
+  Automatically?
+
+36:02 - Conor Hawes
+  is there still a consultation and manual review step before any of that gets sent over?
+
+36:10 - Anna.Fiske
+  I can't remember exactly how we put the process in place. So it would be the consultation first. That's how we get the elections.  And then I'm remembering, yeah, so then Taylor would generate those materials and we would have our renewal reps, our person, pull those materials to review.  And then they send it through DocuSign because we had talked about DocuSign voids out after 48 hours. So we also want to like, hey, Betty, we're about to send it.  Get ready. Like, don't let it expire. So we also kind of want to get the client's attention before we send it to say, I just sent it out.  Please be on the lookout for it. If there's any issues, let me know. And kind of continue that human interaction to get those materials signed as fast as possible.
+
+36:49 - Betty.Lee
+  So from hearing all that, in my opinion, I don't think there's anything different for open market with Taylor compared to master that would need to be done.  Necessarily, because if there's any compliance documents or extra wording, I think that could be added in the guide in separate pages that would be outside of.
+
+37:07 - Anna.Fiske
+  Right.
+
+37:08 - Betty.Lee
+  Like if there's wellness programs or, yeah, I don't think there would be a difference. I agree. This is coming from me from a very basic understanding of what's happening right now.  No, you're right.
+
+37:21 - Anna.Fiske
+  I agree with that. Just the pages are carrier and state specific. So we would get those outside of Questco, honestly.
+
+37:31 - Chad Gregory (LaunchPad Lab)
+  That would be additional pages added to the guide.
+
+37:33 - Betty.Lee
+  So I don't think it would affect anything you guys would be building to go into those.
+
+37:40 - Chad Gregory (LaunchPad Lab)
+  So Anna and Dimple, I think the SOW called out like the DocuSign process or maybe like kicking that off or what have you.  But it almost feels like that is not getting changed compared, like the way that you're currently doing DocuSign doesn't feel like.  We're really changing anything with Taylor, right? Because you would go, like you said, we would generate all the documents, somebody would review them, and then they would flip the status or whatever to initiate DocuSign.  I guess they hit a DocuSend, DocuSign, it flips the status, the 48 hours happen, and then they could resend it again if they needed to.  I can't remember, Dimple, if we landed on anything last week that we needed to change about DocuSign.
+
+38:31 - Dimple Desai (Questco Cos)
+  I don't think so, and I don't know about you, Anna, but I think we would want there to be that, like, a human person clicking, like, send DocuSign, especially, like, when it waits so that they can check in with the client and see, like, is there a reason why you're not signing it, that kind of stuff.  So, as of right now, I don't really think that there's anything that we're changing about the DocuSign process.
+
+38:56 - Anna.Fiske
+  I agree. I think that's the one piece we got perfect.
+
+39:00 - Conor Hawes
+  Well, guess, isn't there like, isn't it a little bit different that the Benefit Guide and Cost Sheets would exist at this point in the process?
+
+39:11 - Chad Gregory (LaunchPad Lab)
+  As far as DocuSign?
+
+39:13 - Conor Hawes
+  Yes.
+
+39:14 - Anna.Fiske
+  I don't know if they can send multiple, I mean, I'm sure it can send multiple files, but I don't know if we have it set up that way in client space.
+
+39:20 - Chad Gregory (LaunchPad Lab)
+  That's right, Conor. You said this last week, but I think what our goal would be is we generate all three and then we give you also like a combined one so that you can send that with DocuSign.  That's right.
+
+39:38 - Anna.Fiske
+  I do remember that.
+
+39:38 - Chad Gregory (LaunchPad Lab)
+  I don't know if there's work that we can help with to make that work on the current DocuSign process or if that's something that, Dimple, you need to work with somebody to do or.  Yeah, so is the hope to combine the Benefit Guide and everything with the workbook when we're sending it for DocuSign?
+
+39:58 - Anna.Fiske
+  I wouldn't want the. I wouldn't want everything combined just in case the employer, our worksite administrator, was to say, oh, here's your benefit guide.  And she just also sent out the CBE and cost sheet to everybody when it's not really, it might not apply to everybody that she sends it to.  So I think I would want it separate. I don't want it to say like a zip folder.
+
+40:21 - Chad Gregory (LaunchPad Lab)
+  Yeah, Anna, do you want the DocuSign to just still send the CBE only then?
+
+40:26 - Anna.Fiske
+  I would want it to send all three just so they have everything with them. But now that we're talking it out, does that mean they would, if they didn't sign it in 48 hours, they also still, now they can't see their cost sheet benefit guide also.  Like everything is taken back from them. have to keep resending it.
+
+40:44 - Betty.Lee
+  Yeah, because can you create the benefit guide without a signed CBE and stuff confirming?
+
+40:50 - Anna.Fiske
+  Yeah, because we wanted them, yeah, if they're signing the CBE, that means they're also approving the benefit guide that we already made and sent to them.  So if they don't sign it, then we pull everything. Back, remake the materials, and resend it.
+
+41:05 - Betty.Lee
+  And the system does that? Or who's remaking materials?
+
+41:08 - Anna.Fiske
+  That's Taylor.
+
+41:10 - Betty.Lee
+  That's what, I'm just making sure to... You'd have to hit a button or something. Okay, so it's not like...  And that's the whole point of Taylor, more automation and less manual stuff. Okay.
+
+41:22 - Conor Hawes
+  I guess, like, one concern that I have about that, the, like, OMQ process for manually adding or removing pages is that, like, each time those documents are regenerated, someone would need to remember to do that if it's not programmatically implemented.
+
+41:51 - Anna.Fiske
+  That's a good point.
+
+41:56 - Chad Gregory (LaunchPad Lab)
+  It didn't sound like...
+
+41:58 - Conor Hawes
+  Go ahead, Betty.
+
+42:00 - Chad Gregory (LaunchPad Lab)
+  I was going to say, let's just not sell open market problem solving.
+
+42:07 - Betty.Lee
+  There, I fixed all the problems. Thanks, Betty. You're welcome.
+
+42:12 - Conor Hawes
+  I mean, maybe the language and the client's base task would just be different if it was OMQ to alert them.  But yeah, just in terms of like thinking about the effort required to and whether that would be like palatable.
+
+42:35 - Betty.Lee
+  Yeah. So who would have that task? Would that be the renewal rep to review all of that again? Yeah.
+
+42:43 - Anna.Fiske
+  I want it to be the renewal rep because they're the ones having that conversation with the clients. They're going to know, yes, this is what we talked about.  This is what they wanted to see as a renewal. So I do want it to be the renewal rep, but as far as like the pages that need to be the benefit guide, Betty, if it's an open market install.  How soon are you guys actually going to have access to those pages to share with the renewal rep, to add into the benefit guide, to send the CV for signature?  That also comes into play. Connor, you made this really hard.
+
+43:15 - Betty.Lee
+  Yeah, we open market, you don't get final rates until after all the employees and all the signed paperwork's done.  Because if there's any for under 50 small group, if there's any change in enrollment, the whole rating thing can change.  So, whatever we present at first, I don't know how to do this with open market. It's so, I'm trying to wrap my head around how to make it work, because there's so many variables that can consistently change throughout the whole process.  So.
+
+43:53 - Anna.Fiske
+  Yeah, we need to think on that a little bit more.
+
+43:56 - Betty.Lee
+  Yeah, I think so. Because we do need language. So I'm working on that. I'm getting final. I've already written that draft.  I'm waiting on legal to approve so that you should have that stuff soon.
+
+44:17 - Anna.Fiske
+  Open market is all I could think of is, is it helpful?
+
+44:21 - Betty.Lee
+  Anything that we run now that we're, I think I need to document like the next ones that we're doing from when we provide the quote to when it closes and that whole process to.  Like, sure I choose different carriers out of different states. I don't know how long that'll take, but I think we need more accurate reference of what actually happened for you guys to be able to build your portion the way that it needs to be.  Because I'm talking so just broadly right now on, you know, what could happen. Do you have one coming up, you think?
+
+45:01 - Ifat Ribon
+  I think so.
+
+45:02 - Betty.Lee
+  Let me get with my team, and I'll send SBCs, and I'll let you guys know. I know we just did some for four ones, so I'll see if I can put something together for that or not, but I'll double check and see if we have any maze starting with open market.
+
+45:19 - Ifat Ribon
+  I think that'd be really helpful, think, taking a step back and, yeah, getting some data points of, like, the experience you're going through, and then maybe addressing each one individually of, like, okay, if, where, and how does this fit into Taylor, and maybe not try to, like, solve all of at once, so to speak, right?
+
+45:34 - Betty.Lee
+  Yeah, but just real examples of what this looks like, because I didn't even think about that final rates and the rates changing.  As carriers do the audits, we have no control over that, so, yeah.
+
+45:51 - Chad Gregory (LaunchPad Lab)
+  Okay. I think that's a good step if you're able to help us with that, Betty. Yeah. Obviously, we're trying to figure out all this stuff.  As soon as we can, but keep Anna and Dimple and Jagger abreast of what you're doing, and we can try to determine what that does for our scope.  Like, maybe it changes our scope for this phase, and then we do it later or something like that. But anyway, we only have 12 minutes left here.  You did kind of bring up the audits, so it's somewhat of a good segue. I have questions on pre-enrollment and post-enrollment here, but I really guess I don't really know what these are or what you guys are doing with these two audits.  So is there somebody that could maybe walk me through what are we doing pre-enrollment, what are we doing post-enrollment, and what do we need to be looking for in these audits?
+
+46:58 - Betty.Lee
+  Yeah. We receive documents to quote a prospective client from sales. So that's going to include census information, things like that.  And we provide quotes and rates for our master plan based off of that census data we got during the sales process.  If a client signs or if a prospect signs becomes a client, they go through enrollment with us. This process can take three months longer.  So potentially that census data has changed. So we do a post-enrollment audit to see if there's any big variances and changes.  So we're doing wording that's going to state something like if there's more than a 10% census change, we reserve the right to change rates, rescind offers, anything like that, because it's not matching what we based our underwriting and first evaluation off of.  So what I need to understand what Taylor. Taylor's role would be in the audit because currently we just found out like our underwriting, our underwriters and their system, we can run an audit through them.  Jagger built me a template for the audit that's formatted perfectly. So like my team will go pull that and then I'll go run it through our underwriting system.  So what's Taylor's role, I guess, with the, or is that what we're trying to figure out is what Taylor's role is?  kind of trying to figure out.
+
+48:31 - Chad Gregory (LaunchPad Lab)
+  Anna, did you have thoughts on this already? Like, especially the, well, I guess I'm starting to understand better, like post-enrollment is like you've already given them rates and then you're trying to check and make sure that it's right.
+
+48:46 - Betty.Lee
+  Yeah, checks and balances. Yeah.
+
+48:49 - Chad Gregory (LaunchPad Lab)
+  But is pre-enrollment, are you saying that that's before they are a client of yours at all? Or does this also happen like before a renewal?
+
+48:59 - Betty.Lee
+  Yeah. I'm not sure what pre-enrollment is referring to, except for when we sign a new group and implementation, when we get their census data.  But does that even go to Taylor, like getting payroll census information and the employees just entered in the system?
+
+49:16 - Anna.Fiske
+  I think so. I think Betty's referring to new clients through sales. The pre-enrollment that we had talked about before, I think Jagger can give a little bit more context on that.  But it's like what we're auditing, how they're currently sitting. I don't know if Baby Taylor does that now, Jagger.
+
+49:35 - Jagger Sturdivant (Questco Cos)
+  I think pre-enrollment audits is kind of like, when Baby Taylor's auditing the workbook and what's coming out of client space is really what we're auditing there.
+
+49:45 - Chad Gregory (LaunchPad Lab)
+  Okay. And making sure that it's matching.
+
+49:48 - Jagger Sturdivant (Questco Cos)
+  Yeah, like the rate books and the rate bans, auditing that kind of stuff.
+
+49:54 - Chad Gregory (LaunchPad Lab)
+  I had a line item for billing and reconciliation, but there wasn't very much detail on that.
+
+50:00 - Betty.Lee
+  Does that, um, I think that would be a Natalia meeting, or not a Natalia, I'm sorry, LaMonda, since she's running that whole, how would that work for her?  I don't think that's involved in Taylor, as far as what LaMonda's doing.
+
+50:16 - Anna.Fiske
+  Um, I think that's kind of what Jagger was saying, like, it's just the billing and recon, it's just making sure the rates are supposed, the rates are matching, the employer contribution is where it should be.  Um, it's within the 50%, which is that Affordable Care Act, the ACA, like, they have to be able to, they're contributing the minimum at least.
+
+50:36 - Chad Gregory (LaunchPad Lab)
+  I think that's what that's referring to. So, in, the world of pre-enrollment audits, when we're starting to generate the workbook, making sure that stuff, basically we're making sure that client's base is matching PRISM.  and so we're going to be taking information out of PRISM, should we be sending tasks to client space to say, hey, this doesn't match, clean that up, hey, this doesn't match?  I just cleaned that up. Is that basically what we need to be doing there?
+
+51:07 - Anna.Fiske
+  You're breaking up, Dana.
+
+51:09 - Betty.Lee
+  Yeah, I can't hear you.
+
+51:11 - Anna.Fiske
+  I don't think we would need that part because Taylor would be auditing PRISM against PRISM data. Yeah.
+
+51:18 - Chad Gregory (LaunchPad Lab)
+  At that point, because we're not pulling it into client space to then audit it against PRISM. Yeah, I guess I was thinking, like, was there old data in client space that we need to be auditing?  I mean, it sounds like maybe this whole part doesn't need to happen because we're just coming from PRISM and we assume PRISM is fully accurate.
+
+51:41 - Anna.Fiske
+  That's what I'm thinking. What do you think, Jagger?
+
+51:43 - Jagger Sturdivant (Questco Cos)
+  I agree. Yeah.
+
+51:46 - Anna.Fiske
+  Okay.
+
+51:47 - Nikki Dow
+  To the checks we kind of talked about yesterday around, like, states that require state-specific plans, having those plans available, that would still apply.  Right.
+
+52:01 - Betty.Lee
+  For the master, like the Trinit, or the Trinit. I cannot talk today.
+
+52:06 - Jagger Sturdivant (Questco Cos)
+  I'm already tired of this week.
+
+52:07 - Betty.Lee
+  The Tri-State. Yeah, that one still applies.
+
+52:12 - Jagger Sturdivant (Questco Cos)
+  Okay. Okay.
+
+52:14 - Betty.Lee
+  Well, as far as like a post-enrollment or Dimple, you and I kind of talked about this, like the tailor, the system pulling and preparing a census, like based off current information and enrollment that like if they request a shop, our team could go in and just pull it from a task.  Maybe I'm remembering it correctly, but I, yeah, that report center report for this, for the census. So that would be outside of Taylor?  That would be outside of Taylor.
+
+52:43 - Dimple Desai (Questco Cos)
+  Correct.
+
+52:43 - Betty.Lee
+  Okay. Sorry. All right.
+
+52:45 - Chad Gregory (LaunchPad Lab)
+  So for us, post-enrollment called out our HSA audits, orphan audits, enrollment mismatch detection, and data discrepancy validations. So I'm curious.  It's like what exactly is being verified in each of those areas? The enrollment mismatch, is that just saying like, all right, we had this census when we started this, and now at this point, and I'll need to know what point, but at this point, the enrollment is different or not?
+
+53:19 - Betty.Lee
+  For me, yes, that's what I need, and it's whatever that effective date is, so enrollment should be closed, or whenever enrollment closes and the enrollments are posted, that's what we refer to as the final enrollment report or census.
+
+53:40 - Chad Gregory (LaunchPad Lab)
+  I see, so that's when the post-enrollment happens. I don't know why this wasn't clicking at all. When their open enrollment period ends is when this is right.
+
+53:51 - Betty.Lee
+  Yeah. Okay. Yeah, so that's like the checks and balances, you know. Did we provide rates off of what ended up at?  Okay.
+
+54:04 - Chad Gregory (LaunchPad Lab)
+  And then what should happen with that? Like, should we just be telling you, hey, the enrollment numbers are different?  Or what do you think?
+
+54:14 - Betty.Lee
+  So I don't know how Taylor would do this because there's so many more factors that have to do with underwriting that are involved.  Risk scores, age, gender scores, things that wouldn't be factored into Taylor that you could tell us, I guess there was people that, I don't know how detailed Taylor can get.  Like, we're looking for who was not included and that enrolled now and vice versa. But then we also need to look at change in enrollment.  Did that affect the risk within the group? And does that affect the age and gender scores within the group?  So that's why we run the report and the underwriting software because it compares those from women. We did that first initial quote.  So what, I guess I just need to understand, I'm not sure what Taylor's role would be.
+
+55:07 - Anna.Fiske
+  I don't think Taylor can give us that risk score that we're looking for. Right. We still need to use the underwriting software, but I think Taylor can at least flag it and say, hey, this is different.  And then we just set our eyes on it and say, okay, why is it different? Like, what's different about it?  And then we can pull that into the underwriting software.
+
+55:24 - Dimple Desai (Questco Cos)
+  And is that the whole purpose of that report center report that you guys are pulling right now after the audit is coming?  Mm-hmm. Mm-hmm.
+
+55:34 - Betty.Lee
+  Yeah. So that I can run it through that system. Yeah. Because it's formatted and ready to go to just upload into their system.  Since most of the scores, yeah, you can flag it, but we're running it for every group. Even if it's not flagged, we're going to download it and put the audit there as a record.  So I don't know if whatever Taylor can do. Heroku is great, but if there's other important things, since it doesn't, we're going to have to pull that for every single group, no matter what.
+
+56:06 - Anna.Fiske
+  And that's for new groups. That's implementation clients. Jagger, is Baby Tailor doing any post-enrollment audit for renewals on our master?
+
+56:16 - Jagger Sturdivant (Questco Cos)
+  I think it is, but we need to go back probably and look to see what all the post-enrollment audits are.
+
+56:24 - Anna.Fiske
+  Because you mentioned something like HSA something. I know that is going to be, so we have clients that contribute to their employees' HSA, so we need to make sure that's keyed in.  That's not something that's on the PRISM import. We manually have to go in and key that number in to make sure it's being contributed.  So I think Baby Tailor's auditing that. What was the other things? Can you say that list again?
+
+56:51 - Chad Gregory (LaunchPad Lab)
+  HSA, Orphan Audits.
+
+56:53 - Anna.Fiske
+  Orphan Audits, that would be if, for some reason, somebody was able to enroll in a terminated plan, so it's ending.  12-31, and they were able to enroll in it. And now they think they have coverage, but when one comes around, they will not have coverage.  And there's another version of Orphan, right, Jagger?
+
+57:11 - Jagger Sturdivant (Questco Cos)
+  I think there is, but I don't remember what we called it.
+
+57:18 - Anna.Fiske
+  Yeah, that's all I got for those. But that's for renewals on our master.
+
+57:22 - Betty.Lee
+  So as far as renewals, I think the only big audit from my point of view would be someone that's coming off of open market and going on the master plan to make sure they still meet all the requirements to be on the master plan, because some employees may not be a fan of Aetna, so they may not, or whatever the master plan they're switching to is, from whatever open market carrier they're coming from, so they may choose to not enroll.  Maybe they go on a spouse's plan instead. So that is important to capture as far as renewal, but I think those are going to be fewer and far between.
+
+57:59 - Chad Gregory (LaunchPad Lab)
+  Okay. I know we're at time, and we might need another session on these post-enrollment audits. Pre-enrollment, it seems like we're in a pretty good spot where it's like, you know, we're probably not doing a ton there.  But I want to make sure that we know how we can help on the post-enrollment side with Taylor. And then I know you guys need to think about OMQ a little bit more.  So it feels like we had a good session. I know there's a lot of still discussion and decisions to be made, but I think we understand the process a lot better, at least.  So that's good. And we thank you so much, Betty, for coming and joining us on this. Yeah, thank you, Betty.
+
+58:44 - Anna.Fiske
+  Of course.
+
+58:45 - Betty.Lee
+  Yeah, you're welcome. Thank you, Betty.
+
+58:46 - Dimple Desai (Questco Cos)
+  All right.
+
+58:47 - Anna.Fiske
+  Thank you, Thanks, everybody.
+
+58:49 - Ifat Ribon
+  See you.
+
+58:50 - Chad Gregory (LaunchPad Lab)
+  Bye.
